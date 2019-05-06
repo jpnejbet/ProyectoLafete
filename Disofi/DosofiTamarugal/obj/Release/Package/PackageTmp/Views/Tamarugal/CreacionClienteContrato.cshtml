@@ -1,0 +1,276 @@
+﻿@{
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+
+<div class="right_col" role="main">
+    @*<h3>@ViewBag.Message</h3>*@
+    <h3>CREACIÓN DE CLIENTE / CONTRATO</h3>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Cliente<small>(Datos del cliente)</small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            RUT <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Razón Social <span class="required">*</span>
+                        </label>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <input id="txtRazonSocial" required class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Domicilio <span class="required">*</span>
+                        </label>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <input id="txtDomicilio" required class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Contacto Comercial <span class="required">*</span>
+                        </label>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <input id="txtContactoComercial" required class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Telefono Contacto <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-2 col-xs-12">
+                            <input id="txtTelefono_Contacto" required class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Email <span class="required">*</span>
+                        </label>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <input id="txtEmail" required class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Contrato<small>(Datos del contrato)</small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Descripción del Contrato <span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <input id="txtDescripcionContrato" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Servicio<small>(Datos del Servicio)</small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Descripción del Servicio <span class="required">*</span>
+                        </label>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <input id="txtDescripcionContrato" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Rutas<small></small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Origen <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input id="txtDescripcionContrato" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Destino <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input id="txtDescripcionContrato" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Precios<small></small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Valor de adjudicación del contrato <span class="required">*</span>
+                        </label>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <input id="txtDescripcionContrato" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Reajuste<small></small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                          Polinomio Reajuste Acordado <span class="required">*</span>
+                        </label>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <input id="txtDescripcionContrato" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>

@@ -1,0 +1,40 @@
+2019-01-19 12:18:50,693 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 12:20:24,302 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 12:23:48,343 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-19 12:23:48,390 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-19 12:25:27,027 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-19 12:25:27,045 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-19 12:25:40,597 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-19 12:25:40,672 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-19 12:26:06,147 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-19 12:26:06,167 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-19 12:27:36,098 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-19 12:27:38,354 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-19 12:33:07,674 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 12:33:23,782 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 14:54:06,510 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 14:54:25,557 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 15:13:45,706 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 15:13:48,371 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 21:29:30,529 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 21:29:48,167 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 21:29:52,535 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 21:32:10,879 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 21:32:22,751 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 21:34:06,304 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: 'System.Web.Helpers.WebGridRow' no contiene una definición para 'IdGuia'.
+2019-01-19 21:34:06,357 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-19 23:06:48,920 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 23:06:53,618 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 23:27:43,107 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 23:27:43,474 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-19 23:29:04,031 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 23:29:10,605 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 23:39:39,997 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 23:39:50,420 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 23:40:23,279 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-19 23:40:23,328 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-19 23:45:41,626 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 23:46:01,410 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-19 23:47:14,477 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-19 23:49:20,530 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-19 23:49:20,625 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1

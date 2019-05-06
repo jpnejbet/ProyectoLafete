@@ -1,0 +1,14 @@
+2019-05-02 23:56:27,551 FATAL Disofi.Utils.CapturaExcepciones - La columna 'email' no pertenece a la tabla .
+2019-05-02 23:56:27,559 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'email' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 56
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 35
+2019-05-02 23:56:27,560 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 56
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 35

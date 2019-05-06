@@ -1,0 +1,122 @@
+2019-01-30 18:10:26,661 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:12:00,647 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:12:09,039 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 18:13:15,403 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:14:50,783 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:14:53,851 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 18:18:10,128 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:18:12,011 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 18:24:18,139 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 23:16:17,534 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 23:16:23,120 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 23:16:26,835 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 23:16:47,082 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 23:16:48,849 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 23:51:38,957 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 23:51:46,968 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 23:55:46,658 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: Se encontró un espacio o salto de línea después del carácter "@". Solamente se pueden usar identificadores, palabras clave, comentarios, "(" y "{" válidos al inicio de un bloque de código y estos deben aparecer inmediatamente después de "@" sin espacio intermedio.
+
+2019-01-30 23:55:46,706 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2019-01-30 23:55:50,269 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: Se encontró un espacio o salto de línea después del carácter "@". Solamente se pueden usar identificadores, palabras clave, comentarios, "(" y "{" válidos al inicio de un bloque de código y estos deben aparecer inmediatamente después de "@" sin espacio intermedio.
+
+2019-01-30 23:55:50,286 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2019-01-31 00:04:24,546 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 00:04:29,452 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Referencia a objeto no establecida como instancia de un objeto.
+2019-01-31 00:04:29,567 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-31 00:04:35,674 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-31 00:04:35,695 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-31 00:04:41,964 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 00:27:01,973 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 00:27:24,919 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 00:27:31,187 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 01:38:35,968 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 01:38:50,836 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 01:46:22,913 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 01:46:23,250 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-31 01:46:36,853 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 01:46:44,099 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 01:50:47,572 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/OrdenTrabajo/ConsultaOT' o no implementa IController.
+2019-01-31 01:50:47,655 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 01:59:29,812 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/OrdenTrabajo/IngresoOt' o no implementa IController.
+2019-01-31 01:59:29,833 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 02:31:07,232 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 02:31:15,543 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 02:37:44,310 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 02:37:50,557 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 02:42:19,505 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-31 02:42:19,550 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-31 02:51:23,507 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 02:51:23,827 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-31 02:51:44,549 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 02:51:51,229 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 02:53:37,050 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-31 02:53:37,097 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-31 02:56:40,423 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 02:56:55,132 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 03:08:11,220 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 03:08:20,018 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 03:29:30,018 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 03:29:30,347 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-31 03:29:42,263 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 03:29:48,933 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 03:30:32,094 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: 'System.Web.Helpers.WebGridRow' no contiene una definición para 'Fecha'.
+2019-01-31 03:30:32,156 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-31 03:35:53,992 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 03:35:54,428 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-31 03:36:09,454 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 03:36:15,343 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 03:49:41,941 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 03:49:42,144 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: El diccionario de parámetros contiene una entrada NULL para el parámetro 'id' del tipo que no acepta valores NULL 'System.Int32' del método 'System.Web.Mvc.ActionResult AdmOrdenAtencion(Int32)' en 'Disofi.Controllers.SanckCenterController'. Un parámetro opcional debe ser un tipo de referencia, un tipo que acepte valores NULL o debe declararse como parámetro opcional.
+Nombre del parámetro: parameters
+2019-01-31 03:49:42,239 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-31 03:49:54,396 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 03:50:00,703 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 03:50:08,640 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Views\Informes\ConsultaComercial.cshtml(76): error CS1003: Syntax error, ',' expected
+2019-01-31 03:50:08,687 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2019-01-31 03:50:32,517 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/OrdenTrabajo/AdmOrdenAtencion' o no implementa IController.
+2019-01-31 03:50:32,542 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 03:50:57,998 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: El diccionario de parámetros contiene una entrada NULL para el parámetro 'id' del tipo que no acepta valores NULL 'System.Int32' del método 'System.Web.Mvc.ActionResult AdmOrdenAtencion(Int32)' en 'Disofi.Controllers.SanckCenterController'. Un parámetro opcional debe ser un tipo de referencia, un tipo que acepte valores NULL o debe declararse como parámetro opcional.
+Nombre del parámetro: parameters
+2019-01-31 03:50:58,014 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-31 04:00:51,767 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 04:01:04,801 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 04:01:37,482 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'InformeSeguimiento' en el controlador 'Disofi.Controllers.InformesController'.
+2019-01-31 04:01:37,524 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 04:02:07,026 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'InformeSeguimiento' en el controlador 'Disofi.Controllers.InformesController'.
+2019-01-31 04:02:07,042 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 04:04:19,403 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 04:04:19,422 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 04:04:22,818 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 04:04:22,834 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 04:04:29,085 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 04:04:29,101 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 04:07:13,106 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 04:07:27,014 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 10:49:08,096 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 10:49:09,069 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-31 10:49:30,426 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 10:49:55,296 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 11:01:16,268 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 11:05:48,179 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 11:08:51,333 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 11:08:51,374 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:08:55,135 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 11:08:55,152 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:16:23,853 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 11:17:23,860 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 11:17:23,880 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:17:27,888 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 11:17:27,907 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:17:36,834 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 11:17:36,851 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:17:37,813 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:36:58,775 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 11:36:58,799 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:37:07,021 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 11:37:07,039 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:37:08,769 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:37:15,573 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-01-31 11:37:15,594 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-31 11:37:29,678 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-31 11:48:02,135 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-31 11:48:07,946 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

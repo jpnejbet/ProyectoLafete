@@ -1,0 +1,24 @@
+C:\Users\Luisi\source\repos\Dosofi\DisofI.WSDL\bin\Debug\DisofI.WSDL.dll
+C:\Users\Luisi\source\repos\Dosofi\DisofI.WSDL\bin\Debug\DisofI.WSDL.pdb
+C:\Users\Luisi\source\repos\Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.csprojAssemblyReference.cache
+C:\Users\Luisi\source\repos\Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.csproj.CoreCompileInputs.cache
+C:\Users\Luisi\source\repos\Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.dll
+C:\Users\Luisi\source\repos\Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\DisofI.WSDL\bin\Debug\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\DisofI.WSDL\bin\Debug\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\bin\Debug\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\bin\Debug\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\DisofI.WSDL\bin\Debug\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\DisofI.WSDL\bin\Debug\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\DisofI.WSDL\obj\Debug\DisofI.WSDL.pdb

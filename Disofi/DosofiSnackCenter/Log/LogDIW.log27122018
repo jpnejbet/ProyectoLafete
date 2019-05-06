@@ -1,0 +1,147 @@
+2018-12-27 00:01:25,854 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el tipo 'iTextSharp.text.html.HtmlParser' del ensamblado'itextsharp, Version=5.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca'.
+2018-12-27 00:01:26,054 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:03:47,825 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:03:50,611 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:04:01,819 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el tipo 'iTextSharp.text.html.HtmlParser' del ensamblado'itextsharp, Version=5.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca'.
+2018-12-27 00:04:01,854 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:04:13,818 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el tipo 'iTextSharp.text.html.HtmlParser' del ensamblado'itextsharp, Version=5.0.5.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca'.
+2018-12-27 00:04:13,826 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:12:46,744 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:12:50,687 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:13:06,916 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: 
+2018-12-27 00:13:06,950 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:16:47,157 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:16:49,394 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:19:16,986 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:19:19,125 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:19:35,831 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Pdf()' en el controlador 'Disofi.Controllers.TamarugalGEController'.
+2018-12-27 00:19:35,868 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2018-12-27 00:19:43,703 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Pdf()' en el controlador 'Disofi.Controllers.TamarugalGEController'.
+2018-12-27 00:19:43,712 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2018-12-27 00:21:52,685 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:21:55,493 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:26:51,046 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:26:54,814 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:29:16,238 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:29:18,863 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:29:43,602 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'GrabaDatosActualizaConductor' en el controlador 'Disofi.Controllers.TamarugalGEController'.
+2018-12-27 00:29:43,658 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2018-12-27 00:29:55,019 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'GrabaDatosActualizaConductor' en el controlador 'Disofi.Controllers.TamarugalGEController'.
+2018-12-27 00:29:55,541 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2018-12-27 00:30:18,198 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'GrabaDatosActualizaConductor' en el controlador 'Disofi.Controllers.TamarugalGEController'.
+2018-12-27 00:30:18,708 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2018-12-27 00:33:40,035 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:34:06,089 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:38:24,602 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:38:25,037 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 00:38:36,898 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:38:38,673 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:42:56,614 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:42:57,047 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 00:43:43,857 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:43:46,380 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:46:39,311 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:46:39,607 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 00:46:51,759 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:46:55,557 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:53:53,652 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:53:53,969 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 00:54:14,928 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:54:18,380 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:55:52,583 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede convertir un objeto de tipo 'iTextSharp.text.Paragraph' al tipo 'iTextSharp.text.Table'.
+2018-12-27 00:55:52,612 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:55:54,425 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:56:13,966 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede convertir un objeto de tipo 'iTextSharp.text.Paragraph' al tipo 'iTextSharp.text.Table'.
+2018-12-27 00:56:13,974 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:56:24,313 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:56:26,143 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:56:58,931 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede convertir un objeto de tipo 'iTextSharp.text.Paragraph' al tipo 'iTextSharp.text.Table'.
+2018-12-27 00:56:58,965 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:57:59,709 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:58:03,494 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: The document has no pages.
+2018-12-27 00:58:03,571 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:58:08,608 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2018-12-27 00:58:08,618 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 00:58:22,854 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:58:24,627 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:58:38,658 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 00:58:41,547 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 00:58:56,335 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: The document has no pages.
+2018-12-27 00:58:56,365 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 01:00:06,898 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:00:19,092 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:00:20,783 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:02:18,041 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:02:34,251 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:02:36,156 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:03:51,612 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:03:53,659 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:04:07,224 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede convertir un objeto de tipo 'iTextSharp.text.Cell' al tipo 'iTextSharp.text.Section'.
+2018-12-27 01:04:07,258 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 01:06:16,972 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede convertir un objeto de tipo 'iTextSharp.text.Cell' al tipo 'iTextSharp.text.Section'.
+2018-12-27 01:06:20,566 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:06:20,910 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 01:06:21,574 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 01:06:27,927 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2018-12-27 01:06:27,956 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 01:06:38,084 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:06:39,639 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:06:52,226 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede convertir un objeto de tipo 'iTextSharp.text.Cell' al tipo 'iTextSharp.text.Section'.
+2018-12-27 01:06:52,256 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 01:07:22,271 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede convertir un objeto de tipo 'iTextSharp.text.Cell' al tipo 'iTextSharp.text.Section'.
+2018-12-27 01:07:22,280 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 01:09:04,459 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:09:07,071 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:09:20,582 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede convertir un objeto de tipo 'iTextSharp.text.Cell' al tipo 'iTextSharp.text.Section'.
+2018-12-27 01:09:20,611 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2018-12-27 01:33:59,537 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:34:05,171 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:34:36,558 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 01:34:44,014 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 01:35:17,101 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:35:26,098 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:36:08,472 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:36:19,452 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:37:03,469 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:37:05,742 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:49:59,503 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:50:03,150 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 01:56:08,323 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 01:56:10,935 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:00:20,639 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:00:23,564 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:02:30,350 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:02:34,614 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:10:53,221 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:10:59,254 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:13:33,708 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:13:52,275 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:16:02,485 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:17:03,582 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:18:09,357 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:18:11,978 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:20:35,835 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:20:38,551 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:22:24,782 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:22:27,276 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:23:24,041 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:23:26,511 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 02:24:15,215 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 02:24:18,239 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 10:22:15,014 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 10:22:26,051 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 10:22:42,599 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Views\TamarugalGE\Planificacion.cshtml(234): error CS1012: Too many characters in character literal
+2018-12-27 10:22:42,667 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2018-12-27 10:22:55,797 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Views\TamarugalGE\Planificacion.cshtml(234): error CS1012: Too many characters in character literal
+2018-12-27 10:22:55,811 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2018-12-27 10:33:26,157 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 10:33:30,556 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 10:45:16,612 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 10:45:21,075 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 10:45:28,269 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 10:46:45,076 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 10:46:48,850 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-27 11:02:44,908 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 11:02:45,702 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-27 11:03:49,900 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-27 11:03:57,051 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

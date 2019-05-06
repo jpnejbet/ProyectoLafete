@@ -1,0 +1,98 @@
+﻿
+
+
+@{
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+
+    <div class="form-group">
+        <div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPopUpIngresoUsuario">Selecionar Local</button>
+        </div>
+    </div>
+
+
+    <div id="modalPopUpIngresoUsuario" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Selecionar local para preparar despacho</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="x_content">
+                        <div>
+                            <input type="submit" value="Seleccionar" />
+                        </div>
+                        <div class="table-responsive">
+                            <div class="table-table-striped jambo_table bulk_action">
+
+                                @{
+                                    var grid = new WebGrid(source: ViewBag.ListadoBodega, canPage: false);
+                                }
+
+                                @grid.GetHtml(
+        htmlAttributes: new { id = "tblUsuarios" },
+        tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+        columns:
+        grid.Columns(
+         grid.Column(format: @<text> <input type="checkbox" value="@item.CodBodega" name="ids" /> </text>, header: "Todo"),
+grid.Column(columnName: "CodBodega", header: "Código", format: @<text>@item.CodBodega</text>),
+grid.Column(columnName: "NombreBodega", header: "Nombre Bodega", format: @<text>@item.NombreBodega</text>)
+))
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="x_content">
+
+        <h2>Listado Producto para despacho</h2>
+
+        <div class="table-responsive">
+
+
+            @{
+                var gridProductos = new WebGrid(source: ViewBag.ListadoProductos, canPage: false);
+            }
+
+            @gridProductos.GetHtml(
+htmlAttributes: new { id = "tblProductos" },
+tableStyle: "table table-bordered",
+columns:
+gridProductos.Columns(
+                gridProductos.Column(columnName: "Codigo", header: "Código", format: @<text>@item.Codigo</text>),
+    gridProductos.Column(columnName: "Descripcion", header: "Descripción", format: @<text>@item.Descripcion</text>),
+                 gridProductos.Column(columnName: "Local1", header: "LA DEHESA", format: @<text>@item.Local1</text>),
+                gridProductos.Column(columnName: "Local2", header: "PARQUE ARAUCO", format: @<text>@item.Local2</text>),
+                gridProductos.Column(columnName: "Local3", header: "ZAPALLAR", format: @<text>@item.Local3</text>),
+                 gridProductos.Column(columnName: "Local4", header: "VITACURA", format: @<text>@item.Local4</text>),
+                 gridProductos.Column(columnName: "Local5", header: "Total General", format: @<text>@item.Local5</text>),
+                 gridProductos.Column(columnName: "Local6", header: "Stock Fabrica", format: @<text>@item.Local6</text>),
+                 gridProductos.Column(columnName: "Local7", header: "Stock Faltante", format: @<text>@item.Local7</text>),
+                 grid.Column(columnName: "Seleccionar", header: "Seleccionar", format: @<a class="btn btn-success" href="@Url.Action("Solicitud", "Operacion")">Editar</a>)
+                  ))
+        </div>
+    </div>
+</div>
+

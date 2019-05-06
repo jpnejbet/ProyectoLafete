@@ -1,0 +1,24 @@
+2019-02-04 13:55:24,917 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-04 13:55:37,570 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-04 13:56:24,175 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-04 13:56:31,111 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-04 14:07:58,517 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-04 14:14:05,599 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-04 14:19:25,781 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-04 14:23:17,387 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-04 14:23:17,435 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-04 14:23:23,637 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-04 14:23:23,662 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-04 14:23:28,202 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-04 14:23:28,223 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-04 14:23:35,206 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Index' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-04 14:23:35,225 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-04 14:23:44,276 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-04 14:24:52,915 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-04 14:24:52,938 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-04 14:49:33,707 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-04 14:49:41,494 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-04 14:51:11,329 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-04 14:52:59,916 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-04 14:57:50,123 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-02-04 14:57:50,170 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1

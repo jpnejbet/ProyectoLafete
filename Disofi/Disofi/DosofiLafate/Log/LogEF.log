@@ -1,0 +1,129 @@
+2019-05-06 10:35:39,448 FATAL Disofi.Utils.CapturaExcepciones - No había ningún extremo escuchando en http://localhost/WSDL/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información.
+2019-05-06 10:35:39,454 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost/WSDL/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:80
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoBodega()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoBodega() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 111
+   en Disofi.Controllers.LafeteController.PropuestaDespacho() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 32
+2019-05-06 10:35:39,461 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoBodega()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoBodega() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 111
+   en Disofi.Controllers.LafeteController.PropuestaDespacho() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 32
+2019-05-06 11:16:33,026 FATAL Disofi.Utils.CapturaExcepciones - No había ningún extremo escuchando en http://localhost/WSDL/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información.
+2019-05-06 11:16:33,029 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost/WSDL/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:80
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoBodega()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoBodega() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 111
+   en Disofi.Controllers.LafeteController.PropuestaDespacho() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 32
+2019-05-06 11:16:33,029 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoBodega()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoBodega() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 111
+   en Disofi.Controllers.LafeteController.PropuestaDespacho() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 32
+2019-05-06 11:16:35,025 FATAL Disofi.Utils.CapturaExcepciones - No había ningún extremo escuchando en http://localhost/WSDL/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información.
+2019-05-06 11:16:35,025 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost/WSDL/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:80
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoBodega()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoBodega() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 111
+   en Disofi.Controllers.LafeteController.PropuestaDespacho() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 32
+2019-05-06 11:16:35,026 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoBodega()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoBodega() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 111
+   en Disofi.Controllers.LafeteController.PropuestaDespacho() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 32

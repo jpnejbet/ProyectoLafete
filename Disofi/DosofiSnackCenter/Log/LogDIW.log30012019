@@ -1,0 +1,66 @@
+2019-01-30 17:55:20,307 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 17:55:20,417 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra la ruta de acceso '/Views/Login/Index.cshtml'.
+2019-01-30 17:55:20,545 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Error'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Error' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.ErrorController
+DisofiSC.Controllers.ErrorController
+2019-01-30 17:55:33,716 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 17:55:33,845 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra la ruta de acceso '/Views/Login/Index.cshtml'.
+2019-01-30 17:55:33,976 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Error'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Error' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.ErrorController
+DisofiSC.Controllers.ErrorController
+2019-01-30 17:56:22,911 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 17:56:22,999 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra la ruta de acceso '/Views/Login/Index.cshtml'.
+2019-01-30 17:56:23,110 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Error'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Error' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.ErrorController
+DisofiSC.Controllers.ErrorController
+2019-01-30 17:56:56,785 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 17:56:56,902 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra la ruta de acceso '/Views/Login/Index.cshtml'.
+2019-01-30 17:56:57,042 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Error'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Error' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.ErrorController
+DisofiSC.Controllers.ErrorController
+2019-01-30 17:58:32,013 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 17:58:32,091 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra la ruta de acceso '/Views/Login/Index.cshtml'.
+2019-01-30 17:58:32,207 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Error'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Error' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.ErrorController
+DisofiSC.Controllers.ErrorController
+2019-01-30 17:58:56,704 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 17:58:56,831 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra la ruta de acceso '/Views/Login/Index.cshtml'.
+2019-01-30 17:58:56,966 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Error'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Error' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.ErrorController
+DisofiSC.Controllers.ErrorController
+2019-01-30 18:03:52,913 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:03:53,130 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Login'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Login' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.LoginController
+DisofiSC.Controllers.LoginController
+2019-01-30 18:06:05,861 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:06:06,004 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Login'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Login' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.LoginController
+DisofiSC.Controllers.LoginController
+2019-01-30 18:07:42,782 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:07:42,926 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Login'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Login' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.LoginController
+DisofiSC.Controllers.LoginController
+2019-01-30 18:09:34,957 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 18:09:35,044 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Login'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Login' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.LoginController
+DisofiSC.Controllers.LoginController

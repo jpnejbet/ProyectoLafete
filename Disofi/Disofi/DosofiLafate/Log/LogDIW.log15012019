@@ -1,0 +1,29 @@
+2019-01-15 10:37:39,612 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-15 10:40:14,929 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-15 10:43:39,152 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-15 10:43:48,445 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-15 10:44:34,148 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-15 10:44:42,859 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-15 10:47:09,753 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-15 10:47:41,265 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-15 10:49:11,830 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-15 10:49:40,016 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No hay ningún elemento ViewData de tipo 'IEnumerable<SelectListItem>' con la clave 'cmbUsuarioSoftland'.
+2019-01-15 10:49:40,062 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-15 10:53:23,273 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-15 10:53:29,508 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-15 10:57:56,100 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'Perfiles' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/Home/Perfiles.aspx
+~/Views/Home/Perfiles.ascx
+~/Views/Shared/Perfiles.aspx
+~/Views/Shared/Perfiles.ascx
+~/Views/Home/Perfiles.cshtml
+~/Views/Home/Perfiles.vbhtml
+~/Views/Shared/Perfiles.cshtml
+~/Views/Shared/Perfiles.vbhtml
+2019-01-15 10:57:56,143 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-15 11:00:28,684 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-15 11:00:33,004 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-15 11:01:25,601 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-15 11:01:41,283 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-15 11:02:54,460 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-15 11:03:01,293 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

@@ -1,0 +1,16 @@
+2019-05-02 22:01:27,211 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-02 23:48:02,456 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-02 23:48:24,971 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 17337329-5 desde la IP: ::1
+2019-05-02 23:48:25,058 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-05-02 23:56:27,480 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 15441516-5 desde la IP: ::1
+2019-05-02 23:57:05,590 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-05-02 23:57:05,632 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-05-02 23:57:21,739 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 15441516-5 desde la IP: ::1
+2019-05-03 00:01:33,439 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-03 00:07:51,907 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-03 00:08:10,804 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 15441516-5 desde la IP: ::1
+2019-05-03 00:11:21,949 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 15441516-5 desde la IP: ::1
+2019-05-03 00:11:33,847 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-05-03 00:11:51,543 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-03 00:12:49,313 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 15441516-5 desde la IP: ::1
+2019-05-03 00:20:25,049 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

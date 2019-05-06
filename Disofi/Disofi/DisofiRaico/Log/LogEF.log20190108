@@ -1,0 +1,96 @@
+2019-01-08 00:03:36,134 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-08 00:03:36,137 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetActualizaGuia(String idguia, String numeroPedido, String toneladas, String FechaGuia, String FechaRetiro, String Comentario, String PatenteRecepcion, String PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1502
+   en Disofi.BLL.ControlDisofi.SetActualizaGuia(String idguia, String numeroPedido, String toneladas, String FechaGuia, String FechaRetiro, String Comentario, String PatenteRecepcion, String PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 253
+   en Disofi.Controllers.TamarugalGEController.GrabarRecepcionGuia(String _IdGuiaExpedicion, String _NroPedido, String _FechaGuia, String _FechaRetiro, String _Toneladas, String _Comentario, String _PatenteRecepcion, String _PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 912
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-08 00:03:36,138 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetActualizaGuia(String idguia, String numeroPedido, String toneladas, String FechaGuia, String FechaRetiro, String Comentario, String PatenteRecepcion, String PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1502
+   en Disofi.BLL.ControlDisofi.SetActualizaGuia(String idguia, String numeroPedido, String toneladas, String FechaGuia, String FechaRetiro, String Comentario, String PatenteRecepcion, String PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 253
+   en Disofi.Controllers.TamarugalGEController.GrabarRecepcionGuia(String _IdGuiaExpedicion, String _NroPedido, String _FechaGuia, String _FechaRetiro, String _Toneladas, String _Comentario, String _PatenteRecepcion, String _PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 912
+2019-01-08 00:52:00,056 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-08 00:52:00,058 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:00,058 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:02,014 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-08 00:52:02,014 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 24
+2019-01-08 00:52:02,014 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 24
+2019-01-08 00:52:09,292 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-08 00:52:09,292 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:09,292 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:10,342 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-08 00:52:10,342 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:10,342 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:11,158 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-08 00:52:11,158 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:11,158 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:12,014 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-08 00:52:12,014 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 00:52:12,014 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-08 08:52:25,735 FATAL Disofi.Utils.CapturaExcepciones - La columna 'IdSucursal' no pertenece a la tabla .
+2019-01-08 08:52:25,787 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'IdSucursal' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 42
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\LoginController.cs:línea 35
+2019-01-08 08:52:25,788 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 42
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\LoginController.cs:línea 35
+2019-01-08 08:53:01,231 FATAL Disofi.Utils.CapturaExcepciones - La columna 'IdSucursal' no pertenece a la tabla .
+2019-01-08 08:53:01,232 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'IdSucursal' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 42
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\LoginController.cs:línea 35
+2019-01-08 08:53:01,232 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 42
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\LoginController.cs:línea 35
+2019-01-08 08:54:12,103 FATAL Disofi.Utils.CapturaExcepciones - La columna 'IdSucursal' no pertenece a la tabla .
+2019-01-08 08:54:12,103 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'IdSucursal' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 42
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\LoginController.cs:línea 35
+2019-01-08 08:54:12,104 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 42
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\LoginController.cs:línea 35

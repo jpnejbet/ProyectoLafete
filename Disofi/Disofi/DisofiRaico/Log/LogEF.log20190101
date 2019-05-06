@@ -1,0 +1,16 @@
+2019-01-01 23:58:26,368 FATAL Disofi.Utils.CapturaExcepciones - El valor no puede ser nulo.
+Nombre del parámetro: String
+2019-01-01 23:58:26,375 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: String
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 992
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 162
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 193
+2019-01-01 23:58:26,376 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 992
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 162
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 193

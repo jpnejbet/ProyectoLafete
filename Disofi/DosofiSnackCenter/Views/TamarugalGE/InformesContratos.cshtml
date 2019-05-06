@@ -1,0 +1,74 @@
+﻿
+
+@{
+
+    ViewBag.Title = "Usuarios";
+
+
+}
+
+
+<script src="~/WebJs/HomeJs/Tamarugal.js"></script>
+
+
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>CONSULTA CONTRATOS EXISTENTES</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <div class="x_content">
+                    <h2>LISTADO DE CONTRATOS EXISTENTES</h2>
+                    <div class="display">
+
+
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+                                        htmlAttributes: new { id = "TblInforme" },
+                                        tableStyle: "display nowrap",
+                                        columns:
+                                        grid.Columns(
+                                            grid.Column(columnName: "NroContrato", header: "Nro Contrato", format: @<text>@item.NroContrato</text>),
+                                            grid.Column(columnName: "FechaInicio", header: "Fecha Inicio", format: @<text>@item.FechaInicio</text>),
+                                            grid.Column(columnName: "FechaTermino", header: "FechaT ermino", format: @<text> @item.FechaTermino </text>),
+                                            grid.Column(columnName: "Servicio", header: "Servicio", format: @<text> @item.Servicio</text>),
+                                            grid.Column(columnName: "Codigo", header: "Codigo", format: @<text> @item.Codigo</text>),
+                                            grid.Column(columnName: "Descripcion", header: "Descripcion", format: @<text> @item.Descripcion</text>),
+                                            grid.Column(columnName: "UnidadMedida", header: "UnidadMedida", format: @<text> @item.UnidadMedida</text>),
+                                            grid.Column(columnName: "Cantidad", header: "Cantidad", format: @<text> @item.Cantidad</text>),
+                                            grid.Column(columnName: "Valor", header: "Valor", format: @<text> @item.Valor</text>),
+                                            grid.Column(columnName: "Vueltas", header: "Vueltas", format: @<text> @item.Vueltas</text>),
+                                            grid.Column(columnName: "Patente", header: "Patente", format: @<text> @item.Patente</text>),
+                                            grid.Column(columnName: "Conductor", header: "Conductor", format: @<text> @item.Conductor</text>),
+                                            grid.Column(columnName: "Camion", header: "Camion", format: @<text> @item.Camion</text>) ))
+                         
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+

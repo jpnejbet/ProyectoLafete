@@ -1,0 +1,367 @@
+﻿@{
+    ViewBag.Title = "Creación de Contratos";
+}
+
+<script src="~/WebJs/HomeJs/Tamarugal.js"></script>
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+   
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>CREACION DE CLIENTE/CONTRATO</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                @*<a class="btn btn-app" data-toggle="modal" data-target=".bs-example-modal-lg">  <i class="fa fa-edit"></i> Nuevo Contrato </a>
+                    <br />*@
+                <div class="x_content">
+                    <div class="row">
+                        <div class="x_content">
+
+                            <form class="form-horizontal form-label-left input_mask">
+                                <div class="form-group">
+                                    <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                        Nro Contrato<span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-2  col-sm-2 col-xs-12">
+                                        <input id="TxtNroContrato" maxlength="20" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                        Seleccione Cliente <span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        @Html.DropDownList("CmbCliente", (IEnumerable<SelectListItem>)ViewBag.CmbCliente, "Seleccione...", new { @class = "form-control", @ID = "CmbCliente" })
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                        Fecha Inicio<span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <input type="text" class="form-control has-feedback-left" id="single_cal3" name="FechaInicioContrato" aria-describedby="inputSuccess2Status2">
+                                        <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                        <span id="inputSuccess2Status2" class="sr-only"></span>
+
+                                    </div>
+
+                                    <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                        Fecha Fin<span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <input type="text" class="form-control has-feedback-left" id="single_cal4" name="FechaFinContrato" aria-describedby="inputSuccess2Status2">
+                                        <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                        <span id="inputSuccess2Status2" class="sr-only"></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                        Sucursal <span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        @Html.DropDownList("cmbSucursal", (IEnumerable<SelectListItem>)ViewBag.cmbSucursal, "Seleccione...", new { @class = "form-control", @ID = "cmbSucursal" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                        Valor Contrato<span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-2 col-sm-2 col-xs-12">
+                                        <input id="txtValorContrato" class="form-control col-md-2 col-xs-12" maxlength="12" type="text" name="middle-name">
+                                    </div>
+
+                                    <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                        Moneda<span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-1 col-sm-1 col-xs-12">
+                                        <select id="cmdMoneda" class="form-control">
+                                            <option></option>
+                                            <option>$</option>
+                                            <option>$USD</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                        Comentarios <span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-8 col-sm-8   col-xs-12">
+                                        <textarea class="form-control col-md-6 col-xs-12" id="txtComentario" rows="3"></textarea>
+                                    </div>
+
+                                </div>
+
+
+                                <div style="display: none;">
+                                    <input id="TxtIdContrato" class="form-control col-md-2 col-xs-12" maxlength="12" type="text" name="middle-name">
+
+                                </div>
+
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>DETALLE CONTRATOS </h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <div class="x_content">
+
+
+                    <form class="form-horizontal form-label-left input_mask">
+
+
+                        <div class="form-group">
+
+
+
+                            <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                Servicio<span class="required">*</span>
+                            </label>
+
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtServicio" disabled="disabled" class="form-control col-md-3 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                            <div class="col-md-1  col-sm-1 col-xs-12">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalServicio">Buscar Servicio</button>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                    Detalle <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6   col-xs-12">
+                                    <textarea class="form-control col-md-6 col-xs-12" id="txtDetalle" rows="3"></textarea>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="form-group">
+
+
+                            <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                Ruta<span class="required">*</span>
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtRuta" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+                            <div class="col-md-1  col-sm-1 col-xs-12">
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalRuta">Buscar Ruta</button>
+                            </div>
+
+                            <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                Cantidad<span class="required">*</span>
+                            </label>
+                            <div class="col-md-1 col-sm-1 col-xs-12">
+                                <input id="txtCantidad" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+
+                            <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                Valor<span class="required">*</span>
+                            </label>
+                            <div class="col-md-1 col-sm-1 col-xs-12">
+                                <input id="txtValor" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+
+                            <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                Unidad Medida<span class="required">*</span>
+                            </label>
+                            <div class="col-md-1 col-sm-1 col-xs-12">
+                                <select id="UnidadMedida" class="form-control">
+                                    <option></option>
+                                    <option>UN</option>
+                                    <option>(KG)</option>
+                                    <option>(T)</option>
+                                </select>
+                            </div>
+
+
+
+                            <button type="button" class="btn btn-success" id="btnGrabarCliemteContrato">Grabar</button>
+
+                        </div>
+
+
+                    </form>
+
+
+
+                    <div class="table-table-striped jambo_table bulk_action">
+
+
+                        <div class="col-lg-12">
+                            <table id="tbladeproductos" class="table table-striped table-bordered table-hover dataTables-example dataTable"></table>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                    <div id="ModalServicio" class="modal fade bs-Servicio-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel">Seleccione Servicio</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    <br />
+                                    <form class="form-horizontal form-label-left input_mask">
+
+
+                                        @{
+                                            var grid = new WebGrid(Model, canPage: false);
+                                        }
+                                        @grid.GetHtml(
+                        htmlAttributes: new { id = "tblServicio" },
+                        tableStyle: "display",
+                        columns:
+                        grid.Columns(
+                        grid.Column(columnName: "Codigo", header: "Codigo", format: @<text>@item.Codigo</text>),
+grid.Column(columnName: "Descripcion", header: "Descripcion", format: @<text>@item.Descripcion</text>),
+@*grid.Column(columnName: "PrecioVenta", header: "PrecioVenta", format: @<text>@item.PrecioVenta</text>),*@
+grid.Column(columnName: "Seleccionar", header: "Seleccionar", format: @<button class="btn btn-success" type="button" data-dismiss="modal" onclick="SeleccionarServicio('@item.Descripcion')">
+    Seleccionar
+</button>)
+))
+
+
+
+                                    </form>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div id="ModalRuta" class="modal fade bs-Servicio-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel">Seleccione Ruta</h4>
+                                </div>
+                                <div class="modal-body">
+
+                                    <br />
+                                    <form class="form-horizontal form-label-left input_mask">
+
+
+                                        @{
+                                            var gridRuta = new WebGrid(@ViewBag.ModelRuta, canPage: false);
+                                        }
+                                        @gridRuta.GetHtml(
+                        htmlAttributes: new { id = "tblRuta" },
+                        tableStyle: "display",
+                        columns:
+                        gridRuta.Columns(
+                        gridRuta.Column(columnName: "Codigo", header: "Codigo", format: @<text>@item.Codigo</text>),
+gridRuta.Column(columnName: "Descripcion", header: "Descripcion", format: @<text>@item.Descripcion</text>),
+gridRuta.Column(columnName: "PrecioVenta", header: "PrecioVenta", format: @<text>@item.PrecioVenta</text>),
+gridRuta.Column(columnName: "Seleccionar", header: "Seleccionar", format: @<button class="btn btn-success" type="button" data-dismiss="modal" onclick="seleccionarRuta('@item.Descripcion',@item.PrecioVenta)">
+    Seleccionar
+</button>)
+))
+
+
+
+                                    </form>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+

@@ -1,0 +1,120 @@
+﻿
+
+@{
+    /**/
+
+    ViewBag.Title = "Tasapaso";
+}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
+
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Traspaso contable</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+
+                <div class="x_content">
+
+                    <h2>Listado Registro Descargar</h2>
+
+                    <div class="display nowrap dataTable dtr-inline collapsed">
+
+
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+                                        htmlAttributes: new { id = "tblTrasapso" },
+                                        tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+                                        columns:
+                                        grid.Columns(
+grid.Column(columnName: "CpbAno", header: "CpbAno", format: @<text> @item.CpbAno</text>),
+grid.Column(columnName: "CpbNum", header: "CpbNum", format: @<text> @item.CpbNum</text>),
+grid.Column(columnName: "MovNum", header: "MovNum", format: @<text> @item.MovNum</text>),
+grid.Column(columnName: "AreaCod", header: "AreaCod", format: @<text> @item.AreaCod</text>),
+grid.Column(columnName: "PctCod", header: "PctCod", format: @<text> @item.PctCod</text>),
+grid.Column(columnName: "CpbFec", header: "CpbFec", format: @<text> @item.CpbFec</text>),
+grid.Column(columnName: "CpbMes", header: "CpbMes", format: @<text> @item.CpbMes</text>),
+grid.Column(columnName: "CvCod", header: "CvCod", format: @<text> @item.CvCod</text>),
+grid.Column(columnName: "VendCod", header: "VendCod", format: @<text> @item.VendCod</text>),
+grid.Column(columnName: "UbicCod", header: "UbicCod", format: @<text> @item.UbicCod</text>),
+grid.Column(columnName: "CajCod", header: "CajCod", format: @<text> @item.CajCod</text>),
+grid.Column(columnName: "IfCod", header: "IfCod", format: @<text> @item.IfCod</text>),
+grid.Column(columnName: "MovIfCant", header: "MovIfCant", format: @<text> @item.MovIfCant</text>),
+grid.Column(columnName: "DgaCod", header: "DgaCod", format: @<text> @item.DgaCod</text>),
+grid.Column(columnName: "MovDgCant", header: "MovDgCant", format: @<text> @item.MovDgCant</text>),
+grid.Column(columnName: "CcCod", header: "CcCod", format: @<text> @item.CcCod</text>),
+grid.Column(columnName: "TipDocCb", header: "TipDocCb", format: @<text> @item.TipDocCb</text>),
+grid.Column(columnName: "NumDocCb", header: "NumDocCb", format: @<text> @item.NumDocCb</text>),
+grid.Column(columnName: "CodAux", header: "CodAux", format: @<text> @item.CodAux</text>),
+grid.Column(columnName: "TtdCod", header: "TtdCod", format: @<text> @item.TtdCod</text>),
+grid.Column(columnName: "NumDoc", header: "NumDoc", format: @<text> @item.NumDoc</text>),
+grid.Column(columnName: "MovFe", header: "MovFe", format: @<text> @item.MovFe</text>),
+grid.Column(columnName: "MovFv", header: "MovFv", format: @<text> @item.MovFv</text>),
+grid.Column(columnName: "MovTipDocRef", header: "MovTipDocRef", format: @<text> @item.MovTipDocRef</text>),
+grid.Column(columnName: "MovNumDocRef", header: "MovNumDocRef", format: @<text> @item.MovNumDocRef</text>),
+grid.Column(columnName: "MovDebe", header: "MovDebe", format: @<text> @item.MovDebe</text>),
+grid.Column(columnName: "MovHaber", header: "MovHaber", format: @<text> @item.MovHaber</text>),
+grid.Column(columnName: "MovGlosa", header: "MovGlosa", format: @<text> @item.MovGlosa</text>),
+grid.Column(columnName: "MonCod", header: "MonCod", format: @<text> @item.MonCod</text>),
+grid.Column(columnName: "MovEquiv", header: "MovEquiv", format: @<text> @item.MovEquiv</text>),
+grid.Column(columnName: "MovDebeMa", header: "MovDebeMa", format: @<text> @item.MovDebeMa</text>),
+grid.Column(columnName: "MovHaberMa", header: "MovHaberMa", format: @<text> @item.MovHaberMa</text>),
+grid.Column(columnName: "MovNumCar", header: "MovNumCar", format: @<text> @item.MovNumCar</text>),
+grid.Column(columnName: "MovTC", header: "MovTC", format: @<text> @item.MovTC</text>),
+grid.Column(columnName: "MovNC", header: "MovNC", format: @<text> @item.MovNC</text>),
+grid.Column(columnName: "MovIPr", header: "MovIPr", format: @<text> @item.MovIPr</text>),
+grid.Column(columnName: "MovAEquiv", header: "MovAEquiv", format: @<text> @item.MovAEquiv</text>),
+grid.Column(columnName: "FecPag", header: "FecPag", format: @<text> @item.FecPag</text>),
+grid.Column(columnName: "CODCPAG", header: "CODCPAG", format: @<text> @item.CODCPAG</text>),
+grid.Column(columnName: "CbaNumMov", header: "CbaNumMov", format: @<text> @item.CbaNumMov</text>),
+grid.Column(columnName: "CbaAnoC", header: "CbaAnoC", format: @<text> @item.CbaAnoC</text>),
+grid.Column(columnName: "GrabaDLib", header: "GrabaDLib", format: @<text> @item.GrabaDLib</text>),
+grid.Column(columnName: "CpbOri", header: "CpbOri", format: @<text> @item.CpbOri</text>),
+grid.Column(columnName: "CodBanco", header: "CodBanco", format: @<text> @item.CodBanco</text>),
+grid.Column(columnName: "CodCtaCte", header: "CodCtaCte", format: @<text> @item.CodCtaCte</text>),
+grid.Column(columnName: "MtoTotal", header: "MtoTotal", format: @<text> @item.MtoTotal</text>),
+grid.Column(columnName: "Cuota", header: "Cuota", format: @<text> @item.Cuota</text>),
+grid.Column(columnName: "CuotaRef", header: "CuotaRef", format: @<text> @item.CuotaRef</text>),
+grid.Column(columnName: "Marca", header: "Marca", format: @<text> @item.Marca</text>),
+grid.Column(columnName: "fecEmisionch", header: "fecEmisionch", format: @<text> @item.fecEmisionch</text>),
+grid.Column(columnName: "paguesea", header: "paguesea", format: @<text> @item.paguesea</text>),
+grid.Column(columnName: "Impreso", header: "Impreso", format: @<text> @item.Impreso</text>),
+grid.Column(columnName: "dlicoint_aperturas", header: "dlicoint_aperturas", format: @<text> @item.dlicoint_aperturas</text>),
+grid.Column(columnName: "nro_operacion", header: "nro_operacion", format: @<text> @item.nro_operacion</text>),
+grid.Column(columnName: "FormadePag", header: "FormadePag", format: @<text> @item.FormadePag</text>),
+grid.Column(columnName: "CpbNormaIFRS", header: "CpbNormaIFRS", format: @<text> @item.CpbNormaIFRS</text>),
+grid.Column(columnName: "CpbNormaTrib", header: "CpbNormaTrib", format: @<text> @item.CpbNormaTrib</text>)))
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+

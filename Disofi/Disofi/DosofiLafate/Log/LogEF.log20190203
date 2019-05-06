@@ -1,0 +1,120 @@
+2019-02-03 16:26:06,348 FATAL Disofi.Utils.CapturaExcepciones - La columna 'Nombre' no pertenece a la tabla .
+2019-02-03 16:26:06,358 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'Nombre' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoSnSolo() en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 429
+   en Disofi.BLL.ControlDisofi.ListadoSnSolo() en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 184
+   en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 36
+2019-02-03 16:26:06,358 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoSnSolo() en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 429
+   en Disofi.BLL.ControlDisofi.ListadoSnSolo() en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 184
+   en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 36
+2019-02-03 16:28:15,861 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-02-03 16:28:15,864 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.ListadoUbicacion(String cliente) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 391
+   en Disofi.BLL.ControlDisofi.ListadoUbicacion(String cliente) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 179
+   en Disofi.Controllers.SanckCenterController.ListadoUbicacion(String clientes) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 116
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-02-03 16:28:15,865 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.ListadoUbicacion(String cliente) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 391
+   en Disofi.BLL.ControlDisofi.ListadoUbicacion(String cliente) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 179
+   en Disofi.Controllers.SanckCenterController.ListadoUbicacion(String clientes) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 116
+2019-02-03 16:29:45,991 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-02-03 16:29:45,992 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.ListadoUbicacion(String cliente) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 391
+   en Disofi.BLL.ControlDisofi.ListadoUbicacion(String cliente) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 179
+   en Disofi.Controllers.SanckCenterController.ListadoUbicacion(String clientes) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 116
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-02-03 16:29:45,992 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.ListadoUbicacion(String cliente) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 391
+   en Disofi.BLL.ControlDisofi.ListadoUbicacion(String cliente) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 179
+   en Disofi.Controllers.SanckCenterController.ListadoUbicacion(String clientes) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 116
+2019-02-03 16:49:57,219 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-02-03 16:49:57,221 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 31
+2019-02-03 16:49:57,222 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 31
+2019-02-03 18:51:27,140 FATAL Disofi.Utils.CapturaExcepciones - Índice fuera de los límites de la matriz.
+2019-02-03 18:51:27,451 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IndexOutOfRangeException: Índice fuera de los límites de la matriz.
+   en Disofi.Controllers.SanckCenterController.GrabarOrdenAtencion(String _Id, String _TipoAtencion, String _Requemiento, String _TipoCliente, String _NombreCliente, String _NombreCliente1, String _NumeroContacto, String _Descripcion, String _UbicacionFisica, String _UbicacionFisica2, String _Diganostico, String _Solucion, String _Responsable, String _DescripcionSolucion, String _FechaCierre, String _Ruta, String _Maquina, String _Modelo, String _TipoMaquina, String _Supervisor) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 180
+2019-02-03 18:51:27,452 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.SanckCenterController.GrabarOrdenAtencion(String _Id, String _TipoAtencion, String _Requemiento, String _TipoCliente, String _NombreCliente, String _NombreCliente1, String _NumeroContacto, String _Descripcion, String _UbicacionFisica, String _UbicacionFisica2, String _Diganostico, String _Solucion, String _Responsable, String _DescripcionSolucion, String _FechaCierre, String _Ruta, String _Maquina, String _Modelo, String _TipoMaquina, String _Supervisor) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 180
+2019-02-03 19:47:14,738 FATAL Disofi.Utils.CapturaExcepciones - Referencia a cadena no establecida como una instancia de cadena.
+Nombre del parámetro: s
+2019-02-03 19:47:14,741 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentNullException: Referencia a cadena no establecida como una instancia de cadena.
+Nombre del parámetro: s
+   en System.Text.Encoding.GetBytes(String s)
+   en Disofi.Utils.HashMd5.GetMD5(String str) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Utils\HashMd5.cs:línea 18
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 36
+2019-02-03 19:47:14,741 ERROR Disofi.Utils.CapturaExcepciones -    en System.Text.Encoding.GetBytes(String s)
+   en Disofi.Utils.HashMd5.GetMD5(String str) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Utils\HashMd5.cs:línea 18
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 36
+2019-02-03 19:47:27,735 FATAL Disofi.Utils.CapturaExcepciones - Referencia a cadena no establecida como una instancia de cadena.
+Nombre del parámetro: s
+2019-02-03 19:47:27,737 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentNullException: Referencia a cadena no establecida como una instancia de cadena.
+Nombre del parámetro: s
+   en System.Text.Encoding.GetBytes(String s)
+   en Disofi.Utils.HashMd5.GetMD5(String str) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Utils\HashMd5.cs:línea 18
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 36
+2019-02-03 19:47:27,738 ERROR Disofi.Utils.CapturaExcepciones -    en System.Text.Encoding.GetBytes(String s)
+   en Disofi.Utils.HashMd5.GetMD5(String str) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Utils\HashMd5.cs:línea 18
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 36
+2019-02-03 19:47:46,109 FATAL Disofi.Utils.CapturaExcepciones - Referencia a cadena no establecida como una instancia de cadena.
+Nombre del parámetro: s
+2019-02-03 19:47:46,111 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentNullException: Referencia a cadena no establecida como una instancia de cadena.
+Nombre del parámetro: s
+   en System.Text.Encoding.GetBytes(String s)
+   en Disofi.Utils.HashMd5.GetMD5(String str) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Utils\HashMd5.cs:línea 18
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 36
+2019-02-03 19:47:46,111 ERROR Disofi.Utils.CapturaExcepciones -    en System.Text.Encoding.GetBytes(String s)
+   en Disofi.Utils.HashMd5.GetMD5(String str) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Utils\HashMd5.cs:línea 18
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 36

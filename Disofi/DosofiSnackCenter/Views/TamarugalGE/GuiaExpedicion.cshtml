@@ -1,0 +1,199 @@
+﻿@{
+
+
+    ViewBag.Title = "Guía Expedición";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Tamarugal.js"></script>
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+     
+
+
+
+
+    <a class="btn btn-app" href="@Url.Action("DespachoConductor", "TamarugalGE")">  <i class="fa fa-edit"></i> Despacho </a>
+    <a class="btn btn-app" href="@Url.Action("Planificacion", "TamarugalGE")">  <i class="fa fa-mail-reply"></i> Volver </a>
+
+
+    <br />
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Creación Guia Expedición</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <br />
+            <form class="form-horizontal form-label-left input_mask">
+
+
+                <div class="form-group">
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                            Contrato <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-12 col-xs-12">
+                            <input type="text" id="txtContrato" value="@ViewBag.Contrato" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                        </div>
+
+                        <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                            Pedido <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-1 col-xs-12">
+                            <input type="text" id="txtPedido" value="@ViewBag.Pedido" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                            Cliente <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="txtCliente" value="@ViewBag.Cliente" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                            Servicio <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input type="text" id="txtServicio" value="@ViewBag.Servicio" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                            Inicio <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-12 col-xs-12">
+                            <input type="text" id="txtContrato" value="@ViewBag.FechaInicio" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                        </div>
+
+                        <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                            Fin <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-1 col-xs-12">
+                            <input type="text" id="txtPedido" value="@ViewBag.FechaFin" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                    <div class="form-group">
+                        <div style="display: none;">
+                            <input type="text" id="txtIdConductor" class="form-control col-md-7 col-xs-12">
+
+                            <input type="text" id="txtIdConductor" class="form-control col-md-7 col-xs-12">
+                            <input type="text" id="txtIdContrato" value="@ViewBag.IdContrato" class="form-control col-md-7 col-xs-12">
+                            <input type="text" id="txtIdServicio" value="@ViewBag.IdServicio" class="form-control col-md-7 col-xs-12">
+                            <input type="text" id="txtNroPedido" value="@ViewBag.NroPedido" class="form-control col-md-7 col-xs-12">
+                            <input type="text" id="txtIdPedido" value="@ViewBag.IdPedido" class="form-control col-md-7 col-xs-12">
+                        </div>
+
+
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                            Seleccione Conductor <span class="required">*</span>
+                        </label>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <input id="txtConductor" disabled="disabled" class="form-control col-md-4 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPopUpConductor">Seleccionar Conductor </button>
+                        </div>
+                    </div>
+
+
+                </div>
+                 
+                <div class="ln_solid"></div>
+                <div class="form-group">
+                    <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                        <button type="button" class="btn btn-danger" id="btnGrabarDatosGE">Grabar</button>
+                        <button class="btn btn-primary" type="reset">Limpiar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+<div id="modalPopUpConductor" class="modal fade bs-example-modal-lg" tabindex="0" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Conductores</h4>
+            </div>
+            <div class="modal-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Seleccionar Conductores</div>
+                    <div class="panel-body">
+                        <div class="x_content">
+
+                            <div class="table-table-striped jambo_table bulk_action">
+                                @{
+                                    var GriListadoConductores = new WebGrid(source: ViewBag.ListadoConductores, canPage: false);
+                                }
+                                @GriListadoConductores.GetHtml(
+htmlAttributes: new { id = "tblConductores" },
+tableStyle: "table table-bordered",
+columns:
+GriListadoConductores.Columns(
+GriListadoConductores.Column(columnName: "Id", header: "Id", format: @<text>@item.Id</text>),
+GriListadoConductores.Column(columnName: "Rut", header: "Rut", format: @<text>@item.Rut</text>),
+GriListadoConductores.Column(columnName: "Conductor", header: "Conductor", format: @<text>@item.Conductor</text>),
+GriListadoConductores.Column(columnName: "Seleccionar", header: "Seleccionar", format: @<button type="button" class="btn btn-success btn-xs" data-dismiss="modal"
+                                                                                                onclick="SeleccionarConductorGuia(@item.Id,'@item.Rut','@item.Conductor')">
+    Seleccionar
+</button>)
+))
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

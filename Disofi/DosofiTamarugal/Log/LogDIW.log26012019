@@ -1,0 +1,26 @@
+2019-01-26 10:37:17,396 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 10:38:03,714 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-26 10:41:43,157 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 10:42:01,738 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-26 10:42:39,302 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 10:42:42,424 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-26 10:54:37,253 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 10:54:37,603 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-26 10:55:02,463 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 10:55:05,691 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-26 11:25:27,691 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: 'System.Web.Helpers.WebGridRow' no contiene una definición para 'Vueltas'.
+2019-01-26 11:35:15,447 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 11:35:15,840 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-26 11:35:32,949 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/lo' o no implementa IController.
+2019-01-26 11:35:32,997 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-26 11:35:42,805 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-26 11:39:13,373 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-26 11:39:45,249 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-26 12:20:48,760 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 12:44:44,681 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-26 12:44:52,060 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-26 12:45:07,913 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-26 13:09:34,233 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 13:09:37,584 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-26 13:34:10,940 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-26 13:34:57,781 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

@@ -1,0 +1,232 @@
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\ApplicationInsights.config
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\DisofiLafete.dll.config
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\DisofiLafete.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\DisofiLafete.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\csc.exe
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\csc.exe.config
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\csc.rsp
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\csi.exe
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\csi.exe.config
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\csi.rsp
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.AppContext.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Collections.Immutable.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Console.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Globalization.Calendars.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.IO.Compression.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.IO.FileSystem.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Net.Http.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Net.Sockets.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Reflection.Metadata.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.ValueTuple.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Xml.XPath.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\vbc.exe
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\vbc.exe.config
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\vbc.rsp
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\VBCSCompiler.exe
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\roslyn\VBCSCompiler.exe.config
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Antlr3.Runtime.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\EPPlus.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\log4net.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.DependencyCollector.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.Web.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.WindowsServer.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.ApplicationInsights.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.Web.Infrastructure.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Newtonsoft.Json.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.Helpers.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.Mvc.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.Optimization.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.Razor.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.WebPages.Deployment.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.WebPages.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.WebPages.Razor.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\WebGrease.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\EPPlus.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\log4net.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.DependencyCollector.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.Web.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AI.WindowsServer.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.ApplicationInsights.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Newtonsoft.Json.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.Helpers.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.Mvc.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.Razor.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.WebPages.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.WebPages.Deployment.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.WebPages.Razor.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\System.Web.Optimization.xml
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\Antlr3.Runtime.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\es\System.Web.Helpers.resources.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\es\System.Web.Mvc.resources.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\es\System.Web.Razor.resources.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\es\System.Web.WebPages.resources.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin\es\System.Web.Optimization.resources.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\obj\Release\DisofiLafete.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\obj\Release\DisofiLafete.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\obj\Release\DisofiLafete.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\obj\Release\DisofiLafete.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\obj\Release\DisofiLafete.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\obj\Release\DisofiLafete.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\obj\Release\DisofiLafete.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\obj\Release\DisofiLafete.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\obj\Release\DisofiLafete.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\ApplicationInsights.config
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\DisofiLafete.dll.config
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\DisofiLafete.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\DisofiLafete.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\csc.exe
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\csc.exe.config
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\csc.rsp
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\csi.exe
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\csi.exe.config
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\csi.rsp
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.AppContext.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Collections.Immutable.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Console.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Globalization.Calendars.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.IO.Compression.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.IO.FileSystem.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Net.Http.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Net.Sockets.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Reflection.Metadata.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.ValueTuple.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Xml.XPath.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\vbc.exe
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\vbc.exe.config
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\vbc.rsp
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\VBCSCompiler.exe
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\roslyn\VBCSCompiler.exe.config
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Antlr3.Runtime.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\EPPlus.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\log4net.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.DependencyCollector.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.Web.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.WindowsServer.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.ApplicationInsights.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.Web.Infrastructure.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Newtonsoft.Json.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.Helpers.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.Mvc.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.Optimization.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.Razor.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.WebPages.Deployment.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.WebPages.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.WebPages.Razor.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\WebGrease.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\EPPlus.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\log4net.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.DependencyCollector.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.PerfCounterCollector.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.Web.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AI.WindowsServer.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.ApplicationInsights.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Newtonsoft.Json.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.Helpers.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.Mvc.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.Razor.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.WebPages.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.WebPages.Deployment.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.WebPages.Razor.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\System.Web.Optimization.xml
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\Antlr3.Runtime.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\es\System.Web.Helpers.resources.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\es\System.Web.Mvc.resources.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\es\System.Web.Razor.resources.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\es\System.Web.WebPages.resources.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin\es\System.Web.Optimization.resources.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\obj\Release\DisofiLafete.csproj.CopyComplete

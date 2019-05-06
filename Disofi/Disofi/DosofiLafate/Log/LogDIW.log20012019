@@ -1,0 +1,36 @@
+2019-01-20 20:22:34,934 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 20:23:02,332 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 20:23:02,541 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-20 20:23:09,232 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 20:23:09,270 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-20 20:23:14,274 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 20:23:14,308 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-20 20:23:51,938 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 20:24:00,015 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 20:24:09,806 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Raico/AsignaPicking' o no implementa IController.
+2019-01-20 20:24:09,848 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-20 21:14:25,286 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 21:14:32,348 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 21:14:46,060 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No hay ningún elemento ViewData de tipo 'IEnumerable<SelectListItem>' con la clave 'cmbUsuarioSoftland'.
+2019-01-20 21:14:46,106 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-20 21:14:56,675 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No hay ningún elemento ViewData de tipo 'IEnumerable<SelectListItem>' con la clave 'cmbUsuarioSoftland'.
+2019-01-20 21:14:56,694 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-20 21:15:04,440 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No hay ningún elemento ViewData de tipo 'IEnumerable<SelectListItem>' con la clave 'cmbUsuarioSoftland2'.
+2019-01-20 21:15:04,468 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-20 21:23:06,759 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 21:23:22,849 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 21:23:28,456 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 21:24:37,195 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 21:24:43,145 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 21:31:51,259 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 21:41:37,321 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 21:42:17,304 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 21:42:17,899 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-20 21:42:23,544 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 21:48:08,173 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 21:48:25,030 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-20 21:49:16,943 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 21:49:28,850 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 21:49:28,897 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-20 21:49:34,178 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-20 23:26:38,612 INFO Disofi.MvcApplication - Log4Net Activado

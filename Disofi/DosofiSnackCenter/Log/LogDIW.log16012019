@@ -1,0 +1,27 @@
+2019-01-16 13:51:05,726 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 13:51:10,612 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-16 13:52:25,509 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 13:52:29,558 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-16 14:01:56,382 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 14:03:41,559 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-16 16:08:50,919 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 16:09:06,486 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 16:09:10,624 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-16 16:48:42,091 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 16:48:57,754 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 16:49:00,163 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-16 19:54:39,717 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 19:54:43,763 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-16 19:54:57,647 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-16 19:54:57,702 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-16 19:55:11,344 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-16 19:55:11,361 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-16 19:55:24,874 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-16 19:55:24,889 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-16 19:56:02,648 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 19:56:05,591 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-16 19:57:22,851 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-16 19:57:25,845 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-16 19:57:40,932 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-16 19:57:40,974 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-16 20:01:35,960 INFO Disofi.MvcApplication - Log4Net Activado

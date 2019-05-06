@@ -1,0 +1,126 @@
+2019-01-15 10:40:43,499 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-15 10:40:43,512 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 25
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Controllers\LoginController.cs:línea 35
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/  Dosofi/DosofiLafate/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/1cef30a9/74703fb3/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/1cef30a9/74703fb3/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/  Dosofi/DosofiLafate/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-15 10:40:43,513 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 25
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Controllers\LoginController.cs:línea 35
+2019-01-15 10:47:04,561 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-15 10:47:04,564 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Models.Filters.SessionFilter.OnActionExecuting(ActionExecutingContext filterContext) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Models\Filters\SessionFilter.cs:línea 17
+2019-01-15 10:47:04,564 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Models.Filters.SessionFilter.OnActionExecuting(ActionExecutingContext filterContext) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Models\Filters\SessionFilter.cs:línea 17
+2019-01-15 10:47:41,234 FATAL Disofi.Utils.CapturaExcepciones - System.Web.Services.Protocols.SoapException: El servidor no puede procesar la solicitud. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: No se ha encontrado la ruta de acceso de la red
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Disofi.ServicioSoftland.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 94
+   en Disofi.ServicioSoftland.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 32
+   en Disofi.ServicioSoftland.Maestros.ListadoUsuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Maestros.asmx.cs:línea 42
+   --- Fin del seguimiento de la pila de la excepción interna ---
+2019-01-15 10:47:41,235 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.FaultException: System.Web.Services.Protocols.SoapException: El servidor no puede procesar la solicitud. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: No se ha encontrado la ruta de acceso de la red
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Disofi.ServicioSoftland.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 94
+   en Disofi.ServicioSoftland.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 32
+   en Disofi.ServicioSoftland.Maestros.ListadoUsuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Maestros.asmx.cs:línea 42
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoUsuarios()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoUsuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 127
+   en Disofi.Controllers.HomeController.Usuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Controllers\HomeController.cs:línea 67
+2019-01-15 10:47:41,235 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoUsuarios()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoUsuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 127
+   en Disofi.Controllers.HomeController.Usuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Controllers\HomeController.cs:línea 67
+2019-01-15 10:49:11,812 FATAL Disofi.Utils.CapturaExcepciones - System.Web.Services.Protocols.SoapException: El servidor no puede procesar la solicitud. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: No se ha encontrado la ruta de acceso de la red
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Disofi.ServicioSoftland.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 94
+   en Disofi.ServicioSoftland.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 32
+   en Disofi.ServicioSoftland.Maestros.ListadoUsuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Maestros.asmx.cs:línea 42
+   --- Fin del seguimiento de la pila de la excepción interna ---
+2019-01-15 10:49:11,812 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.FaultException: System.Web.Services.Protocols.SoapException: El servidor no puede procesar la solicitud. ---> System.Data.SqlClient.SqlException: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception: No se ha encontrado la ruta de acceso de la red
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Disofi.ServicioSoftland.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 94
+   en Disofi.ServicioSoftland.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 32
+   en Disofi.ServicioSoftland.Maestros.ListadoUsuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Maestros.asmx.cs:línea 42
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoUsuarios()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoUsuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 127
+   en Disofi.Controllers.HomeController.Usuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Controllers\HomeController.cs:línea 67
+2019-01-15 10:49:11,812 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoUsuarios()
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoUsuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 127
+   en Disofi.Controllers.HomeController.Usuarios() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Controllers\HomeController.cs:línea 67
+2019-01-15 10:49:19,473 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-15 10:49:19,473 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Models.Filters.SessionFilter.OnActionExecuting(ActionExecutingContext filterContext) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Models\Filters\SessionFilter.cs:línea 17
+2019-01-15 10:49:19,473 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Models.Filters.SessionFilter.OnActionExecuting(ActionExecutingContext filterContext) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Models\Filters\SessionFilter.cs:línea 17
+2019-01-15 10:53:34,498 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-15 10:53:34,499 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Models.Filters.SessionFilter.OnActionExecuting(ActionExecutingContext filterContext) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Models\Filters\SessionFilter.cs:línea 17
+2019-01-15 10:53:34,500 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Models.Filters.SessionFilter.OnActionExecuting(ActionExecutingContext filterContext) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiLafate\Models\Filters\SessionFilter.cs:línea 17
+2019-01-15 11:00:32,887 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-15 11:00:32,888 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.HomeController.Perfiles()
+2019-01-15 11:00:32,888 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.HomeController.Perfiles()

@@ -1,0 +1,124 @@
+2019-01-24 11:05:18,695 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-24 11:05:18,697 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-24 11:05:18,697 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-24 11:22:37,649 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:22:37,652 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 859
+2019-01-24 11:22:37,653 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 859
+2019-01-24 11:39:19,009 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:39:19,009 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:39:19,009 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:39:19,033 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:39:19,033 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:39:19,033 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:40:24,466 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:40:24,467 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:40:24,467 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:40:24,489 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:40:24,490 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:40:24,490 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:40:33,594 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:40:33,594 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:40:33,594 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:40:33,617 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:40:33,617 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:40:33,618 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:41:04,809 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:41:04,810 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:41:04,810 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:41:04,832 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:41:04,832 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:41:04,832 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:41:12,386 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:41:12,386 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:41:12,386 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 927
+2019-01-24 11:41:12,409 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:41:12,409 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877
+2019-01-24 11:41:12,409 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   en System.Decimal.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _UnidadMedida, String _Cantidad, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 956
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _Comentario, String _IdSucursal, String _ValorContrato, String _Moneda, String _Servicio, String _Ruta, String _IdUnidadMedida, String _Cantidad, String _ValorServicio, String _Detalle) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 877

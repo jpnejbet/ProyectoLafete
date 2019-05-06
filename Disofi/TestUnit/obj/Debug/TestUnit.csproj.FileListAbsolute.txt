@@ -1,0 +1,21 @@
+D:\Desarrollo\Consisa\Disofi\Dosofi\TestUnit\bin\Debug\TestUnit.exe.config
+D:\Desarrollo\Consisa\Disofi\Dosofi\TestUnit\bin\Debug\TestUnit.exe
+D:\Desarrollo\Consisa\Disofi\Dosofi\TestUnit\bin\Debug\TestUnit.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\TestUnit\obj\Debug\TestUnit.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\TestUnit\obj\Debug\TestUnit.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\TestUnit\obj\Debug\TestUnit.exe
+D:\Desarrollo\Consisa\Disofi\Dosofi\TestUnit\obj\Debug\TestUnit.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\TestUnit\bin\Debug\TestUnit.exe.config
+D:\Desarrollo\Consisa\Disofi\  Dosofi\TestUnit\bin\Debug\TestUnit.exe
+D:\Desarrollo\Consisa\Disofi\  Dosofi\TestUnit\bin\Debug\TestUnit.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\TestUnit\obj\Debug\TestUnit.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\TestUnit\obj\Debug\TestUnit.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\TestUnit\obj\Debug\TestUnit.exe
+D:\Desarrollo\Consisa\Disofi\  Dosofi\TestUnit\obj\Debug\TestUnit.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\TestUnit\bin\Debug\TestUnit.exe.config
+D:\Desarrollo\Consisa\Disofi\Disofi\TestUnit\bin\Debug\TestUnit.exe
+D:\Desarrollo\Consisa\Disofi\Disofi\TestUnit\bin\Debug\TestUnit.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\TestUnit\obj\Debug\TestUnit.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\TestUnit\obj\Debug\TestUnit.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\TestUnit\obj\Debug\TestUnit.exe
+D:\Desarrollo\Consisa\Disofi\Disofi\TestUnit\obj\Debug\TestUnit.pdb

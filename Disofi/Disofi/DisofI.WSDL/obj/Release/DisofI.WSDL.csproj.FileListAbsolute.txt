@@ -1,0 +1,6 @@
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\bin\Release\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\bin\Release\DisofI.WSDL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\obj\Release\DisofI.WSDL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\obj\Release\DisofI.WSDL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\obj\Release\DisofI.WSDL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\DisofI.WSDL\obj\Release\DisofI.WSDL.pdb

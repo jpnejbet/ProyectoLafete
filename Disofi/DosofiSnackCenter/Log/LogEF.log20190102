@@ -1,0 +1,814 @@
+2019-01-02 07:51:44,467 FATAL Disofi.Utils.CapturaExcepciones - El valor no puede ser nulo.
+Nombre del parámetro: String
+2019-01-02 07:51:44,479 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentNullException: El valor no puede ser nulo.
+Nombre del parámetro: String
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 992
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 162
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 193
+2019-01-02 07:51:44,480 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 992
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 162
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 193
+2019-01-02 08:02:18,431 FATAL Disofi.Utils.CapturaExcepciones - La columna 'IdPedido' no pertenece a la tabla .
+2019-01-02 08:02:18,434 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'IdPedido' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 937
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 148
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 338
+2019-01-02 08:02:18,435 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 937
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 148
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 338
+2019-01-02 08:02:35,933 FATAL Disofi.Utils.CapturaExcepciones - La columna 'IdPedido' no pertenece a la tabla .
+2019-01-02 08:02:35,933 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'IdPedido' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 937
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 148
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 338
+2019-01-02 08:02:35,934 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 937
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 148
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 338
+2019-01-02 08:02:53,723 FATAL Disofi.Utils.CapturaExcepciones - La columna 'IdPedido' no pertenece a la tabla .
+2019-01-02 08:02:53,724 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'IdPedido' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 937
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 148
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 338
+2019-01-02 08:02:53,724 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 937
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 148
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 338
+2019-01-02 08:04:27,562 FATAL Disofi.Utils.CapturaExcepciones - La columna 'IdPedido' no pertenece a la tabla .
+2019-01-02 08:04:27,566 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'IdPedido' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.DetalleContratoTamarugalId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 858
+   en Disofi.BLL.ControlDisofi.ListadoListadoSeguimientoContratoID(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 142
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalSoloId(String _IdContrato) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 195
+2019-01-02 08:04:27,567 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.DetalleContratoTamarugalId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 858
+   en Disofi.BLL.ControlDisofi.ListadoListadoSeguimientoContratoID(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 142
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalSoloId(String _IdContrato) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 195
+2019-01-02 08:14:09,846 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 08:14:09,848 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 302
+2019-01-02 08:14:09,848 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 302
+2019-01-02 09:21:03,213 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 09:21:03,215 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 559
+2019-01-02 09:21:03,215 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 559
+2019-01-02 09:21:35,682 FATAL Disofi.Utils.CapturaExcepciones - La columna 'FechaGuia' no pertenece a la tabla .
+2019-01-02 09:21:35,686 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'FechaGuia' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 233
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 135
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 560
+2019-01-02 09:21:35,686 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 233
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 135
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 560
+2019-01-02 10:07:27,922 FATAL Disofi.Utils.CapturaExcepciones - La conversión especificada no es válida.
+2019-01-02 10:07:27,925 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.InvalidCastException: La conversión especificada no es válida.
+   en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 224
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 135
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 560
+2019-01-02 10:07:27,926 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 224
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 135
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 560
+2019-01-02 10:07:33,523 FATAL Disofi.Utils.CapturaExcepciones - La conversión especificada no es válida.
+2019-01-02 10:07:33,523 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.InvalidCastException: La conversión especificada no es válida.
+   en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 224
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 135
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 560
+2019-01-02 10:07:33,523 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 224
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 135
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 560
+2019-01-02 10:11:50,910 FATAL Disofi.Utils.CapturaExcepciones - La conversión especificada no es válida.
+2019-01-02 10:11:50,914 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.InvalidCastException: La conversión especificada no es válida.
+   en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 224
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 135
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 560
+2019-01-02 10:11:50,914 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 224
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 135
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 560
+2019-01-02 14:13:34,674 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 14:13:34,692 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 24
+2019-01-02 14:13:34,692 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 24
+2019-01-02 14:16:16,166 FATAL Disofi.Utils.CapturaExcepciones - La columna 'Codigo' no pertenece a la tabla .
+2019-01-02 14:16:16,169 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'Codigo' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 631
+   en Disofi.BLL.ControlDisofi.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 96
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 27
+2019-01-02 14:16:16,170 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 631
+   en Disofi.BLL.ControlDisofi.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 96
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 27
+2019-01-02 14:21:58,524 FATAL Disofi.Utils.CapturaExcepciones - La columna 'Codigo' no pertenece a la tabla .
+2019-01-02 14:21:58,525 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'Codigo' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 631
+   en Disofi.BLL.ControlDisofi.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 96
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 27
+2019-01-02 14:21:58,525 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 631
+   en Disofi.BLL.ControlDisofi.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 96
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 27
+2019-01-02 14:22:09,484 FATAL Disofi.Utils.CapturaExcepciones - La columna 'Codigo' no pertenece a la tabla .
+2019-01-02 14:22:09,484 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'Codigo' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 631
+   en Disofi.BLL.ControlDisofi.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 96
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 27
+2019-01-02 14:22:09,485 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 631
+   en Disofi.BLL.ControlDisofi.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 96
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 27
+2019-01-02 14:22:18,226 FATAL Disofi.Utils.CapturaExcepciones - La columna 'Codigo' no pertenece a la tabla .
+2019-01-02 14:22:18,227 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'Codigo' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 631
+   en Disofi.BLL.ControlDisofi.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 96
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 27
+2019-01-02 14:22:18,227 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 631
+   en Disofi.BLL.ControlDisofi.ListadoDestinoDestino() en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 96
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 27
+2019-01-02 14:37:33,834 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 14:37:33,836 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 24
+2019-01-02 14:37:33,836 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 24
+2019-01-02 14:38:57,926 FATAL Disofi.Utils.CapturaExcepciones - No había ningún extremo escuchando en http://localhost:59629/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información.
+2019-01-02 14:38:57,930 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost:59629/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:59629
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Disofi.SoftLandMaestros.MaestrosSoap.ListadoClientes()
+   en Disofi.SoftLandMaestros.MaestrosSoapClient.ListadoClientes() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Connected Services\SoftLandMaestros\Reference.cs:línea 159
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 34
+2019-01-02 14:38:57,930 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Disofi.SoftLandMaestros.MaestrosSoap.ListadoClientes()
+   en Disofi.SoftLandMaestros.MaestrosSoapClient.ListadoClientes() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Connected Services\SoftLandMaestros\Reference.cs:línea 159
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 34
+2019-01-02 14:39:56,851 FATAL Disofi.Utils.CapturaExcepciones - No había ningún extremo escuchando en http://localhost:59629/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información.
+2019-01-02 14:39:56,852 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost:59629/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:59629
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Disofi.SoftLandMaestros.MaestrosSoap.ListadoClientes()
+   en Disofi.SoftLandMaestros.MaestrosSoapClient.ListadoClientes() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Connected Services\SoftLandMaestros\Reference.cs:línea 159
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 34
+2019-01-02 14:39:56,852 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Disofi.SoftLandMaestros.MaestrosSoap.ListadoClientes()
+   en Disofi.SoftLandMaestros.MaestrosSoapClient.ListadoClientes() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Connected Services\SoftLandMaestros\Reference.cs:línea 159
+   en Disofi.Controllers.TamarugalMaestrosController.Rutas() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalMaestros.cs:línea 34
+2019-01-02 14:40:08,358 FATAL Disofi.Utils.CapturaExcepciones - No había ningún extremo escuchando en http://localhost:59629/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información.
+2019-01-02 14:40:08,358 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost:59629/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:59629
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Disofi.SoftLandMaestros.MaestrosSoap.ListadoClientes()
+   en Disofi.SoftLandMaestros.MaestrosSoapClient.ListadoClientes() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Connected Services\SoftLandMaestros\Reference.cs:línea 159
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 30
+2019-01-02 14:40:08,358 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Disofi.SoftLandMaestros.MaestrosSoap.ListadoClientes()
+   en Disofi.SoftLandMaestros.MaestrosSoapClient.ListadoClientes() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Connected Services\SoftLandMaestros\Reference.cs:línea 159
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 30
+2019-01-02 14:40:11,884 FATAL Disofi.Utils.CapturaExcepciones - No había ningún extremo escuchando en http://localhost:59629/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información.
+2019-01-02 14:40:11,885 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost:59629/Maestros.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:59629
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Disofi.SoftLandMaestros.MaestrosSoap.ListadoClientes()
+   en Disofi.SoftLandMaestros.MaestrosSoapClient.ListadoClientes() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Connected Services\SoftLandMaestros\Reference.cs:línea 159
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 30
+2019-01-02 14:40:11,885 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Disofi.SoftLandMaestros.MaestrosSoap.ListadoClientes()
+   en Disofi.SoftLandMaestros.MaestrosSoapClient.ListadoClientes() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Connected Services\SoftLandMaestros\Reference.cs:línea 159
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 30
+2019-01-02 15:56:37,800 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 15:56:37,802 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-02 15:56:37,803 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-02 16:03:14,861 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 16:03:14,862 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-02 16:03:14,863 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-02 17:04:08,381 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 17:04:08,383 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-02 17:04:08,383 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-02 17:27:56,919 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 17:27:56,920 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-02 17:27:56,921 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-02 17:38:36,992 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 17:38:36,993 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.DespachoConductor() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 490
+2019-01-02 17:38:36,994 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.DespachoConductor() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 490
+2019-01-02 17:56:28,102 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 17:56:28,105 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 607
+   en Disofi.BLL.ControlDisofi.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 50
+   en Disofi.Controllers.TamarugalGEController.ConsultaProductosId(String _IdProductos) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 126
+2019-01-02 17:56:28,105 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 607
+   en Disofi.BLL.ControlDisofi.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 50
+   en Disofi.Controllers.TamarugalGEController.ConsultaProductosId(String _IdProductos) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 126
+2019-01-02 17:57:06,033 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 17:57:06,033 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 743
+2019-01-02 17:57:06,033 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 743
+2019-01-02 17:57:06,060 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 17:57:06,060 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 775
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _IdEncargado, String _Comentario, String _Servicio, String _IdTipoCarga, String _IdUnidadMedida, String _Cantidad, String _IdSucursal, String _ValorContrato, String _Ruta) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 689
+2019-01-02 17:57:06,060 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 775
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _IdEncargado, String _Comentario, String _Servicio, String _IdTipoCarga, String _IdUnidadMedida, String _Cantidad, String _IdSucursal, String _ValorContrato, String _Ruta) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 689
+2019-01-02 17:57:18,850 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 17:57:18,851 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.DetalleContratoTamarugalId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 888
+   en Disofi.BLL.ControlDisofi.ListadoListadoSeguimientoContratoID(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 158
+   en Disofi.Controllers.TamarugalGEController.ConsultaContratos(String _IdContrato) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 177
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 17:57:18,851 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.DetalleContratoTamarugalId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 888
+   en Disofi.BLL.ControlDisofi.ListadoListadoSeguimientoContratoID(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 158
+   en Disofi.Controllers.TamarugalGEController.ConsultaContratos(String _IdContrato) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 177
+2019-01-02 18:00:48,290 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:00:48,290 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 607
+   en Disofi.BLL.ControlDisofi.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 50
+   en Disofi.Controllers.TamarugalGEController.ConsultaProductosId(String _IdProductos) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 126
+2019-01-02 18:00:48,290 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 607
+   en Disofi.BLL.ControlDisofi.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 50
+   en Disofi.Controllers.TamarugalGEController.ConsultaProductosId(String _IdProductos) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 126
+2019-01-02 18:01:06,270 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:01:06,271 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 607
+   en Disofi.BLL.ControlDisofi.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 50
+   en Disofi.Controllers.TamarugalGEController.ConsultaProductosId(String _IdProductos) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 126
+2019-01-02 18:01:06,271 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.BLL.FactoryAccesos.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 607
+   en Disofi.BLL.ControlDisofi.ListadoProductosId(String id) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 50
+   en Disofi.Controllers.TamarugalGEController.ConsultaProductosId(String _IdProductos) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 126
+2019-01-02 18:01:51,831 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:01:51,831 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 743
+2019-01-02 18:01:51,831 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 743
+2019-01-02 18:01:51,854 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:01:51,854 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 775
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _IdEncargado, String _Comentario, String _Servicio, String _IdTipoCarga, String _IdUnidadMedida, String _Cantidad, String _IdSucursal, String _ValorContrato, String _Ruta) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 689
+2019-01-02 18:01:51,855 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 775
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _IdEncargado, String _Comentario, String _Servicio, String _IdTipoCarga, String _IdUnidadMedida, String _Cantidad, String _IdSucursal, String _ValorContrato, String _Ruta) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 689
+2019-01-02 18:05:21,127 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:05:21,127 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 743
+2019-01-02 18:05:21,127 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 743
+2019-01-02 18:07:34,184 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:07:34,186 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 743
+2019-01-02 18:07:34,187 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 743
+2019-01-02 18:07:36,785 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:07:36,785 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 775
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _IdEncargado, String _Comentario, String _Servicio, String _IdTipoCarga, String _IdUnidadMedida, String _Cantidad, String _IdSucursal, String _ValorContrato, String _Ruta) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 689
+2019-01-02 18:07:36,785 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalDetalleContrato(String _Id, String _IdContrato, String _Ruta, String _Servicio, String _Valor, String _IdTipoCamion, String _IdTipoCarga, String _UnidadMedida, String _Cantidad, String _FechaInicio, String _FechaFin) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 775
+   en Disofi.Controllers.TamarugalGEController.GrabaTamarugalClienteContrato(String _Id, String _NumeroContrato, String _Cliente, String _FechaInicio, String _FechaTermino, String _IdEncargado, String _Comentario, String _Servicio, String _IdTipoCarga, String _IdUnidadMedida, String _Cantidad, String _IdSucursal, String _ValorContrato, String _Ruta) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 689
+2019-01-02 18:11:13,650 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 18:11:13,654 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 966
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 164
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 364
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 18:11:13,655 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 966
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 164
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 364
+2019-01-02 18:19:26,076 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 18:19:26,079 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 966
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 164
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 364
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 18:19:26,080 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 966
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 164
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 364
+2019-01-02 18:20:17,956 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 18:20:17,956 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 966
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 164
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 364
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 18:20:17,956 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 966
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 164
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 364
+2019-01-02 18:20:36,630 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 18:20:36,630 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 966
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 164
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 364
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 18:20:36,630 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 966
+   en Disofi.BLL.ControlDisofi.TamarugalDetalleContratos(String IdEncargado) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 164
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 364
+2019-01-02 18:31:04,945 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 18:31:04,945 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaExpedicion(String idusuario)
+   en Disofi.BLL.ControlDisofi.ListadoGuiaExpedicion(String idusuario)
+   en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 442
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 18:31:04,945 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaExpedicion(String idusuario)
+   en Disofi.BLL.ControlDisofi.ListadoGuiaExpedicion(String idusuario)
+   en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 442
+2019-01-02 18:34:09,251 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 18:34:09,252 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 244
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 18:34:09,252 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 244
+2019-01-02 18:37:48,714 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 18:37:48,714 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 244
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 18:37:48,714 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 244
+2019-01-02 18:41:45,580 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-02 18:41:45,580 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 244
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-02 18:41:45,581 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.BLL.ControlDisofi.DetalleServicioTamarugalId(String _idguia, String _numeroPedido)
+   en Disofi.Controllers.TamarugalGEController.DetalleServicioTamarugalId(String _idguia, String _numeroPedido) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 244
+2019-01-02 19:28:06,872 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-02 19:28:06,874 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 614
+2019-01-02 19:28:06,874 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 614

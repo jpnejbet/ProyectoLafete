@@ -1,0 +1,5 @@
+2019-01-01 23:57:58,125 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-01 23:58:02,066 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-01 23:58:06,834 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-01 23:58:58,758 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-01 23:58:58,802 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1

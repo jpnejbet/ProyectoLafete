@@ -1,0 +1,44 @@
+2018-12-27 00:38:24,902 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 00:38:24,913 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.GuiaExpe() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 336
+2018-12-27 00:38:24,914 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.GuiaExpe() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 336
+2018-12-27 00:42:56,929 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 00:42:56,931 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.GuiaExpe() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 336
+2018-12-27 00:42:56,932 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.GuiaExpe() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 336
+2018-12-27 00:46:39,514 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 00:46:39,515 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.GuiaExpe() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 336
+2018-12-27 00:46:39,515 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.GuiaExpe() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 336
+2018-12-27 00:53:53,865 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 00:53:53,868 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 395
+2018-12-27 00:53:53,868 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 395
+2018-12-27 00:58:07,247 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 00:58:07,248 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.HomeController.Index() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\HomeController.cs:línea 23
+2018-12-27 00:58:07,249 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.HomeController.Index() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\HomeController.cs:línea 23
+2018-12-27 01:06:20,807 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 01:06:20,808 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 395
+2018-12-27 01:06:20,809 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 395
+2018-12-27 01:06:24,141 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 01:06:24,141 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.HomeController.Index() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\HomeController.cs:línea 23
+2018-12-27 01:06:24,141 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.HomeController.Index() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\HomeController.cs:línea 23
+2018-12-27 01:34:36,538 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 01:34:36,540 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 420
+2018-12-27 01:34:36,540 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 420
+2018-12-27 01:34:44,010 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 01:34:44,010 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 420
+2018-12-27 01:34:44,010 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 420
+2018-12-27 01:34:48,856 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 01:34:48,856 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.HomeController.Index() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\HomeController.cs:línea 23
+2018-12-27 01:34:48,856 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.HomeController.Index() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\HomeController.cs:línea 23
+2018-12-27 11:02:45,444 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2018-12-27 11:02:45,501 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 468
+2018-12-27 11:02:45,503 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Planificacion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 468

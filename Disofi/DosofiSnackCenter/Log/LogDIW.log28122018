@@ -1,0 +1,4 @@
+2018-12-28 11:38:53,126 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-28 11:38:53,428 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-28 11:39:07,882 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-28 11:39:11,768 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

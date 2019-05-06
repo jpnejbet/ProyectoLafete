@@ -1,0 +1,65 @@
+﻿@{
+    /**/
+
+    /**/
+
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Tamarugal.js"></script>
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>GUIAS DE EXPEDICION</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+
+                    <div class="table-responsive">
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+     htmlAttributes: new { id = "tblContrato" },
+ tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+ columns:
+grid.Columns(
+    grid.Column(columnName: "NroContrato", header: "NroContrato", format: @<text>@item.NroContrato</text>),
+grid.Column(columnName: "Cliente", header: "Cliente", format: @<text>@item.Cliente</text>),
+grid.Column(columnName: "Servicio", header: "Servicio", format: @<text>@item.Servicio</text>),
+grid.Column(columnName: "Ruta", header: "Ruta", format: @<text>@item.Ruta</text>),
+grid.Column(columnName: "NroPedido", header: "NroPedido", format: @<text>@item.NroPedido</text>),
+grid.Column(columnName: "Cantidad", header: "Cantidad", format: @<text>@item.Cantidad</text>),
+grid.Column(columnName: "FechaInicio", header: "Fecha Inicio", format: @<text>@item.FechaInicio.ToString("MM/dd/yyyy")</text>),
+grid.Column(columnName: "FechaFin", header: "Fecha Fin", format: @<text>@item.FechaFin.ToString("MM/dd/yyyy")</text>),
+grid.Column(columnName: "Guia", header: "Guia", format: @<a class="btn btn-success btn-xs" href="@Url.Action("GuiaExpedicion", "TamarugalGE", new { IdPedido= @item.Id })">Guia Expedición</a>)
+))
+
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+ 

@@ -1,0 +1,29 @@
+2019-02-08 11:34:35,968 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-08 11:55:26,486 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-08 12:06:30,875 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-08 12:06:38,991 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-08 12:06:57,294 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-08 12:06:57,362 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-08 12:07:01,314 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-08 12:07:01,331 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-08 12:07:29,309 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-08 12:07:29,330 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-08 15:45:05,591 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-08 15:45:16,763 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-08 15:46:29,359 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/ConsultaMovil/Diagnostico' o no implementa IController.
+2019-02-08 15:46:29,396 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-08 15:49:29,787 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-08 15:49:37,785 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-08 15:49:50,490 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Diagnostico/Diagnostico' o no implementa IController.
+2019-02-08 15:49:50,542 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-08 15:52:57,253 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-08 15:53:08,548 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-08 15:53:14,487 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Diagnostico/Diagnostico' o no implementa IController.
+2019-02-08 15:53:14,529 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-08 15:53:26,156 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Diagnostico/Diagnostico' o no implementa IController.
+2019-02-08 15:53:26,171 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-08 15:53:32,687 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Diagnostico/Diagnostico' o no implementa IController.
+2019-02-08 15:53:32,703 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-08 16:18:24,033 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Referencia a objeto no establecida como instancia de un objeto.
+2019-02-08 16:18:24,061 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-02-08 16:19:11,335 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

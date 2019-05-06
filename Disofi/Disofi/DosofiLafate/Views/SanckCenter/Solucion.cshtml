@@ -1,0 +1,73 @@
+﻿
+
+@{
+    /**/
+
+    ViewBag.Title = "Consulta datos Tecnico";
+}
+
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
+
+
+<script src="~/WebJs/HomeJs/Agrup.js"></script>
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+<link href="~/Content/Agrup.css" rel="stylesheet" />
+
+<div class="right_col" role="main">
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>LISTADO DE CODIGOS SERVICIO TÉCNICO-SOLUCIÓN</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+
+                <div class="x_content">
+
+
+                    <div class="table-responsive">
+
+
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+                                        htmlAttributes: new { id = "Maestros" },
+                                        tableStyle: "display",
+                                        columns:
+                                        grid.Columns(
+                                                     grid.Column(columnName: "codigo", header: "Código", format: @<text>@item.codigo</text>),
+grid.Column(columnName: "Descripcion", header: "Descripcion", format: @<text>@item.Descripcion</text>),
+grid.Column(columnName: "Editar", header: "Editar", format: @<a class="btn btn-success" href="@Url.Action("AdmOrdenAtencion", "SanckCenter", new { id= @item.Id })">Editar</a>)
+))
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+

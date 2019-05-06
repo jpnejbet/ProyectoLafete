@@ -1,0 +1,301 @@
+﻿@{
+    ViewBag.Title = "Recepción Guía Despacho";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Tamarugal.js"></script>
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Recepción Guía Despacho</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="table-table-striped jambo_table bulk_action">
+                        <div class="col-lg-12">
+                            <table id="tbladeproductos" class="table table-striped table-bordered table-hover dataTables-example dataTable"></table>
+                        </div>
+
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+                                        htmlAttributes: new { id = "tblContrato" },
+                                        exclusions: new[] { "IdConductor" },
+                                        tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+                                        columns:
+                                        grid.Columns(
+                                            grid.Column(columnName: "NumeroPedido", header: "Pedido", format: @<text>@item.NumeroPedido</text>),
+                      grid.Column(columnName: "IdGuia", header: "Guia Exp.", format: @<text>@item.IdGuia</text>),
+                    grid.Column(columnName: "IdDespacho", header: "Despacho", format: @<text>@item.IdDespacho</text>),
+         grid.Column(columnName: "Conductor", header: "Conductor", format: @<text>@item.Conductor</text>),
+grid.Column(columnName: "NroContrato", header: "Contrato", format: @<text>@item.NroContrato</text>),
+grid.Column(columnName: "Cliente", header: "Cliente", format: @<text>@item.Cliente</text>),
+grid.Column(columnName: "Servicio", header: "Servicio", format: @<text>@item.Servicio</text>),
+grid.Column(columnName: "Recepcionar", header: "Recepcionar", format: @<button class="btn btn-success" type="button" data-toggle="modal" tooltip="Editar Parametro" data-target="#ModalRuta"
+                                                                               onclick="RecepcionGuieExp('@item.NroContrato',
+                                                                               '@item.IdGuia',
+                                                                               '@item.NumeroPedido',
+                                                                               '@item.Cliente',
+                                                                               '@item.Servicio',
+                                                                               '@item.IdDespacho',
+                                                                               '@item.Vuelta',
+                                                                               '@item.VueltaCompletadas')">
+                        Recepción
+                    </button>)
+))
+
+
+
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<div id="ModalRuta" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Recepcionar Guía Despacho</h4>
+            </div>
+             
+                <div class="x_content">
+                    <br />
+                    <form class="form-horizontal form-label-left input_mask">
+
+
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Cliente
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="txtCliente" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+
+
+                            <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                Nro Contrato
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtNroCliente" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Servicio
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input id="txtServicio" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Despacho
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtDespacho" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                N° Guía Exp.
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtNroGuia" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Nro Pedido
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtNroPedido" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Rutas Asignadas  <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <select id="CmbRuta" class="form-control"></select>
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="form-group">
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Rut Emisor
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtRutEmisor" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                N° Guía Despacho
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtGuiaDespacho" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Fecha Emisiòn<span class="required">*</span>
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+
+                                <input type="text" class="form-control has-feedback-left" id="single_cal3" name="FechaInicioContrato" aria-describedby="inputSuccess2Status2">
+                                <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                <span id="inputSuccess2Status2" class="sr-only"></span>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                Patente
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtPatente" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+                            <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                Placa Remolque
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtPlacaNroRemolque" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div> 
+
+                        </div>
+
+                         
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Fecha Entrega<span class="required">*</span>
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input type="text" class="form-control has-feedback-left" id="single_cal1" name="FechaInicioContrato" aria-describedby="inputSuccess2Status2">
+                                <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                <span id="inputSuccess2Status2" class="sr-only"></span>
+                            </div>
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Toneladas
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtToneladas" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+                        </div>
+                         
+
+
+                        <div class="form-group">
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Numero Vueltas
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtVueltaRecep" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+
+
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Vueltas Completadas
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtVueltaSoli" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+
+
+                            <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                Vueltas Pedido
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtVueltaHecha" disabled="disabled" class="form-control col-md-2 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                Comentarios <span class="required">*</span>
+                            </label>
+                            <div class="col-md-8 col-sm-8   col-xs-12">
+                                <textarea class="form-control col-md-6 col-xs-12" maxlength="350" id="txtComentario" rows="3"></textarea>
+                            </div>
+                        </div>
+
+
+
+                        <div class="ln_solid"></div>
+                        <div class="form-group">
+                            <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                                <button class="btn btn-primary" type="reset">Limpiar</button>
+                                <button type="button" class="btn btn-success" id="btnGrabarRecepcionGuia">Grabar</button>
+                                <a id="btnRendir" class="btn btn-success" href="@Url.Action("Rendicion2", "TamarugalGE")">Ir Rendición</a>
+
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+             
+            <div class="modal-footer">
+                <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>

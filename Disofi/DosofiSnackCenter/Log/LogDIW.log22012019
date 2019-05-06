@@ -1,0 +1,29 @@
+2019-01-22 00:15:11,528 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-22 00:15:14,960 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-22 00:15:40,052 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Views\TamarugalGE\Despacho.cshtml(115): error CS1002: ; expected
+2019-01-22 00:15:40,141 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2019-01-22 00:16:13,305 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Views\TamarugalGE\Despacho.cshtml(115): error CS1002: ; expected
+2019-01-22 00:16:13,325 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2019-01-22 00:18:07,778 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Views\TamarugalGE\Despacho.cshtml(115): error CS1002: ; expected
+2019-01-22 00:18:07,942 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2019-01-22 00:18:22,389 INFO Disofi.MvcApplication - Codigo de Error: 500 | Mensaje de Error: D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Views\TamarugalGE\Despacho.cshtml(115): error CS1002: ; expected
+2019-01-22 00:18:22,448 INFO Disofi.Controllers.ErrorController - Codigo Error: 500 desde la IP: ::1
+2019-01-22 00:19:30,656 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-22 00:19:33,677 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-22 00:27:22,208 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-22 00:27:28,125 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-22 00:30:09,773 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-22 00:30:13,743 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-22 00:30:40,587 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-22 00:31:04,939 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-22 00:31:48,575 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-22 00:35:04,400 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-22 00:35:07,319 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-22 00:40:05,299 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-22 00:40:08,240 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-22 00:45:15,844 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-22 00:45:18,877 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-22 00:46:18,737 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-22 00:46:23,448 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-22 00:51:08,188 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-22 00:51:13,127 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

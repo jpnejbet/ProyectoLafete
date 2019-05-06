@@ -1,0 +1,84 @@
+2019-01-31 00:04:32,098 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-31 00:04:32,098 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.HomeController.Index() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\HomeController.cs:línea 24
+2019-01-31 00:04:32,098 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.HomeController.Index() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\HomeController.cs:línea 24
+2019-01-31 01:46:23,147 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-31 01:46:23,148 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 31
+2019-01-31 01:46:23,148 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 31
+2019-01-31 02:42:18,270 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-31 02:42:18,272 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetGrabaOrdenAtencion(ObjetoOrdenAtencion ordenAtencion) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 2523
+   en Disofi.BLL.ControlDisofi.SetGrabaOrdenAtencion(ObjetoOrdenAtencion pedido) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 283
+   en Disofi.Controllers.SanckCenterController.GrabarOrdenAtencion(String _Id, String _TipoAtencion, String _Requemiento, String _TipoCliente, String _NombreCliente, String _NumeroContacto, String _Descripcion, String _UbicacionFisica, String _Diganostico, String _Solucion, String _Responsable, String _DescripcionSolucion) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 97
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-31 02:42:18,272 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetGrabaOrdenAtencion(ObjetoOrdenAtencion ordenAtencion) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 2523
+   en Disofi.BLL.ControlDisofi.SetGrabaOrdenAtencion(ObjetoOrdenAtencion pedido) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 283
+   en Disofi.Controllers.SanckCenterController.GrabarOrdenAtencion(String _Id, String _TipoAtencion, String _Requemiento, String _TipoCliente, String _NombreCliente, String _NumeroContacto, String _Descripcion, String _UbicacionFisica, String _Diganostico, String _Solucion, String _Responsable, String _DescripcionSolucion) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 97
+2019-01-31 02:51:23,721 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-31 02:51:23,723 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 31
+2019-01-31 02:51:23,723 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 31
+2019-01-31 02:53:36,219 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-31 02:53:36,222 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetGrabaOrdenAtencion(ObjetoOrdenAtencion ordenAtencion) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 2523
+   en Disofi.BLL.ControlDisofi.SetGrabaOrdenAtencion(ObjetoOrdenAtencion pedido) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 283
+   en Disofi.Controllers.SanckCenterController.GrabarOrdenAtencion(String _Id, String _TipoAtencion, String _Requemiento, String _TipoCliente, String _NombreCliente, String _NumeroContacto, String _Descripcion, String _UbicacionFisica, String _Diganostico, String _Solucion, String _Responsable, String _DescripcionSolucion) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 97
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-31 02:53:36,249 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetGrabaOrdenAtencion(ObjetoOrdenAtencion ordenAtencion) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 2523
+   en Disofi.BLL.ControlDisofi.SetGrabaOrdenAtencion(ObjetoOrdenAtencion pedido) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 283
+   en Disofi.Controllers.SanckCenterController.GrabarOrdenAtencion(String _Id, String _TipoAtencion, String _Requemiento, String _TipoCliente, String _NombreCliente, String _NumeroContacto, String _Descripcion, String _UbicacionFisica, String _Diganostico, String _Solucion, String _Responsable, String _DescripcionSolucion) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 97
+2019-01-31 03:29:30,237 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-31 03:29:30,239 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.InformesController.ConsultaComercial() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\Informes.cs:línea 27
+2019-01-31 03:29:30,239 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.InformesController.ConsultaComercial() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\Informes.cs:línea 27
+2019-01-31 03:35:54,296 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-31 03:35:54,298 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.InformesController.ConsultaComercial() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\Informes.cs:línea 27
+2019-01-31 03:35:54,298 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.InformesController.ConsultaComercial() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\Informes.cs:línea 27
+2019-01-31 10:49:08,848 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-31 10:49:08,870 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 31
+2019-01-31 10:49:08,870 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.SanckCenterController.OrdenAtencion() en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\SnakCenter.cs:línea 31

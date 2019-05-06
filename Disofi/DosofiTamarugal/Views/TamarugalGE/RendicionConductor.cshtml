@@ -1,0 +1,61 @@
+﻿@{
+
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Tamarugal.js"></script>
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>RENDICIÓN POR CONDUCTOR</h2>
+             
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <h2>Seleccione Conductor</h2>
+
+
+                <div class="form-group">
+
+                    <div class="table-table-striped jambo_table bulk_action">
+                        @{
+                            var GriListadoConductores = new WebGrid(source: ViewBag.ListadoConductores, canPage: false);
+                        }
+                        @GriListadoConductores.GetHtml(
+htmlAttributes: new { id = "tblConductores" },
+tableStyle: "table table-bordered",
+columns:
+GriListadoConductores.Columns(
+GriListadoConductores.Column(columnName: "Id", header: "Id", format: @<text>@item.Id</text>),
+GriListadoConductores.Column(columnName: "Rut", header: "Rut Conductor", format: @<text>@item.Rut</text>),
+GriListadoConductores.Column(columnName: "Conductor", header: "Nombre Conductor", format: @<text>@item.Conductor</text>),
+GriListadoConductores.Column(columnName: "Recepcionar", header: "Recepcionar", format: @<a class="btn btn-success btn-xs" href="@Url.Action("Rendicion", "TamarugalGE", new { _IdConductor= @item.Id })">Ver Guias</a>)
+))
+
+
+
+                    </div>
+
+                </div>
+
+                <div id="divAlert"></div>
+                <br />
+
+ 
+                 
+
+            </div>
+        </div>
+    </div>
+
+
+</div> 
+
+
+
+ 

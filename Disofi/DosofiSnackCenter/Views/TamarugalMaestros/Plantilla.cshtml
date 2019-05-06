@@ -1,0 +1,97 @@
+﻿
+@{
+    ViewBag.Title = "Usuarios";
+}
+
+
+ 
+<script src="~/WebJs/HomeJs/Mantenedores.js"></script>
+
+
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+                <div class="x_title">
+                    <h2>Listado de Rutas del sistema</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                        <li>
+                            <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                        </li>
+                        <li>
+                            <a class="close-link"><i class="fa fa-close"></i></a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    <p class="text-muted font-13 m-b-30">
+                        Este listado muestra los rutas existentes del sistema.
+                    </p>
+                    <div class="table-responsive">
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+     htmlAttributes: new { id = "tblRutas" },
+ tableStyle: "display",
+ columns:
+     grid.Columns(
+         grid.Column(columnName: "Id", header: "Id", format: @<text>@item.Id</text>),
+grid.Column(columnName: "Ruta", header: "Rutas", format: @<text>@item.Ruta</text>),
+grid.Column(columnName: "Editar", header: "Editar", format: @<button class="btn btn-success" type="button" data-toggle="modal" tooltip="Editar Parametro" data-target="#ModalRuta"
+                                                                                                                                                         onclick="EditarSeguimientoPedido(@item.Id,'@item.Ruta')">Ediar
+                    </button>)
+))
+                          
+
+                    </div>
+
+                    <div id="divAlert"></div>
+                    <div class="form-group">
+                        <div>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Agregar Usuario</button>
+                        </div>
+                    </div>
+
+                    <div id="ModalRuta" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel">Agregar Nueva Ruta</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <h4>Ingrese los datos solicitados</h4>
+                                    <div class="x_content">
+                                        <br />
+                                        <form class="form-horizontal form-label-left input_mask">
+                                              
+
+                                            <div class="ln_solid"></div>
+                                            <div class="form-group">
+                                                <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                                                    <button class="btn btn-primary" type="reset">Resetear</button>
+                                                    <button type="submit" class="btn btn-success" id="btnGrabarDatos">Grabar</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

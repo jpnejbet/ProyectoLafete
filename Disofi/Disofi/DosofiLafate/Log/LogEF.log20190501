@@ -1,0 +1,46 @@
+2019-05-01 11:44:44,422 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-05-01 11:44:44,438 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.LafeteController.AsignaPicking() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 337
+2019-05-01 11:44:44,438 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.LafeteController.AsignaPicking() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 337
+2019-05-01 11:45:19,474 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-05-01 11:45:19,490 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.LafeteController.AsignaPicking() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 337
+2019-05-01 11:45:19,490 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.LafeteController.AsignaPicking() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 337
+2019-05-01 11:46:30,050 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-05-01 11:46:30,050 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.LafeteController.PropuestaDespacho() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 26
+2019-05-01 11:46:30,050 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.LafeteController.PropuestaDespacho() en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 26
+2019-05-01 12:16:35,406 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-05-01 12:16:35,409 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.Dal\Conector.cs:línea 84
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 25
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 35
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/Alfredo/Desktop/Disofi/Proyecto/Disofi/Disofi/DosofiLafate/
+LOG: PrivatePath inicial = C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Alfredo\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Alfredo/AppData/Local/Temp/Temporary ASP.NET Files/vs/246acf88/f05c5af0/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Alfredo/AppData/Local/Temp/Temporary ASP.NET Files/vs/246acf88/f05c5af0/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Alfredo/Desktop/Disofi/Proyecto/Disofi/Disofi/DosofiLafate/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-05-01 12:16:35,410 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.Dal\Conector.cs:línea 84
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 25
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 35

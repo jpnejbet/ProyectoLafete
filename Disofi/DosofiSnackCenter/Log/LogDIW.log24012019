@@ -1,0 +1,14 @@
+2019-01-24 10:28:48,130 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-24 10:29:24,723 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-24 11:05:36,247 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-24 11:05:38,611 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-24 11:40:25,257 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:40:25,301 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-24 11:40:40,592 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:40:40,609 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-24 11:41:05,463 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:41:05,479 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-24 11:41:15,450 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-24 11:41:15,466 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-24 11:42:37,854 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-24 11:51:55,641 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

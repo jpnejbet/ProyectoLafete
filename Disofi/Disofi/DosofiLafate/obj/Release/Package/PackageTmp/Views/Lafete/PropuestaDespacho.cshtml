@@ -1,0 +1,183 @@
+﻿
+
+
+@{
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+
+
+<script type="text/javascript">
+        $(document).ready(function () {
+            $("#BtnGenerarDespacho").click(function () {
+                 
+                var _bodega = $("#cmbBodega").val();
+
+
+           
+
+
+                location.href = '@Url.Action("PropuestaDespacho2", "Lafete")?_CodBodega=' + _bodega;
+
+            });
+        });
+</script>
+
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+
+
+    <div id="modalPopUpIngresoUsuario" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Preparar Despacho</h4>
+                </div>
+                <div class="">
+
+                    <div class="x_content">
+                        <div class="table-responsive">
+
+                            <div class="form-group">
+                                <br />
+                                <h2>Seleccionar Bodega para enviar a preparar picking</h2>
+                                <br />
+                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                    @Html.DropDownList("cmbBodega", (IEnumerable<SelectListItem>)ViewBag.cmbBodega, "Seleccione...", new { @class = "form-control", @ID = "cmbBodega" })
+                                </div>
+                                <br />
+                                <br />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <br />
+                    <br />
+
+                    @*<a class="btn  btn-primary" href="@Url.Action("PropuestaDespacho2", "Lafete", new {id = 3} )">Generar Despacho</a>*@
+                    <button id="BtnGenerarDespacho" type="button" class="btn btn-primary">Generar Despacho</button>
+
+                    <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Propuesta de Despacho</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+
+                <div class="form-group">
+                    <div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalPopUpIngresoUsuario">Preparar Despacho</button>
+                    </div>
+                </div>
+
+
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+
+                    <div class="x_content">
+
+                        <h2>Listado Producto para despacho</h2>
+
+                        <div class="table-responsive">
+
+
+                            @{
+                                var gridProductos = new WebGrid(source: ViewBag.ListadoProductos, canPage: false);
+                            }
+
+                            @gridProductos.GetHtml(
+                htmlAttributes: new { id = "tblProductos" },
+                tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+                columns:
+                gridProductos.Columns(
+                            gridProductos.Column(columnName: "Codigo", header: "Codigo", format: @<text>@item.Codigo</text>),
+gridProductos.Column(columnName: "Descripcion", header: "Descripcion", format: @<text>@item.Descripcion</text>),
+gridProductos.Column(columnName: "AEROPUERTO_INTERNACIONAL", header: "AEROPUERTO_INTERNACIONAL", format: @<text>@item.AEROPUERTO_INTERNACIONAL</text>),
+gridProductos.Column(columnName: "AEROPUERTO_NACIONAL", header: "AEROPUERTO_NACIONAL", format: @<text>@item.AEROPUERTO_NACIONAL</text>),
+gridProductos.Column(columnName: "ALTO_LAS_CONDES", header: "ALTO_LAS_CONDES", format: @<text>@item.ALTO_LAS_CONDES</text>),
+gridProductos.Column(columnName: "ANGAMOS", header: "ANGAMOS", format: @<text>@item.ANGAMOS</text>),
+gridProductos.Column(columnName: "ANTOFAGASTA", header: "ANTOFAGASTA", format: @<text>@item.ANTOFAGASTA</text>),
+gridProductos.Column(columnName: "ARICA", header: "ARICA", format: @<text>@item.ARICA</text>),
+gridProductos.Column(columnName: "BIO_BIO", header: "BIO_BIO", format: @<text>@item.BIO_BIO</text>),
+gridProductos.Column(columnName: "CACHAGUA", header: "CACHAGUA", format: @<text>@item.CACHAGUA</text>),
+gridProductos.Column(columnName: "CALAMA", header: "CALAMA", format: @<text>@item.CALAMA</text>),
+gridProductos.Column(columnName: "CASA_COSTANERA", header: "CASA_COSTANERA", format: @<text>@item.CASA_COSTANERA</text>),
+gridProductos.Column(columnName: "COSTANERA_CENTER", header: "COSTANERA_CENTER", format: @<text>@item.COSTANERA_CENTER</text>),
+gridProductos.Column(columnName: "EL_TREBOL", header: "EL_TREBOL", format: @<text>@item.EL_TREBOL</text>),
+gridProductos.Column(columnName: "EMPORIO_FALABELLA", header: "EMPORIO_FALABELLA", format: @<text>@item.EMPORIO_FALABELLA</text>),
+gridProductos.Column(columnName: "FLORIDA_CENTER", header: "FLORIDA_CENTER", format: @<text>@item.FLORIDA_CENTER</text>),
+gridProductos.Column(columnName: "ISIDORA_GOYENECHEA", header: "ISIDORA_GOYENECHEA", format: @<text>@item.ISIDORA_GOYENECHEA</text>),
+gridProductos.Column(columnName: "LA_DEHESA", header: "LA_DEHESA", format: @<text>@item.LA_DEHESA</text>),
+gridProductos.Column(columnName: "LA_REINA", header: "LA_REINA", format: @<text>@item.LA_REINA</text>),
+gridProductos.Column(columnName: "LA_SERENA", header: "LA_SERENA", format: @<text>@item.LA_SERENA</text>),
+gridProductos.Column(columnName: "LAS_BRISAS", header: "LAS_BRISAS", format: @<text>@item.LAS_BRISAS</text>),
+gridProductos.Column(columnName: "LOS_DOMINICOS", header: "LOS_DOMINICOS", format: @<text>@item.LOS_DOMINICOS</text>),
+gridProductos.Column(columnName: "LOS_TRAPENSES", header: "LOS_TRAPENSES", format: @<text>@item.LOS_TRAPENSES</text>),
+gridProductos.Column(columnName: "MAITENCILLO", header: "MAITENCILLO", format: @<text>@item.MAITENCILLO</text>),
+gridProductos.Column(columnName: "MONTEMAR", header: "MONTEMAR", format: @<text>@item.MONTEMAR</text>),
+gridProductos.Column(columnName: "NUEVA_YORK", header: "NUEVA_YORK", format: @<text>@item.NUEVA_YORK</text>),
+gridProductos.Column(columnName: "PARQUE_ARAUCO", header: "PARQUE_ARAUCO", format: @<text>@item.PARQUE_ARAUCO</text>),
+gridProductos.Column(columnName: "PLAZA_EGANA", header: "PLAZA_EGANA", format: @<text>@item.PLAZA_EGANA</text>),
+gridProductos.Column(columnName: "PROVIDENCIA", header: "PROVIDENCIA", format: @<text>@item.PROVIDENCIA</text>),
+gridProductos.Column(columnName: "PUERTO_VARAS", header: "PUERTO_VARAS", format: @<text>@item.PUERTO_VARAS</text>),
+gridProductos.Column(columnName: "PUNTA_ARENAS", header: "PUNTA_ARENAS", format: @<text>@item.PUNTA_ARENAS</text>),
+gridProductos.Column(columnName: "RANCAGUA", header: "RANCAGUA", format: @<text>@item.RANCAGUA</text>),
+gridProductos.Column(columnName: "SANTO_DOMINGO", header: "SANTO_DOMINGO", format: @<text>@item.SANTO_DOMINGO</text>),
+gridProductos.Column(columnName: "TALCA", header: "TALCA", format: @<text>@item.TALCA</text>),
+gridProductos.Column(columnName: "TEMUCO", header: "TEMUCO", format: @<text>@item.TEMUCO</text>),
+gridProductos.Column(columnName: "VALDIVIA", header: "VALDIVIA", format: @<text>@item.VALDIVIA</text>),
+gridProductos.Column(columnName: "VINA_6_PONIENTE", header: "VINA_6_PONIENTE", format: @<text>@item.VINA_6_PONIENTE</text>),
+gridProductos.Column(columnName: "VINA_DEL_MAR", header: "VINA_DEL_MAR", format: @<text>@item.VINA_DEL_MAR</text>),
+gridProductos.Column(columnName: "VITACURA", header: "VITACURA", format: @<text>@item.VITACURA</text>),
+gridProductos.Column(columnName: "ZAPALLAR", header: "ZAPALLAR", format: @<text>@item.ZAPALLAR</text>),
+gridProductos.Column(columnName: "TotalStockGeneral", header: "Stock General", format: @<text>@item.TotalStockGeneral</text>),
+gridProductos.Column(columnName: "TotalStockFabrica", header: "Stock Fabrica", format: @<text>@item.TotalStockFabrica</text>),
+gridProductos.Column(columnName: "TotalStockFaltante", header: "StockFaltante", format: @<text>@item.TotalStockFaltante</text>)
+
+                                                      ))
+
+                        </div>
+                    </div>
+
+
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+

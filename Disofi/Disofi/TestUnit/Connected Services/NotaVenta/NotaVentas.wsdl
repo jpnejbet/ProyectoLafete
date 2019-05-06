@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GrabarNotaVenta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="NotaVenta" type="tns:NotaVenta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="NotaVenta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="nvFem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstFact" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstDesp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstRese" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstConc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CotNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumOC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvFeEnt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodAux" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VenCod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodMon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodLista" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvObser" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvCanalNV" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CveCod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomCon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodiCC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodBode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvSubTotal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvMonto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvFeAprob" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumGuiaRes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEquiv" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvNetoExento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvNetoAfecto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvTotalDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConcAuto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodLugarDesp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolicitadoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DespachadoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Patente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RetiradoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CheckeoPorAlarmaVtas" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnMantencion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioGeneraDocto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaHoraCreacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sistema" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="proceso" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalBoleta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumReq" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodBodeWms" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarNotaVentaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrabarNotaVentaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GrabarDetalleNotaVenta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="detalle" type="tns:DetalleNotaVenta" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DetalleNotaVenta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="nvFem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstFact" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstDesp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstRese" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstConc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CotNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumOC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvFeEnt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodAux" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VenCod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodMon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodLista" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvObser" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvCanalNV" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CveCod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomCon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodiCC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodBode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvSubTotal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvMonto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvFeAprob" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumGuiaRes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEquiv" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvNetoExento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvNetoAfecto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvTotalDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConcAuto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodLugarDesp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolicitadoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DespachadoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Patente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RetiradoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CheckeoPorAlarmaVtas" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnMantencion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioGeneraDocto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaHoraCreacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sistema" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="proceso" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalBoleta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumReq" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodBodeWms" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarDetalleNotaVentaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrabarDetalleNotaVentaResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GrabarDetalle_nw_impto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nw_impto" type="tns:nw_impto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="nw_impto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="nvFem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstFact" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstDesp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstRese" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstConc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CotNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumOC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvFeEnt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodAux" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VenCod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodMon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodLista" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvObser" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvCanalNV" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CveCod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomCon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodiCC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodBode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvSubTotal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvMonto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvFeAprob" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumGuiaRes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEquiv" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvNetoExento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvNetoAfecto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvTotalDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConcAuto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodLugarDesp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolicitadoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DespachadoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Patente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RetiradoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CheckeoPorAlarmaVtas" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnMantencion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioGeneraDocto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaHoraCreacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sistema" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="proceso" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalBoleta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumReq" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodBodeWms" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GrabarDetalle_nw_imptoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GrabarDetalle_nw_imptoResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Grabar_iw_timprod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="iw_timprod" type="tns:iw_timprod" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="iw_timprod">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="nvFem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstFact" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstDesp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstRese" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEstConc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CotNum" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumOC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvFeEnt" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodAux" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="VenCod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodMon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodLista" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvObser" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvCanalNV" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CveCod" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomCon" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodiCC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodBode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvSubTotal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto01" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto02" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc03" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto04" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvPorcDesc05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvDescto05" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvMonto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvFeAprob" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumGuiaRes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvEquiv" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvNetoExento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvNetoAfecto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nvTotalDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConcAuto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodLugarDesp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SolicitadoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DespachadoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Patente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RetiradoPor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CheckeoPorAlarmaVtas" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnMantencion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UsuarioGeneraDocto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaHoraCreacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sistema" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="proceso" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalBoleta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumReq" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodBodeWms" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Grabar_iw_timprodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Grabar_iw_timprodResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GrabarNotaVentaSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarNotaVenta" />
+  </wsdl:message>
+  <wsdl:message name="GrabarNotaVentaSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarNotaVentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarDetalleNotaVentaSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarDetalleNotaVenta" />
+  </wsdl:message>
+  <wsdl:message name="GrabarDetalleNotaVentaSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarDetalleNotaVentaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GrabarDetalle_nw_imptoSoapIn">
+    <wsdl:part name="parameters" element="tns:GrabarDetalle_nw_impto" />
+  </wsdl:message>
+  <wsdl:message name="GrabarDetalle_nw_imptoSoapOut">
+    <wsdl:part name="parameters" element="tns:GrabarDetalle_nw_imptoResponse" />
+  </wsdl:message>
+  <wsdl:message name="Grabar_iw_timprodSoapIn">
+    <wsdl:part name="parameters" element="tns:Grabar_iw_timprod" />
+  </wsdl:message>
+  <wsdl:message name="Grabar_iw_timprodSoapOut">
+    <wsdl:part name="parameters" element="tns:Grabar_iw_timprodResponse" />
+  </wsdl:message>
+  <wsdl:portType name="NotaVentasSoap">
+    <wsdl:operation name="GrabarNotaVenta">
+      <wsdl:input message="tns:GrabarNotaVentaSoapIn" />
+      <wsdl:output message="tns:GrabarNotaVentaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarDetalleNotaVenta">
+      <wsdl:input message="tns:GrabarDetalleNotaVentaSoapIn" />
+      <wsdl:output message="tns:GrabarDetalleNotaVentaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GrabarDetalle_nw_impto">
+      <wsdl:input message="tns:GrabarDetalle_nw_imptoSoapIn" />
+      <wsdl:output message="tns:GrabarDetalle_nw_imptoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Grabar_iw_timprod">
+      <wsdl:input message="tns:Grabar_iw_timprodSoapIn" />
+      <wsdl:output message="tns:Grabar_iw_timprodSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NotaVentasSoap" type="tns:NotaVentasSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GrabarNotaVenta">
+      <soap:operation soapAction="http://tempuri.org/GrabarNotaVenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarDetalleNotaVenta">
+      <soap:operation soapAction="http://tempuri.org/GrabarDetalleNotaVenta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarDetalle_nw_impto">
+      <soap:operation soapAction="http://tempuri.org/GrabarDetalle_nw_impto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Grabar_iw_timprod">
+      <soap:operation soapAction="http://tempuri.org/Grabar_iw_timprod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NotaVentasSoap12" type="tns:NotaVentasSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GrabarNotaVenta">
+      <soap12:operation soapAction="http://tempuri.org/GrabarNotaVenta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarDetalleNotaVenta">
+      <soap12:operation soapAction="http://tempuri.org/GrabarDetalleNotaVenta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GrabarDetalle_nw_impto">
+      <soap12:operation soapAction="http://tempuri.org/GrabarDetalle_nw_impto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Grabar_iw_timprod">
+      <soap12:operation soapAction="http://tempuri.org/Grabar_iw_timprod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NotaVentas">
+    <wsdl:port name="NotaVentasSoap" binding="tns:NotaVentasSoap">
+      <soap:address location="http://localhost:59629/NotaVentas.asmx" />
+    </wsdl:port>
+    <wsdl:port name="NotaVentasSoap12" binding="tns:NotaVentasSoap12">
+      <soap12:address location="http://localhost:59629/NotaVentas.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

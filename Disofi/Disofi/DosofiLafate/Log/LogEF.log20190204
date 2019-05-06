@@ -1,0 +1,84 @@
+2019-02-04 13:55:52,773 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-02-04 13:55:52,777 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 25
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 35
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/73998433/91fa1bad/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Disofi/DosofiLafate/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-02-04 13:55:52,778 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.DAL.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\Conector.cs:línea 80
+   en Disofi.DAL.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\Conector.cs:línea 22
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 25
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 35
+2019-02-04 14:49:41,710 FATAL Disofi.Utils.CapturaExcepciones - La columna 'email' no pertenece a la tabla .
+2019-02-04 14:49:41,726 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'email' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 56
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 35
+2019-02-04 14:49:41,727 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.LoginUsuario(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\FactoryAccesos.cs:línea 56
+   en Disofi.BLL.ControlDisofi.Login(String rut, String pass) en D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\ControlDisofi.cs:línea 17
+   en Disofi.Controllers.LoginController.Index(LoginViewModel model, String returnUrl) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LoginController.cs:línea 35
+2019-02-04 14:57:44,730 FATAL Disofi.Utils.CapturaExcepciones - System.Web.Services.Protocols.SoapException: El servidor no puede procesar la solicitud. ---> System.Data.SqlClient.SqlException: El procedimiento Disofi_GetProductosAgrupado no tiene parámetros y se han proporcionado argumentos.
+   en Disofi.ServicioSoftland.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 94
+   en Disofi.ServicioSoftland.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 32
+   en Disofi.ServicioSoftland.Maestros.ListadoPorProductoAgrupado(String codigoBodega) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Maestros.asmx.cs:línea 115
+   --- Fin del seguimiento de la pila de la excepción interna ---
+2019-02-04 14:57:44,732 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ServiceModel.FaultException: System.Web.Services.Protocols.SoapException: El servidor no puede procesar la solicitud. ---> System.Data.SqlClient.SqlException: El procedimiento Disofi_GetProductosAgrupado no tiene parámetros y se han proporcionado argumentos.
+   en Disofi.ServicioSoftland.DBConector.ObtenerProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn, SqlParameter singleParameter, SqlTransaction transaccion) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 94
+   en Disofi.ServicioSoftland.DBConector.EjecutarProcedimientoAlmacenado(String spName, Hashtable sqlParametersIn) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Conector.cs:línea 32
+   en Disofi.ServicioSoftland.Maestros.ListadoPorProductoAgrupado(String codigoBodega) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\Maestros.asmx.cs:línea 115
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoPorProductoAgrupado(String codigoBodega)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoPorProductoAgrupado(String codigoBodega) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 175
+   en Disofi.Controllers.LafeteController.PropuestaDespacho2(String _CodBodega) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 241
+2019-02-04 14:57:44,732 ERROR Disofi.Utils.CapturaExcepciones - 
+Server stack trace: 
+   en System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoap.ListadoPorProductoAgrupado(String codigoBodega)
+   en DisofiLafete.MaestrosSoapClient.MaestrosSoapClient.ListadoPorProductoAgrupado(String codigoBodega) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Connected Services\MaestrosSoapClient\Reference.cs:línea 175
+   en Disofi.Controllers.LafeteController.PropuestaDespacho2(String _CodBodega) en D:\Desarrollo\Consisa\Disofi\Disofi\DosofiLafate\Controllers\LafetePDespacho.cs:línea 241

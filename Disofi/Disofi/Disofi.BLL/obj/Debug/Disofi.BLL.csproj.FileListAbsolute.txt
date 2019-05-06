@@ -1,0 +1,72 @@
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\bin\Debug\Disofi.BLL.dll
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\bin\Debug\Disofi.BLL.pdb
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csprojAssemblyReference.cache
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.dll
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.pdb
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\bin\Debug\Disofi.DAL.dll
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\bin\Debug\Disofi.UTIL.dll
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\bin\Debug\log4net.dll
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\bin\Debug\Disofi.DAL.pdb
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\bin\Debug\Disofi.UTIL.pdb
+C:\Users\Luisi\source\repos\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\bin\Debug\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\bin\Debug\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\bin\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\bin\Debug\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\bin\Debug\log4net.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\bin\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\bin\Debug\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\bin\Debug\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\bin\Debug\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\bin\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\bin\Debug\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\bin\Debug\log4net.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\bin\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\bin\Debug\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\obj\Debug\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\bin\Debug\log4net.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.BLL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\bin\Debug\log4net.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.pdb
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.BLL.dll
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.BLL.pdb
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.DAL.dll
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.UTIL.dll
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\bin\Debug\log4net.dll
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.DAL.pdb
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\bin\Debug\Disofi.UTIL.pdb
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csprojAssemblyReference.cache
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.csproj.CopyComplete
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.dll
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi\Disofi.BLL\obj\Debug\Disofi.BLL.pdb

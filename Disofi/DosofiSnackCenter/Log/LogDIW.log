@@ -1,0 +1,6 @@
+2019-03-18 16:04:28,216 INFO Disofi.MvcApplication - Log4Net Activado
+2019-03-18 16:04:28,378 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se encontraron varios tipos que coinciden con el controlador 'Login'. Esto puede ocurrir si la ruta que atiende esta solicitud ('{controller}/{action}/{id}') no especifica espacios de nombres para buscar un controlador que coincida con la solicitud. En tal caso, registre esta ruta llamando a una sobrecarga del método 'MapRoute' que use un parámetro 'namespaces'.
+
+La solicitud de 'Login' encontró los siguientes controladores coincidentes:
+Disofi.Controllers.LoginController
+DisofiSC.Controllers.LoginController

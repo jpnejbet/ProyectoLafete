@@ -1,0 +1,23 @@
+2019-05-01 11:40:56,824 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 11:44:44,047 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 11:44:44,594 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-05-01 11:44:50,639 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-05-01 11:44:59,637 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Lafate/Index' o no implementa IController.
+2019-05-01 11:44:59,669 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-05-01 11:45:02,090 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-05-01 11:45:02,887 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-05-01 11:45:19,193 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 11:45:19,599 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-05-01 11:45:29,409 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'index' en el controlador 'Disofi.Controllers.LafeteController'.
+2019-05-01 11:45:29,425 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-05-01 11:45:36,798 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Login' en el controlador 'Disofi.Controllers.LafeteController'.
+2019-05-01 11:45:36,798 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-05-01 11:46:05,412 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 11:46:29,691 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 11:50:30,306 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 11:57:29,665 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 12:03:38,307 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 12:16:23,338 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 12:16:35,304 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 17337329-5 desde la IP: ::1
+2019-05-01 12:17:21,357 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-01 12:19:04,331 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 17337329-5 desde la IP: ::1

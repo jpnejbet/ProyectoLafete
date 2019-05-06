@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Tamarugal.js"></script>
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Programar</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+
+
+
+                    <div class="table-responsive">
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+     htmlAttributes: new { id = "tblRutas" },
+ tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+ columns:
+     grid.Columns(
+         grid.Column(columnName: "NCiclos", header: "Nro Ciclo", format: @<text>@item.NCiclos</text>),
+grid.Column(columnName: "Cliente", header: " Cliente", format: @<text>@item.Cliente</text>),
+                                                   grid.Column(columnName: "Servicio", header: "Servicio", format: @<text>@item.Servicio</text>),
+grid.Column(columnName: "Conductor", header: "Conductor", format: @<text>@item.Conductor</text>),
+                                    grid.Column("Fecha", "Fecha", format: @<text>
+                                        @Html.DropDownList("cmbCamion", (IEnumerable<SelectListItem>)ViewBag.cmbCamion, "Seleccione...", new { @class = "form-control", @ID = "cmbCamion" })
+                                    </text>, style: "col2Width")
+))
+
+
+                    </div>
+
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

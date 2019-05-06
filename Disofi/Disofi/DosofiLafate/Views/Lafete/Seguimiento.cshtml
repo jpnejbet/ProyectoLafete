@@ -1,0 +1,234 @@
+﻿
+
+@{
+    /**/
+
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+
+<script src="~/WebJs/HomeJs/Agrup.js"></script>
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+<link href="~/Content/Agrup.css" rel="stylesheet" />
+
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Seguimiento Pedido</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+
+                <div class="x_content">
+
+                    <h2>Listado Producto para despacho</h2>
+
+                    <div class="display nowrap dataTable dtr-inline collapsed">
+
+
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+                                        htmlAttributes: new { id = "tblSeguimiento" },
+                                        tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+                                        columns:
+                                        grid.Columns(
+                                                     grid.Column(columnName: "Id", header: "Id", format: @<text>@item.Id</text>),
+grid.Column(columnName: "CodigoLocal", header: "Cod.Local", format: @<text>@item.CodigoLocal</text>),
+grid.Column(columnName: "NombreLocal", header: "Nombre Local", format: @<text>@item.NombreLocal</text>),
+grid.Column(columnName: "FechaPicking", header: "Fecha Picking", format: @<text>@item.FechaPicking</text>),
+grid.Column(columnName: "Operador", header: "Operador", format: @<text>@item.Operador</text>),
+grid.Column(columnName: "Estado", header: "Estado", format: @<text> @item.Estado</text>),
+grid.Column(columnName: "HoraInicio", header: "Hora Inicio", format: @<text> @item.HoraInicio</text>),
+grid.Column(columnName: "HoraTermino", header: "Hora Término", format: @<text> @item.HoraTermino</text>),
+grid.Column(columnName: "Documento", header: "Documento", format: @<text> @item.Documento</text>),
+grid.Column(columnName: "Softland", header: "Softland", format: @<text> @item.Softland</text>),
+grid.Column(format: @<button class="btn btn-success" type="button" data-toggle="modal" tooltip="Editar Parametro" data-target="#modalPopUpIngresoUsuario2"
+                             onclick="EditarSeguimientoPedido(@item.Id,
+'@item.Operador',
+'@item.Estado','@item.NombreLocal',
+)">
+    Enviar Softland
+</button>) 
+))
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="modalPopUpIngresoUsuario2" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Enviar Documento a Softland</h4>
+            </div>
+            <div class="modal-body">
+                <div class="x_content">
+
+
+                    <br />
+
+
+                    <form class="form-horizontal form-label-left input_mask">
+
+
+                        <div style="display: none;">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">
+                                Id    <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="txtId" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Local</label>
+                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                <input type="text" id="txtnombreLocal" readonly="readonly" class="form-control col-md-7 col-xs-12">
+
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Operador</label>
+                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                @Html.DropDownList("cmbUsuarioSoftland", (IEnumerable<SelectListItem>)ViewBag.cmbUsuarioSoftland, "Seleccione...", new { @class = "form-control", @ID = "cmbUsuarioSoftland" })
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Estado</label>
+                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                <select id="cmdEstado" class="form-control">
+                                    <option></option>
+                                    <option>APROBADA</option>
+                                    <option>PREPARACION</option>
+                                    <option>Softand</option>
+                                </select>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">N° Documento</label>
+                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                <input type="text" id="txtNumeroDocumento"  class="form-control col-md-7 col-xs-12">
+
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+
+                <button type="button" id="BtnModificaGrabaPedido2" class="btn btn-primary">Grabar</button>
+                <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="modalPopUpIngresoUsuario" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">Asignación de órdenes de Picking</h4>
+            </div>
+            <div class="modal-body">
+                <div class="x_content">
+
+
+                    <br />
+
+
+                    <form class="form-horizontal form-label-left input_mask">
+
+
+                        <div style="display: none;">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">
+                                Id    <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="txtId" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Local</label>
+                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                <input type="text" id="txtNombreLocal2" readonly="readonly" class="form-control col-md-7 col-xs-12">
+
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Operador</label>
+                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                @Html.DropDownList("cmbUsuarioSoftland2", (IEnumerable<SelectListItem>)ViewBag.cmbUsuarioSoftland2, "Seleccione...", new { @class = "form-control", @ID = "cmbUsuarioSoftland2" })
+
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Estado</label>
+                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                <select id="cmdEstado" class="form-control">
+                                    <option></option>
+                                    <option>APROBADA</option>
+                                    <option>PREPARACION</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+
+                <button type="button" id="BtnModificaGrabaPedido" class="btn btn-primary">Grabar</button>
+                <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,63 @@
+2019-01-30 00:19:14,594 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 00:19:15,142 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-30 00:19:27,703 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 00:19:28,239 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-30 00:19:43,578 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 00:19:45,829 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 00:43:23,890 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 00:43:27,610 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 00:52:23,490 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 00:52:34,376 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 00:56:11,054 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 00:56:12,922 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 01:19:35,957 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 01:19:39,729 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 01:33:16,013 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 01:33:18,569 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 01:53:23,441 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 01:53:26,324 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 01:57:05,449 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: El dispositivo no está listo.
+
+2019-01-30 01:57:05,535 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-30 01:57:18,821 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: El dispositivo no está listo.
+
+2019-01-30 01:57:18,842 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-30 02:16:32,167 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 02:16:35,895 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 02:31:14,833 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 02:31:15,172 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-30 02:31:44,274 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 02:31:50,474 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 02:38:21,917 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-30 02:58:57,972 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 02:59:03,058 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 03:00:46,457 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-30 03:01:16,094 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-30 03:07:46,387 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: El diccionario de parámetros contiene una entrada NULL para el parámetro '_IdConductor' del tipo que no acepta valores NULL 'System.Int32' del método 'System.Web.Mvc.ActionResult Recepcion(Int32)' en 'Disofi.Controllers.TamarugalGEController'. Un parámetro opcional debe ser un tipo de referencia, un tipo que acepte valores NULL o debe declararse como parámetro opcional.
+Nombre del parámetro: parameters
+2019-01-30 03:07:46,427 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-30 03:16:10,984 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 03:16:20,364 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-30 03:17:01,305 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'Rendicion2' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/TamarugalGE/Rendicion2.aspx
+~/Views/TamarugalGE/Rendicion2.ascx
+~/Views/Shared/Rendicion2.aspx
+~/Views/Shared/Rendicion2.ascx
+~/Views/TamarugalGE/Rendicion2.cshtml
+~/Views/TamarugalGE/Rendicion2.vbhtml
+~/Views/Shared/Rendicion2.cshtml
+~/Views/Shared/Rendicion2.vbhtml
+2019-01-30 03:17:01,352 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-30 03:18:10,962 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'Rendicion2' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/TamarugalGE/Rendicion2.aspx
+~/Views/TamarugalGE/Rendicion2.ascx
+~/Views/Shared/Rendicion2.aspx
+~/Views/Shared/Rendicion2.ascx
+~/Views/TamarugalGE/Rendicion2.cshtml
+~/Views/TamarugalGE/Rendicion2.vbhtml
+~/Views/Shared/Rendicion2.cshtml
+~/Views/Shared/Rendicion2.vbhtml
+2019-01-30 03:18:10,986 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-30 03:20:34,653 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 03:21:06,515 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-30 03:21:10,285 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

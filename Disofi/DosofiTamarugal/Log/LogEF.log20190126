@@ -1,0 +1,76 @@
+2019-01-26 10:54:37,495 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-26 10:54:37,497 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 778
+2019-01-26 10:54:37,498 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 778
+2019-01-26 11:35:15,703 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-26 11:35:15,705 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 366
+2019-01-26 11:35:15,706 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.CreacionPedido() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 366
+2019-01-26 11:39:13,347 FATAL Disofi.Utils.CapturaExcepciones - La conversión especificada no es válida.
+2019-01-26 11:39:13,350 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.InvalidCastException: La conversión especificada no es válida.
+   en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 252
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 193
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 779
+2019-01-26 11:39:13,350 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 252
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 193
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 779
+2019-01-26 11:39:45,231 FATAL Disofi.Utils.CapturaExcepciones - La conversión especificada no es válida.
+2019-01-26 11:39:45,231 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.InvalidCastException: La conversión especificada no es válida.
+   en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 252
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 193
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 779
+2019-01-26 11:39:45,231 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 252
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 193
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 779
+2019-01-26 12:45:07,881 FATAL Disofi.Utils.CapturaExcepciones - La columna 'VueltasCompletadas' no pertenece a la tabla .
+2019-01-26 12:45:07,885 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'VueltasCompletadas' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 254
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 193
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 779
+2019-01-26 12:45:07,885 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 254
+   en Disofi.BLL.ControlDisofi.ListadoGuiaRecepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 193
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 779
+2019-01-26 13:30:37,202 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-26 13:30:37,205 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetActualizaGuia(String Id, String Patente, String PlacaNroRemolque, String RutEmisor, String NroGuiaDespachoCliente, DateTime FechaEmision, String Toneladas, DateTime FechaTimbre, String Comentario, String NumeroPedido, String VueltasCompletadas, String _Estado, String IdDespacho) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1969
+   en Disofi.BLL.ControlDisofi.SetActualizaGuia(String Id, String Patente, String PlacaNroRemolque, String RutEmisor, String NroGuiaDespachoCliente, DateTime FechaEmision, String Toneladas, DateTime FechaTimbre, String Comentario, String NumeroPedido, String VueltasCompletadas, String _Estado, String _IdDespacho) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 351
+   en Disofi.Controllers.TamarugalGEController.GrabarRecepcionGuia(String _Id, String _Patente, String _PlacaNroRemolque, String _RutEmisor, String _NroGuiaDespachoCliente, String _FechaEmision, String _Toneladas, String _FechaTimbre, String _Comentario, String _NumeroPedido, String _VueltasCompletadas, String _Estado, String _IdDespacho) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 1097
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/  Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/fd442b61/77549029/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/fd442b61/77549029/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/  Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-26 13:30:37,206 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetActualizaGuia(String Id, String Patente, String PlacaNroRemolque, String RutEmisor, String NroGuiaDespachoCliente, DateTime FechaEmision, String Toneladas, DateTime FechaTimbre, String Comentario, String NumeroPedido, String VueltasCompletadas, String _Estado, String IdDespacho) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1969
+   en Disofi.BLL.ControlDisofi.SetActualizaGuia(String Id, String Patente, String PlacaNroRemolque, String RutEmisor, String NroGuiaDespachoCliente, DateTime FechaEmision, String Toneladas, DateTime FechaTimbre, String Comentario, String NumeroPedido, String VueltasCompletadas, String _Estado, String _IdDespacho) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 351
+   en Disofi.Controllers.TamarugalGEController.GrabarRecepcionGuia(String _Id, String _Patente, String _PlacaNroRemolque, String _RutEmisor, String _NroGuiaDespachoCliente, String _FechaEmision, String _Toneladas, String _FechaTimbre, String _Comentario, String _NumeroPedido, String _VueltasCompletadas, String _Estado, String _IdDespacho) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 1097

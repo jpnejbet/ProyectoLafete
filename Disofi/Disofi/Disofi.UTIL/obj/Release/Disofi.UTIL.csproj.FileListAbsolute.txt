@@ -1,0 +1,18 @@
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.UTIL\bin\Release\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.UTIL\bin\Release\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.UTIL\obj\Release\Disofi.UTIL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.UTIL\obj\Release\Disofi.UTIL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.UTIL\obj\Release\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.UTIL\obj\Release\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.UTIL\bin\Release\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.UTIL\bin\Release\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.UTIL\obj\Release\Disofi.UTIL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.UTIL\obj\Release\Disofi.UTIL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.UTIL\obj\Release\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.UTIL\obj\Release\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.UTIL\obj\Release\Disofi.UTIL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.UTIL\obj\Release\Disofi.UTIL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.UTIL\obj\Release\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.UTIL\obj\Release\Disofi.UTIL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.UTIL\bin\Release\Disofi.UTIL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.UTIL\bin\Release\Disofi.UTIL.pdb

@@ -1,0 +1,32 @@
+2019-01-03 04:31:56,765 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-03 04:32:06,834 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-03 04:35:15,895 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 13978177-5 desde la IP: ::1
+2019-01-03 04:35:15,961 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-03 04:35:45,767 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 13978177-5 desde la IP: ::1
+2019-01-03 04:35:45,817 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-03 04:36:31,766 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 13978177-5 desde la IP: ::1
+2019-01-03 04:36:31,814 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-03 04:36:36,430 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-03 04:36:56,024 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 13978177-5 desde la IP: ::1
+2019-01-03 10:37:14,808 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-03 10:37:33,633 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 13978177-5 desde la IP: ::1
+2019-01-03 13:17:23,834 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-03 13:17:42,315 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 17038866-6 desde la IP: ::1
+2019-01-03 13:17:42,561 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-03 13:18:43,325 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 17038866-6 desde la IP: ::1
+2019-01-03 13:19:16,193 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-03 13:20:26,582 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 17038866-6 desde la IP: ::1
+2019-01-03 13:20:26,641 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-03 13:20:46,145 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-03 13:21:06,501 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 17038866-6 desde la IP: ::1
+2019-01-03 13:21:19,497 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-03 13:23:49,541 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 9165419-9 desde la IP: ::1
+2019-01-03 13:24:03,250 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 9165419-9 desde la IP: ::1
+2019-01-03 13:46:44,661 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-03 13:46:46,550 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-03 13:46:46,587 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-03 13:46:51,045 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-03 14:03:33,093 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-03 14:04:06,941 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 17132089-5 desde la IP: ::1
+2019-01-03 14:04:06,993 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-03 14:04:15,647 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

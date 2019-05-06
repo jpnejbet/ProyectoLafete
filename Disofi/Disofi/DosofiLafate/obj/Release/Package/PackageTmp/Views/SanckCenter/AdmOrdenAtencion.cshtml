@@ -1,0 +1,380 @@
+﻿
+
+@{
+    /**/
+
+    ViewBag.Title = "Orden Atención";
+}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
+
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+
+<div class="right_col" role="main">
+
+    <a id="Grabar" class="btn btn-app">  <i class="fa fa-save"></i> Grabar </a>
+
+    @*<a class="btn btn-app">  <i class="fa fa-save"></i> Grabar </a>*@
+
+
+    @*<a class="btn btn-app" data-toggle="modal" data-target="#ModalCerrarOT">  <i class="fa fa-check-square"></i> Cerrar </a>*@
+
+
+    <a class="btn btn-app" href="javascript:history.back()">  <i class="fa fa-mail-reply"></i> Volver </a>
+
+
+    <br />
+
+
+
+
+    <div style="display: none;">
+        @*<div class="form-group">*@
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>ATENCIÓN SNACK CENTER</h3>
+            </div>
+            <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+
+                    <h2>@ViewBag.Message</h2>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>
+                            Atención N°:
+                            <input type="text" value="@ViewBag.Id" id="txtIdOt">
+                        </h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="#">Settings 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Settings 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="close-link"><i class="fa fa-close"></i></a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+
+                        <!-- Smart Wizard -->
+                        <p>Flujo de atención de clientes.</p>
+                        <div id="wizard" class="form_wizard wizard_horizontal">
+                            <ul class="wizard_steps">
+                                <li>
+                                    <a href="#step-1">
+                                        <span class="step_no">1</span>
+                                        <span class="step_descr">
+                                            Tipo Atención<br />
+                                            <small>Debe selecionar tipo atención</small>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step-2">
+                                        <span class="step_no">2</span>
+                                        <span class="step_descr">
+                                            Datos del Cliente<br />
+                                            <small>Debe ingresar los datos del Cliente</small>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step-3">
+                                        <span class="step_no">3</span>
+                                        <span class="step_descr">
+                                            Detalle Atención<br />
+                                            <small>Ingresar detalle del problema</small>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step-4">
+                                        <span class="step_no">4</span>
+                                        <span class="step_descr">
+                                            Solución<br />
+                                            <small>Detallar Solución al Cliente</small>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="step-1">
+                                <form class="form-horizontal form-label-left">
+
+                                    <br>
+                                    <br>
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Tipo de Atención  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-2 col-sm-9 col-xs-12">
+                                            <input id="TipoAtencion" value="@ViewBag.TipoAtencion" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="step-2">
+                                <form class="form-horizontal form-label-left">
+
+
+                                    <br />
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Requerimiento <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="Requemiento" value="@ViewBag.Requemiento" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+                                    </div>
+                                    <br />
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Tipo Cliente<span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="Requemiento" value="@ViewBag.TipoCliente" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+                                    </div>
+                                    <br />
+
+                                    <div id="nombreCliente" class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Nombre Cliente <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="NombreCliente" value="@ViewBag.NombreCliente" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Numero Contacto Cliente <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="NumeroContacto" value="@ViewBag.NumeroContacto" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Descripción del Problema  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea class="form-control" rows="3" id="comment"> @ViewBag.Descripcion</textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Ubicación Fisica <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="UbicacionFisica" value="@ViewBag.UbicacionFisica" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </form>
+                            </div>
+
+
+                            <div id="step-3">
+                                <form class="form-horizontal form-label-left">
+
+
+                                    <br />
+
+
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Ruta
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="Ruta" value="@ViewBag.Ruta" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+
+
+                                    </div>
+
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Maquina
+                                        </label>
+                                        <div class="col-md-2 col-sm-2 col-xs-12">
+                                            <input id="Maquina" value="@ViewBag.Maquina" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+
+                                        <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                            Modelo
+                                        </label>
+                                        <div class="col-md-2 col-sm-2 col-xs-12">
+                                            <input id="Modelo" value="@ViewBag.Modelo" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+
+                                        <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                            Tipo Maquina
+                                        </label>
+                                        <div class="col-md-2 col-sm-2 col-xs-12">
+                                            <input id="TipoMaquina" value="@ViewBag.TipoMaquina" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+
+
+
+                                    </div>
+
+
+
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Diagnostico  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="Diganostico" value="@ViewBag.Diganostico" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Solución <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input id="Diganostico" value="@ViewBag.Solucion" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Responsable  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <select id="cmdResponsable" class="form-control">
+                                                <option></option>
+                                                <option>Francisco Martinez</option>
+                                                <option>Sebastian Gil</option>
+                                                <option>Jose Alcedo</option>
+                                                <option>Rubén araya</option>
+                                                <option>Magdalena Guajardo</option>
+                                                <option>Ana Salazar</option>
+                                                <option>Miguel Gutiérrez</option>
+                                                <option>David Retamal</option>
+                                                <option>Nelson Moreno</option>
+                                                <option>Jorge Jorquera</option>
+                                                <option>Danesa Moreira</option>
+                                                <option>Miguel Castillo</option>
+                                                <option>Freddy Peña</option>
+                                            </select>
+                                        </div>
+
+
+                                        <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                            Supervisor
+                                        </label>
+                                        <div class="col-md-2 col-sm-2 col-xs-12">
+                                            <input id="Supervisor" value="@ViewBag.Supervisor" class="form-control col-md-2 col-xs-12" type="text" name="middle-name" disabled="disabled">
+                                        </div>
+
+
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                            <div id="step-4">
+                                <form class="form-horizontal form-label-left">
+
+                                    <br>
+                                    <br>
+
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Descripción del la solucución  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea class="form-control" rows="3" id="DescriSolucion"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Cerrar el Proceso  <span class="required">*</span>
+                                        </label>
+
+                                    </div>
+
+
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- End SmartWizard Content -->
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a id="Grabar" class="btn btn-app">  <i class="fa fa-save"></i> Grabar </a>
+
+
+</div>
+
+
+
+
+

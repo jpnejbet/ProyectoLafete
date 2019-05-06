@@ -1,0 +1,10 @@
+2019-05-06 10:34:35,176 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-06 10:35:03,091 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-05-06 10:35:03,196 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-05-06 10:35:14,196 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-05-06 11:15:12,778 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-06 11:15:27,253 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-05-06 11:16:13,073 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-05-06 11:17:55,513 INFO Disofi.MvcApplication - Log4Net Activado
+2019-05-06 11:18:04,123 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-05-06 11:21:42,035 INFO Disofi.MvcApplication - Log4Net Activado

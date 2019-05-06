@@ -1,0 +1,1947 @@
+﻿
+
+@{
+    /**/
+
+    ViewBag.Title = "Orden Atención";
+}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
+
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+
+<div class="right_col" role="main">
+    @*<h3>@ViewBag.Message</h3>*@
+    @*<div class="x_panel">
+            <div class="x_title">
+                <h2>Traspaso contable</h2>
+                <ul class="nav navbar-right panel_toolbox">
+                    <li>
+                        <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                    </li>
+                    <li>
+                        <a class="close-link"><i class="fa fa-close"></i></a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+
+
+            </div>
+        </div>*@
+
+    <a id="Grabar" class="btn btn-app">  <i class="fa fa-save"></i> Grabar </a>
+
+    @*<a class="btn btn-app">  <i class="fa fa-save"></i> Grabar </a>*@
+
+
+    @*<a class="btn btn-app" data-toggle="modal" data-target="#ModalCerrarOT">  <i class="fa fa-check-square"></i> Cerrar </a>*@
+
+
+    <a class="btn btn-app" href="javascript:history.back()">  <i class="fa fa-mail-reply"></i> Volver </a>
+
+
+    <br />
+
+
+
+
+    <div style="display: none;">
+        @*<div class="form-group">*@
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
+
+            @*<input type="text" id="txtIdOt" value="-1" class="form-control col-md-1 col-xs-1">
+                <input type="text" id="txtIdServicio" class="form-control col-md-7 col-xs-12">
+                <input type="text" id="txtIdContrato" class="form-control col-md-7 col-xs-12">*@
+        </div>
+    </div>
+
+
+
+
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>ORDEN ATENCIÓN SNACK CENTER</h3>
+            </div>
+            <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+
+                    <h2>@ViewBag.Message</h2>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>
+                            Atención N°:
+                            <input type="text" id="txtIdOt">
+                        </h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="#">Settings 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Settings 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="close-link"><i class="fa fa-close"></i></a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+
+                        <!-- Smart Wizard -->
+                        <p>Flujo de atención de clientes.</p>
+                        <div id="wizard" class="form_wizard wizard_horizontal">
+                            <ul class="wizard_steps">
+                                <li>
+                                    <a href="#step-1">
+                                        <span class="step_no">1</span>
+                                        <span class="step_descr">
+                                            Tipo Atención<br />
+                                            <small>Debe selecionar tipo atención</small>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step-2">
+                                        <span class="step_no">2</span>
+                                        <span class="step_descr">
+                                            Datos del Cliente<br />
+                                            <small>Debe ingresar los datos del Cliente</small>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step-3">
+                                        <span class="step_no">3</span>
+                                        <span class="step_descr">
+                                            Detalle Atención<br />
+                                            <small>Ingresar detalle del problema</small>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#step-4">
+                                        <span class="step_no">4</span>
+                                        <span class="step_descr">
+                                            Solución<br />
+                                            <small>Detallar Solución al Cliente</small>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div id="step-1">
+                                <form class="form-horizontal form-label-left">
+
+                                    <br>
+                                    <br>
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Tipo de Atención  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-2 col-sm-9 col-xs-12">
+                                            <select id="cmbTipoAtencion" class="form-control">
+                                                <option></option>
+                                                <option>LLAMADA</option>
+                                                <option>CORREO</option>
+                                                <option>PRESENCIAL</option>
+                                            </select>
+
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div id="step-2">
+                                <form class="form-horizontal form-label-left">
+
+
+                                    <br />
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Requerimiento <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradioR" value="COMERCIAL">COMERCIAL
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradioR" value="OPERACIONES">OPERACIONES
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradioR" value="TECNICO">TÉCNICO
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <br />
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Tipo Cliente<span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradioT" onclick="TipoCliente(1)" value="EXTERNO">EXTERNO
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optradioT" onclick="TipoCliente(2)" value="INTERNO">INTERNO
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <br />
+
+                                    <div id="nombreCliente" style="display:none;" class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Nombre Cliente <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" id="txtNombreCliente" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+                                    <div id="SelCliente" style="display:none;" class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Cliente <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            @Html.DropDownList("CmbCliente", (IEnumerable<SelectListItem>)ViewBag.CmbCliente, "Seleccione...", new { @class = "ListadoUbicacion form-control", @ID = "CmbCliente" })
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Numero Contacto Cliente <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" id="txtNumeroContactoCliente" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Descripción del Problema  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea class="form-control" rows="3" id="comment"></textarea>
+                                        </div>
+                                    </div>
+
+
+                                    <div id="nombreClienteUbicacion" style="display:none;" class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Ubicación Fisica <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <input type="text" id="txtUbicacion" required="required" class="form-control col-md-7 col-xs-12">
+                                        </div>
+
+
+
+
+                                    </div>
+
+                                    <div id="SelClienteUbicacion" style="display:none;" class="form-group">
+
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Ubicación Fisica <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <select id="CmbRuta" class="form-control"></select>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </form>
+                            </div>
+
+
+                            <div id="step-3">
+                                <form class="form-horizontal form-label-left">
+
+
+                                    <br />
+                                    <div class="form-group">
+
+
+
+                                        <div class="form-group">
+
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                                Seleccione Ruta  <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <select id="cmdRuta" class="form-control">
+                                                    <option></option>
+                                                    <option>ARAUCO MAIPU</option>
+                                                    <option>BODEGA SAN FRANCISCO</option>
+                                                    <option>CENTRO 1</option>
+                                                    <option>CENTRO 2</option>
+                                                    <option>CLARO CHILE</option>
+                                                    <option>CLINICA BICENTENARIO</option>
+                                                    <option>CLINICA CORDILLERA</option>
+                                                    <option>CLINICA INDISA</option>
+                                                    <option>FLORIDA CENTER</option>
+                                                    <option>HOSPITAL EXEQUIEL GONZALEZ CORTES</option>
+                                                    <option>HOSPITAL METROPOLITANO</option>
+                                                    <option>HOSPITAL RANCAGUA</option>
+                                                    <option>HOSPITAL SALVADOR</option>
+                                                    <option>INACAP AGRICOLA</option>
+                                                    <option>INACAP BARROSO</option>
+                                                    <option>INACAP MAIPU </option>
+                                                    <option>INACAP RENCA</option>
+                                                    <option>MALL COSTANERA CENTER</option>
+                                                    <option>MALL OUTLET PREMIUM</option>
+                                                    <option>MALL PLAZA EGAÑA</option>
+                                                    <option>MUTUAL DE SEGURIDAD</option>
+                                                    <option>PARQUE ARAUCO 1</option>
+                                                    <option>PARQUE ARAUCO 2</option>
+                                                    <option>RED SALUD PROVIDENCIA</option>
+                                                    <option>RED SALUD VITACURA</option>
+                                                    <option>RUTA 1</option>
+                                                    <option>RUTA 10</option>
+                                                    <option>RUTA 11</option>
+                                                    <option>RUTA 2</option>
+                                                    <option>RUTA 3</option>
+                                                    <option>RUTA 4</option>
+                                                    <option>RUTA 5</option>
+                                                    <option>RUTA 6</option>
+                                                    <option>RUTA 7</option>
+                                                    <option>RUTA 8</option>
+                                                    <option>RUTA 9</option>
+                                                    <option>RUTA AEROPUERTO</option>
+                                                    <option>RUTA ORIENTE</option>
+                                                    <option>RUTA PRUEBAS</option>
+                                                    <option>RUTA PUENTE ALTO</option>
+                                                    <option>RUTA RANCAGUA</option>
+                                                    <option>RUTA SAN BERNARDO</option>
+                                                    <option>SOTERO DEL RIO</option>
+                                                    <option>VESPUCIO</option>
+                                                    <option>VIÑA DEL MAR</option>
+                                                </select>
+
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="form-group">
+
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                                Seleccione Maquina <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-1 col-sm-1 col-xs-12">
+                                                <select id="cmdMaquina" class="form-control">
+                                                    <option></option>
+                                                    <option>139	</option>
+                                                    <option>140	</option>
+                                                    <option>150	</option>
+                                                    <option>155	</option>
+                                                    <option>241	</option>
+                                                    <option>305	</option>
+                                                    <option>348	</option>
+                                                    <option>703	</option>
+                                                    <option>724	</option>
+                                                    <option>727	</option>
+                                                    <option>746	</option>
+                                                    <option>747	</option>
+                                                    <option>748	</option>
+                                                    <option>763	</option>
+                                                    <option>765	</option>
+                                                    <option>766	</option>
+                                                    <option>769	</option>
+                                                    <option>773	</option>
+                                                    <option>778	</option>
+                                                    <option>781	</option>
+                                                    <option>791	</option>
+                                                    <option>792	</option>
+                                                    <option>805	</option>
+                                                    <option>820	</option>
+                                                    <option>822	</option>
+                                                    <option>828	</option>
+                                                    <option>829	</option>
+                                                    <option>833	</option>
+                                                    <option>836	</option>
+                                                    <option>839	</option>
+                                                    <option>847	</option>
+                                                    <option>856	</option>
+                                                    <option>857	</option>
+                                                    <option>870	</option>
+                                                    <option>874	</option>
+                                                    <option>889	</option>
+                                                    <option>896	</option>
+                                                    <option>904	</option>
+                                                    <option>909	</option>
+                                                    <option>913	</option>
+                                                    <option>923	</option>
+                                                    <option>926	</option>
+                                                    <option>947	</option>
+                                                    <option>997	</option>
+                                                    <option>1065</option>
+                                                    <option>2001</option>
+                                                    <option>2002</option>
+                                                    <option>2003</option>
+                                                    <option>2004</option>
+                                                    <option>2005</option>
+                                                    <option>2006</option>
+                                                    <option>2007</option>
+                                                    <option>2008</option>
+                                                    <option>2010</option>
+                                                    <option>2011</option>
+                                                    <option>2012</option>
+                                                    <option>2013</option>
+                                                    <option>2014</option>
+                                                    <option>2015</option>
+                                                    <option>2016</option>
+                                                    <option>2017</option>
+                                                    <option>2018</option>
+                                                    <option>2019</option>
+                                                    <option>2020</option>
+                                                    <option>2021</option>
+                                                    <option>2022</option>
+                                                    <option>2023</option>
+                                                    <option>2024</option>
+                                                    <option>2025</option>
+                                                    <option>2026</option>
+                                                    <option>2027</option>
+                                                    <option>2028</option>
+                                                    <option>2029</option>
+                                                    <option>2030</option>
+                                                    <option>2033</option>
+                                                    <option>2034</option>
+                                                    <option>2035</option>
+                                                    <option>2036</option>
+                                                    <option>2037</option>
+                                                    <option>2038</option>
+                                                    <option>2039</option>
+                                                    <option>2040</option>
+                                                    <option>2041</option>
+                                                    <option>2042</option>
+                                                    <option>2043</option>
+                                                    <option>2044</option>
+                                                    <option>2045</option>
+                                                    <option>2046</option>
+                                                    <option>2047</option>
+                                                    <option>2048</option>
+                                                    <option>2049</option>
+                                                    <option>2050</option>
+                                                    <option>2051</option>
+                                                    <option>2052</option>
+                                                    <option>2053</option>
+                                                    <option>2054</option>
+                                                    <option>2055</option>
+                                                    <option>2056</option>
+                                                    <option>2057</option>
+                                                    <option>2058</option>
+                                                    <option>2059</option>
+                                                    <option>2060</option>
+                                                    <option>2061</option>
+                                                    <option>2062</option>
+                                                    <option>2063</option>
+                                                    <option>2064</option>
+                                                    <option>2065</option>
+                                                    <option>2066</option>
+                                                    <option>2067</option>
+                                                    <option>2068</option>
+                                                    <option>2069</option>
+                                                    <option>2070</option>
+                                                    <option>2071</option>
+                                                    <option>3043</option>
+                                                    <option>3044</option>
+                                                    <option>3045</option>
+                                                    <option>3046</option>
+                                                    <option>3047</option>
+                                                    <option>3048</option>
+                                                    <option>3049</option>
+                                                    <option>3050</option>
+                                                    <option>3051</option>
+                                                    <option>3052</option>
+                                                    <option>3053</option>
+                                                    <option>3054</option>
+                                                    <option>3055</option>
+                                                    <option>3056</option>
+                                                    <option>3057</option>
+                                                    <option>3058</option>
+                                                    <option>3059</option>
+                                                    <option>3060</option>
+                                                    <option>3061</option>
+                                                    <option>3062</option>
+                                                    <option>3063</option>
+                                                    <option>3064</option>
+                                                    <option>3065</option>
+                                                    <option>3066</option>
+                                                    <option>3067</option>
+                                                    <option>3068</option>
+                                                    <option>3069</option>
+                                                    <option>3070</option>
+                                                    <option>3071</option>
+                                                    <option>3072</option>
+                                                    <option>3073</option>
+                                                    <option>3074</option>
+                                                    <option>3075</option>
+                                                    <option>3076</option>
+                                                    <option>3077</option>
+                                                    <option>3078</option>
+                                                    <option>3079</option>
+                                                    <option>3080</option>
+                                                    <option>3081</option>
+                                                    <option>3082</option>
+                                                    <option>3083</option>
+                                                    <option>3084</option>
+                                                    <option>3085</option>
+                                                    <option>3086</option>
+                                                    <option>3087</option>
+                                                    <option>3088</option>
+                                                    <option>3089</option>
+                                                    <option>3090</option>
+                                                    <option>3091</option>
+                                                    <option>3092</option>
+                                                    <option>3093</option>
+                                                    <option>3094</option>
+                                                    <option>3095</option>
+                                                    <option>3096</option>
+                                                    <option>3097</option>
+                                                    <option>3099</option>
+                                                    <option>3100</option>
+                                                    <option>3101</option>
+                                                    <option>3102</option>
+                                                    <option>3103</option>
+                                                    <option>3104</option>
+                                                    <option>3105</option>
+                                                    <option>3106</option>
+                                                    <option>3107</option>
+                                                    <option>3108</option>
+                                                    <option>3109</option>
+                                                    <option>3110</option>
+                                                    <option>3111</option>
+                                                    <option>3112</option>
+                                                    <option>3113</option>
+                                                    <option>3114</option>
+                                                    <option>3115</option>
+                                                    <option>3116</option>
+                                                    <option>3117</option>
+                                                    <option>3118</option>
+                                                    <option>3119</option>
+                                                    <option>3120</option>
+                                                    <option>3121</option>
+                                                    <option>3122</option>
+                                                    <option>3123</option>
+                                                    <option>3124</option>
+                                                    <option>3125</option>
+                                                    <option>3126</option>
+                                                    <option>3127</option>
+                                                    <option>3128</option>
+                                                    <option>3129</option>
+                                                    <option>3130</option>
+                                                    <option>3131</option>
+                                                    <option>3132</option>
+                                                    <option>3133</option>
+                                                    <option>3134</option>
+                                                    <option>3135</option>
+                                                    <option>3136</option>
+                                                    <option>3137</option>
+                                                    <option>3138</option>
+                                                    <option>3139</option>
+                                                    <option>3140</option>
+                                                    <option>3141</option>
+                                                    <option>3142</option>
+                                                    <option>3143</option>
+                                                    <option>3144</option>
+                                                    <option>3145</option>
+                                                    <option>3146</option>
+                                                    <option>3147</option>
+                                                    <option>3148</option>
+                                                    <option>3149</option>
+                                                    <option>3150</option>
+                                                    <option>3151</option>
+                                                    <option>3152</option>
+                                                    <option>3153</option>
+                                                    <option>3154</option>
+                                                    <option>3155</option>
+                                                    <option>3156</option>
+                                                    <option>3157</option>
+                                                    <option>3158</option>
+                                                    <option>3159</option>
+                                                    <option>3160</option>
+                                                    <option>3161</option>
+                                                    <option>3162</option>
+                                                    <option>3163</option>
+                                                    <option>3164</option>
+                                                    <option>3165</option>
+                                                    <option>3166</option>
+                                                    <option>3167</option>
+                                                    <option>3168</option>
+                                                    <option>3169</option>
+                                                    <option>3170</option>
+                                                    <option>3171</option>
+                                                    <option>3172</option>
+                                                    <option>3173</option>
+                                                    <option>3174</option>
+                                                    <option>3175</option>
+                                                    <option>3177</option>
+                                                    <option>3178</option>
+                                                    <option>3179</option>
+                                                    <option>3180</option>
+                                                    <option>3181</option>
+                                                    <option>3182</option>
+                                                    <option>3183</option>
+                                                    <option>3184</option>
+                                                    <option>3185</option>
+                                                    <option>3186</option>
+                                                    <option>3190</option>
+                                                    <option>3193</option>
+                                                    <option>3194</option>
+                                                    <option>3195</option>
+                                                    <option>3196</option>
+                                                    <option>3197</option>
+                                                    <option>3198</option>
+                                                    <option>3199</option>
+                                                    <option>3200</option>
+                                                    <option>3201</option>
+                                                    <option>3202</option>
+                                                    <option>3203</option>
+                                                    <option>3204</option>
+                                                    <option>3205</option>
+                                                    <option>3206</option>
+                                                    <option>3207</option>
+                                                    <option>3208</option>
+                                                    <option>3209</option>
+                                                    <option>3210</option>
+                                                    <option>3211</option>
+                                                    <option>3212</option>
+                                                    <option>3213</option>
+                                                    <option>3214</option>
+                                                    <option>3215</option>
+                                                    <option>3216</option>
+                                                    <option>3217</option>
+                                                    <option>3218</option>
+                                                    <option>3219</option>
+                                                    <option>3220</option>
+                                                    <option>3221</option>
+                                                    <option>3222</option>
+                                                    <option>3223</option>
+                                                    <option>3224</option>
+                                                    <option>3225</option>
+                                                    <option>3227</option>
+                                                    <option>3228</option>
+                                                    <option>3229</option>
+                                                    <option>3230</option>
+                                                    <option>3231</option>
+                                                    <option>3232</option>
+                                                    <option>3233</option>
+                                                    <option>3234</option>
+                                                    <option>3235</option>
+                                                    <option>3236</option>
+                                                    <option>3237</option>
+                                                    <option>3238</option>
+                                                    <option>3239</option>
+                                                    <option>3240</option>
+                                                    <option>3241</option>
+                                                    <option>3242</option>
+                                                    <option>3243</option>
+                                                    <option>3244</option>
+                                                    <option>3245</option>
+                                                    <option>3246</option>
+                                                    <option>3247</option>
+                                                    <option>3248</option>
+                                                    <option>3249</option>
+                                                    <option>3250</option>
+                                                    <option>3251</option>
+                                                    <option>3252</option>
+                                                    <option>3253</option>
+                                                    <option>3254</option>
+                                                    <option>3255</option>
+                                                    <option>3256</option>
+                                                    <option>3257</option>
+                                                    <option>3258</option>
+                                                    <option>3259</option>
+                                                    <option>3260</option>
+                                                    <option>3261</option>
+                                                    <option>3262</option>
+                                                    <option>3263</option>
+                                                    <option>3264</option>
+                                                    <option>3265</option>
+                                                    <option>3266</option>
+                                                    <option>3267</option>
+                                                    <option>3268</option>
+                                                    <option>3269</option>
+                                                    <option>3270</option>
+                                                    <option>3271</option>
+                                                    <option>3272</option>
+                                                    <option>3273</option>
+                                                    <option>3274</option>
+                                                    <option>3275</option>
+                                                    <option>3276</option>
+                                                    <option>3277</option>
+                                                    <option>3278</option>
+                                                    <option>3279</option>
+                                                    <option>3280</option>
+                                                    <option>3282</option>
+                                                    <option>3283</option>
+                                                    <option>3284</option>
+                                                    <option>3285</option>
+                                                    <option>3286</option>
+                                                    <option>3287</option>
+                                                    <option>3288</option>
+                                                    <option>3289</option>
+                                                    <option>3290</option>
+                                                    <option>3291</option>
+                                                    <option>3292</option>
+                                                    <option>3293</option>
+                                                    <option>3294</option>
+                                                    <option>3295</option>
+                                                    <option>3296</option>
+                                                    <option>3297</option>
+                                                    <option>3298</option>
+                                                    <option>3299</option>
+                                                    <option>3300</option>
+                                                    <option>3301</option>
+                                                    <option>3302</option>
+                                                    <option>3303</option>
+                                                    <option>3304</option>
+                                                    <option>3305</option>
+                                                    <option>3306</option>
+                                                    <option>3308</option>
+                                                    <option>3309</option>
+                                                    <option>3310</option>
+                                                    <option>3311</option>
+                                                    <option>3312</option>
+                                                    <option>3313</option>
+                                                    <option>3314</option>
+                                                    <option>3315</option>
+                                                    <option>3316</option>
+                                                    <option>3317</option>
+                                                    <option>3318</option>
+                                                    <option>3319</option>
+                                                    <option>3320</option>
+                                                    <option>3321</option>
+                                                    <option>3322</option>
+                                                    <option>3323</option>
+                                                    <option>3324</option>
+                                                    <option>3325</option>
+                                                    <option>3326</option>
+                                                    <option>3327</option>
+                                                    <option>3329</option>
+                                                    <option>3330</option>
+                                                    <option>3331</option>
+                                                    <option>3332</option>
+                                                    <option>3333</option>
+                                                    <option>3334</option>
+                                                    <option>3335</option>
+                                                    <option>3336</option>
+                                                    <option>3337</option>
+                                                    <option>3338</option>
+                                                    <option>3339</option>
+                                                    <option>3340</option>
+                                                    <option>3341</option>
+                                                    <option>3342</option>
+                                                    <option>3343</option>
+                                                    <option>3345</option>
+                                                    <option>3346</option>
+                                                    <option>3347</option>
+                                                    <option>3348</option>
+                                                    <option>3349</option>
+                                                    <option>3350</option>
+                                                    <option>3351</option>
+                                                    <option>3352</option>
+                                                    <option>3353</option>
+                                                    <option>3354</option>
+                                                    <option>3355</option>
+                                                    <option>3356</option>
+                                                    <option>3357</option>
+                                                    <option>3358</option>
+                                                    <option>3359</option>
+                                                    <option>3360</option>
+                                                    <option>3361</option>
+                                                    <option>3362</option>
+                                                    <option>3363</option>
+                                                    <option>3364</option>
+                                                    <option>3365</option>
+                                                    <option>3366</option>
+                                                    <option>3367</option>
+                                                    <option>3368</option>
+                                                    <option>3369</option>
+                                                    <option>3370</option>
+                                                    <option>3371</option>
+                                                    <option>3372</option>
+                                                    <option>3373</option>
+                                                    <option>3374</option>
+                                                    <option>3375</option>
+                                                    <option>3376</option>
+                                                    <option>3377</option>
+                                                    <option>3378</option>
+                                                    <option>3379</option>
+                                                    <option>3380</option>
+                                                    <option>3381</option>
+                                                    <option>3382</option>
+                                                    <option>3383</option>
+                                                    <option>3384</option>
+                                                    <option>3385</option>
+                                                    <option>3386</option>
+                                                    <option>3387</option>
+                                                    <option>3388</option>
+                                                    <option>3389</option>
+                                                    <option>3390</option>
+                                                    <option>3391</option>
+                                                    <option>3392</option>
+                                                    <option>3393</option>
+                                                    <option>3394</option>
+                                                    <option>3395</option>
+                                                    <option>3396</option>
+                                                    <option>3397</option>
+                                                    <option>3398</option>
+                                                    <option>3399</option>
+                                                    <option>3400</option>
+                                                    <option>3401</option>
+                                                    <option>3402</option>
+                                                    <option>3403</option>
+                                                    <option>3404</option>
+                                                    <option>3405</option>
+                                                    <option>3406</option>
+                                                    <option>3407</option>
+                                                    <option>3408</option>
+                                                    <option>3409</option>
+                                                    <option>3410</option>
+                                                    <option>3411</option>
+                                                    <option>3412</option>
+                                                    <option>3413</option>
+                                                    <option>3414</option>
+                                                    <option>3415</option>
+                                                    <option>3416</option>
+                                                    <option>3417</option>
+                                                    <option>3418</option>
+                                                    <option>3419</option>
+                                                    <option>3420</option>
+                                                    <option>3421</option>
+                                                    <option>3422</option>
+                                                    <option>3423</option>
+                                                    <option>3424</option>
+                                                    <option>3425</option>
+                                                    <option>3426</option>
+                                                    <option>3427</option>
+                                                    <option>3428</option>
+                                                    <option>3429</option>
+                                                    <option>3430</option>
+                                                    <option>3431</option>
+                                                    <option>3432</option>
+                                                    <option>3433</option>
+                                                    <option>3434</option>
+                                                    <option>3435</option>
+                                                    <option>3436</option>
+                                                    <option>3437</option>
+                                                    <option>3438</option>
+                                                    <option>3439</option>
+                                                    <option>3440</option>
+                                                    <option>3441</option>
+                                                    <option>3442</option>
+                                                    <option>3443</option>
+                                                    <option>3444</option>
+                                                    <option>3445</option>
+                                                    <option>3446</option>
+                                                    <option>3447</option>
+                                                    <option>3448</option>
+                                                    <option>3449</option>
+                                                    <option>3450</option>
+                                                    <option>3451</option>
+                                                    <option>3452</option>
+                                                    <option>3453</option>
+                                                    <option>3454</option>
+                                                    <option>3455</option>
+                                                    <option>3456</option>
+                                                    <option>3457</option>
+                                                    <option>3458</option>
+                                                    <option>3459</option>
+                                                    <option>3460</option>
+                                                    <option>3461</option>
+                                                    <option>3462</option>
+                                                    <option>3463</option>
+                                                    <option>3464</option>
+                                                    <option>3465</option>
+                                                    <option>3466</option>
+                                                    <option>3467</option>
+                                                    <option>3468</option>
+                                                    <option>3469</option>
+                                                    <option>3470</option>
+                                                    <option>3471</option>
+                                                    <option>3472</option>
+                                                    <option>3473</option>
+                                                    <option>3474</option>
+                                                    <option>3475</option>
+                                                    <option>3476</option>
+                                                    <option>3477</option>
+                                                    <option>3478</option>
+                                                    <option>3479</option>
+                                                    <option>3480</option>
+                                                    <option>3481</option>
+                                                    <option>3482</option>
+                                                    <option>3484</option>
+                                                    <option>3485</option>
+                                                    <option>3486</option>
+                                                    <option>3487</option>
+                                                    <option>3488</option>
+                                                    <option>3489</option>
+                                                    <option>3490</option>
+                                                    <option>3491</option>
+                                                    <option>3492</option>
+                                                    <option>3493</option>
+                                                    <option>3494</option>
+                                                    <option>3495</option>
+                                                    <option>3496</option>
+                                                    <option>3497</option>
+                                                    <option>3498</option>
+                                                    <option>3500</option>
+                                                    <option>3501</option>
+                                                    <option>3502</option>
+                                                    <option>3503</option>
+                                                    <option>3504</option>
+                                                    <option>3505</option>
+                                                    <option>3506</option>
+                                                    <option>3507</option>
+                                                    <option>3508</option>
+                                                    <option>3509</option>
+                                                    <option>3510</option>
+                                                    <option>3511</option>
+                                                    <option>3512</option>
+                                                    <option>3513</option>
+                                                    <option>3514</option>
+                                                    <option>3515</option>
+                                                    <option>3516</option>
+                                                    <option>3517</option>
+                                                    <option>3518</option>
+                                                    <option>3519</option>
+                                                    <option>3520</option>
+                                                    <option>3521</option>
+                                                    <option>3522</option>
+                                                    <option>3523</option>
+                                                    <option>3524</option>
+                                                    <option>3525</option>
+                                                    <option>3526</option>
+                                                    <option>3527</option>
+                                                    <option>3529</option>
+                                                    <option>3530</option>
+                                                    <option>3531</option>
+                                                    <option>3532</option>
+                                                    <option>3533</option>
+                                                    <option>3534</option>
+                                                    <option>3535</option>
+                                                    <option>3536</option>
+                                                    <option>3537</option>
+                                                    <option>3538</option>
+                                                    <option>3539</option>
+                                                    <option>3540</option>
+                                                    <option>3541</option>
+                                                    <option>3542</option>
+                                                    <option>3543</option>
+                                                    <option>3544</option>
+                                                    <option>3545</option>
+                                                    <option>3546</option>
+                                                    <option>3547</option>
+                                                    <option>3548</option>
+                                                    <option>3549</option>
+                                                    <option>3550</option>
+                                                    <option>3551</option>
+                                                    <option>3552</option>
+                                                    <option>3553</option>
+                                                    <option>3554</option>
+                                                    <option>3555</option>
+                                                    <option>3556</option>
+                                                    <option>3557</option>
+                                                    <option>3558</option>
+                                                    <option>3559</option>
+                                                    <option>3560</option>
+                                                    <option>3561</option>
+                                                    <option>3562</option>
+                                                    <option>3563</option>
+                                                    <option>3564</option>
+                                                    <option>3565</option>
+                                                    <option>3566</option>
+                                                    <option>3567</option>
+                                                    <option>3568</option>
+                                                    <option>3569</option>
+                                                    <option>3570</option>
+                                                    <option>3571</option>
+                                                    <option>3572</option>
+                                                    <option>3573</option>
+                                                    <option>3574</option>
+                                                    <option>3575</option>
+                                                    <option>3576</option>
+                                                    <option>3577</option>
+                                                    <option>3578</option>
+                                                    <option>3579</option>
+                                                    <option>3580</option>
+                                                    <option>3581</option>
+                                                    <option>3582</option>
+                                                    <option>3583</option>
+                                                    <option>3584</option>
+                                                    <option>3585</option>
+                                                    <option>3586</option>
+                                                    <option>3587</option>
+                                                    <option>3588</option>
+                                                    <option>3589</option>
+                                                    <option>3590</option>
+                                                    <option>3591</option>
+                                                    <option>3592</option>
+                                                    <option>3593</option>
+                                                    <option>3594</option>
+                                                    <option>3595</option>
+                                                    <option>3596</option>
+                                                    <option>3597</option>
+                                                    <option>3598</option>
+                                                    <option>3599</option>
+                                                    <option>3600</option>
+                                                    <option>3601</option>
+                                                    <option>3602</option>
+                                                    <option>3603</option>
+                                                    <option>3604</option>
+                                                    <option>3605</option>
+                                                    <option>3606</option>
+                                                    <option>3607</option>
+                                                    <option>3608</option>
+                                                    <option>3609</option>
+                                                    <option>3610</option>
+                                                    <option>3611</option>
+                                                    <option>3612</option>
+                                                    <option>3613</option>
+                                                    <option>3614</option>
+                                                    <option>3615</option>
+                                                    <option>3616</option>
+                                                    <option>3617</option>
+                                                    <option>3618</option>
+                                                    <option>3619</option>
+                                                    <option>3620</option>
+                                                    <option>3621</option>
+                                                    <option>3622</option>
+                                                    <option>3623</option>
+                                                    <option>3624</option>
+                                                    <option>3625</option>
+                                                    <option>3626</option>
+                                                    <option>3627</option>
+                                                    <option>3628</option>
+                                                    <option>3629</option>
+                                                    <option>3630</option>
+                                                    <option>3631</option>
+                                                    <option>3633</option>
+                                                    <option>3634</option>
+                                                    <option>3635</option>
+                                                    <option>3636</option>
+                                                    <option>3637</option>
+                                                    <option>3638</option>
+                                                    <option>3639</option>
+                                                    <option>3640</option>
+                                                    <option>3641</option>
+                                                    <option>3642</option>
+                                                    <option>3643</option>
+                                                    <option>3644</option>
+                                                    <option>3645</option>
+                                                    <option>3646</option>
+                                                    <option>3647</option>
+                                                    <option>3648</option>
+                                                    <option>3649</option>
+                                                    <option>3650</option>
+                                                    <option>3651</option>
+                                                    <option>3652</option>
+                                                    <option>3653</option>
+                                                    <option>3654</option>
+                                                    <option>3655</option>
+                                                    <option>3656</option>
+                                                    <option>3657</option>
+                                                    <option>3658</option>
+                                                    <option>3659</option>
+                                                    <option>3660</option>
+                                                    <option>3661</option>
+                                                    <option>3662</option>
+                                                    <option>3663</option>
+                                                    <option>3664</option>
+                                                    <option>3665</option>
+                                                    <option>3666</option>
+                                                    <option>3667</option>
+                                                    <option>3668</option>
+                                                    <option>3669</option>
+                                                    <option>3670</option>
+                                                    <option>3671</option>
+                                                    <option>3672</option>
+                                                    <option>3673</option>
+                                                    <option>3674</option>
+                                                    <option>3675</option>
+                                                    <option>3676</option>
+                                                    <option>3677</option>
+                                                    <option>3678</option>
+                                                    <option>3679</option>
+                                                    <option>3680</option>
+                                                    <option>3681</option>
+                                                    <option>3682</option>
+                                                    <option>3683</option>
+                                                    <option>3684</option>
+                                                    <option>3685</option>
+                                                    <option>3686</option>
+                                                    <option>3687</option>
+                                                    <option>3688</option>
+                                                    <option>3689</option>
+                                                    <option>3690</option>
+                                                    <option>3691</option>
+                                                    <option>3692</option>
+                                                    <option>3693</option>
+                                                    <option>3695</option>
+                                                    <option>3696</option>
+                                                    <option>3697</option>
+                                                    <option>3698</option>
+                                                    <option>3699</option>
+                                                    <option>3700</option>
+                                                    <option>3701</option>
+                                                    <option>3702</option>
+                                                    <option>3703</option>
+                                                    <option>3704</option>
+                                                    <option>3705</option>
+                                                    <option>3706</option>
+                                                    <option>3707</option>
+                                                    <option>3708</option>
+                                                    <option>3709</option>
+                                                    <option>3710</option>
+                                                    <option>3711</option>
+                                                    <option>3712</option>
+                                                    <option>3713</option>
+                                                    <option>3714</option>
+                                                    <option>3715</option>
+                                                    <option>3716</option>
+                                                    <option>3717</option>
+                                                    <option>3718</option>
+                                                    <option>3719</option>
+                                                    <option>3720</option>
+                                                    <option>3721</option>
+                                                    <option>3722</option>
+                                                    <option>3723</option>
+                                                    <option>3724</option>
+                                                    <option>3725</option>
+                                                    <option>3726</option>
+                                                    <option>3727</option>
+                                                    <option>3728</option>
+                                                    <option>3729</option>
+                                                    <option>3730</option>
+                                                    <option>3731</option>
+                                                    <option>3732</option>
+                                                    <option>3733</option>
+                                                    <option>3734</option>
+                                                    <option>3735</option>
+                                                    <option>3736</option>
+                                                    <option>3737</option>
+                                                    <option>3738</option>
+                                                    <option>3739</option>
+                                                    <option>3740</option>
+                                                    <option>3741</option>
+                                                    <option>3742</option>
+                                                    <option>3743</option>
+                                                    <option>3744</option>
+                                                    <option>3745</option>
+                                                    <option>3746</option>
+                                                    <option>3747</option>
+                                                    <option>3748</option>
+                                                    <option>3749</option>
+                                                    <option>3750</option>
+                                                    <option>3751</option>
+                                                    <option>3752</option>
+                                                    <option>3753</option>
+                                                    <option>3754</option>
+                                                    <option>3755</option>
+                                                    <option>3756</option>
+                                                    <option>3757</option>
+                                                    <option>3758</option>
+                                                    <option>3759</option>
+                                                    <option>3760</option>
+                                                    <option>3761</option>
+                                                    <option>3762</option>
+                                                    <option>3763</option>
+                                                    <option>3764</option>
+                                                    <option>3765</option>
+                                                    <option>3766</option>
+                                                    <option>3767</option>
+                                                    <option>3768</option>
+                                                    <option>3769</option>
+                                                    <option>3770</option>
+                                                    <option>3771</option>
+                                                    <option>3772</option>
+                                                    <option>3773</option>
+                                                    <option>3774</option>
+                                                    <option>3775</option>
+                                                    <option>3776</option>
+                                                    <option>3777</option>
+                                                    <option>3778</option>
+                                                    <option>3779</option>
+                                                    <option>3780</option>
+                                                    <option>3781</option>
+                                                    <option>3782</option>
+                                                    <option>3783</option>
+                                                    <option>3784</option>
+                                                    <option>3785</option>
+                                                    <option>3786</option>
+                                                    <option>3787</option>
+                                                    <option>3788</option>
+                                                    <option>3789</option>
+                                                    <option>3790</option>
+                                                    <option>3791</option>
+                                                    <option>3792</option>
+                                                    <option>3793</option>
+                                                    <option>3794</option>
+                                                    <option>3795</option>
+                                                    <option>3796</option>
+                                                    <option>3797</option>
+                                                    <option>3798</option>
+                                                    <option>3799</option>
+                                                    <option>3800</option>
+                                                    <option>3801</option>
+                                                    <option>3802</option>
+                                                    <option>3803</option>
+                                                    <option>3804</option>
+                                                    <option>3805</option>
+                                                    <option>3806</option>
+                                                    <option>3807</option>
+                                                    <option>3808</option>
+                                                    <option>3809</option>
+                                                    <option>3810</option>
+                                                    <option>3811</option>
+                                                    <option>3812</option>
+                                                    <option>3813</option>
+                                                    <option>3814</option>
+                                                    <option>3815</option>
+                                                    <option>3816</option>
+                                                    <option>3817</option>
+                                                    <option>3819</option>
+                                                    <option>3820</option>
+                                                    <option>3821</option>
+                                                    <option>3822</option>
+                                                    <option>3823</option>
+                                                    <option>3824</option>
+                                                    <option>3825</option>
+                                                    <option>3826</option>
+                                                    <option>3827</option>
+                                                    <option>3828</option>
+                                                    <option>3829</option>
+                                                    <option>3830</option>
+                                                    <option>3831</option>
+                                                    <option>3832</option>
+                                                    <option>3833</option>
+                                                    <option>3834</option>
+                                                    <option>3835</option>
+                                                    <option>3836</option>
+                                                    <option>3837</option>
+                                                    <option>3838</option>
+                                                    <option>3839</option>
+                                                    <option>3840</option>
+                                                    <option>3841</option>
+                                                    <option>3842</option>
+                                                    <option>3843</option>
+                                                    <option>3844</option>
+                                                    <option>3845</option>
+                                                    <option>3846</option>
+                                                    <option>3847</option>
+                                                    <option>3848</option>
+                                                    <option>3849</option>
+                                                    <option>3850</option>
+                                                    <option>3851</option>
+                                                    <option>3852</option>
+                                                    <option>3853</option>
+                                                    <option>3854</option>
+                                                    <option>3855</option>
+                                                    <option>3856</option>
+                                                    <option>3857</option>
+                                                    <option>3858</option>
+                                                    <option>3859</option>
+                                                    <option>3860</option>
+                                                    <option>3861</option>
+                                                    <option>3862</option>
+                                                    <option>3863</option>
+                                                    <option>3864</option>
+                                                    <option>3865</option>
+                                                    <option>3866</option>
+                                                    <option>3867</option>
+                                                    <option>3868</option>
+                                                    <option>3869</option>
+                                                    <option>3870</option>
+                                                    <option>3871</option>
+                                                    <option>3872</option>
+                                                    <option>3873</option>
+                                                    <option>3874</option>
+                                                    <option>3875</option>
+                                                    <option>3876</option>
+                                                    <option>3877</option>
+                                                    <option>3878</option>
+                                                    <option>3879</option>
+                                                    <option>3880</option>
+                                                    <option>3881</option>
+                                                    <option>3882</option>
+                                                    <option>3884</option>
+                                                    <option>3885</option>
+                                                    <option>3886</option>
+                                                    <option>3887</option>
+                                                    <option>3888</option>
+                                                    <option>3889</option>
+                                                    <option>3890</option>
+                                                    <option>3891</option>
+                                                    <option>3892</option>
+                                                    <option>3893</option>
+                                                    <option>3894</option>
+                                                    <option>3895</option>
+                                                    <option>3896</option>
+                                                    <option>3897</option>
+                                                    <option>3898</option>
+                                                    <option>3899</option>
+                                                    <option>3900</option>
+                                                    <option>3901</option>
+                                                    <option>3902</option>
+                                                    <option>3903</option>
+                                                    <option>3904</option>
+                                                    <option>3905</option>
+                                                    <option>3906</option>
+                                                    <option>3907</option>
+                                                    <option>3908</option>
+                                                    <option>3909</option>
+                                                    <option>3910</option>
+                                                    <option>3912</option>
+                                                    <option>3913</option>
+                                                    <option>3914</option>
+                                                    <option>3916</option>
+                                                    <option>3917</option>
+                                                    <option>3918</option>
+                                                    <option>3919</option>
+                                                    <option>3920</option>
+                                                    <option>3921</option>
+                                                    <option>3922</option>
+                                                    <option>3923</option>
+                                                    <option>3924</option>
+                                                    <option>3925</option>
+                                                    <option>3926</option>
+                                                    <option>3927</option>
+                                                    <option>3928</option>
+                                                    <option>3929</option>
+                                                    <option>3931</option>
+                                                    <option>3932</option>
+                                                    <option>3933</option>
+                                                    <option>3934</option>
+                                                    <option>3935</option>
+                                                    <option>3936</option>
+                                                    <option>3937</option>
+                                                    <option>3938</option>
+                                                    <option>3939</option>
+                                                    <option>3940</option>
+                                                    <option>3941</option>
+                                                    <option>3942</option>
+                                                    <option>3943</option>
+                                                    <option>3944</option>
+                                                    <option>3945</option>
+                                                    <option>3946</option>
+                                                    <option>3947</option>
+                                                    <option>3948</option>
+                                                    <option>3949</option>
+                                                    <option>3950</option>
+                                                    <option>3951</option>
+                                                    <option>3952</option>
+                                                    <option>3953</option>
+                                                    <option>3954</option>
+                                                    <option>3955</option>
+                                                    <option>3956</option>
+                                                    <option>3957</option>
+                                                    <option>3958</option>
+                                                    <option>3959</option>
+                                                    <option>3960</option>
+                                                    <option>3961</option>
+                                                    <option>3962</option>
+                                                    <option>3963</option>
+                                                    <option>3964</option>
+                                                    <option>3965</option>
+                                                    <option>3966</option>
+                                                    <option>3967</option>
+                                                    <option>3968</option>
+                                                    <option>3969</option>
+                                                    <option>3970</option>
+                                                    <option>3971</option>
+                                                    <option>3972</option>
+                                                    <option>3973</option>
+                                                    <option>3974</option>
+                                                    <option>3975</option>
+                                                    <option>3976</option>
+                                                    <option>3977</option>
+                                                    <option>3978</option>
+                                                    <option>3979</option>
+                                                    <option>3980</option>
+                                                    <option>3981</option>
+                                                    <option>3982</option>
+                                                    <option>3983</option>
+                                                    <option>3985</option>
+                                                    <option>3986</option>
+                                                    <option>3987</option>
+                                                    <option>3988</option>
+                                                    <option>3989</option>
+                                                    <option>3990</option>
+                                                    <option>3991</option>
+                                                    <option>3992</option>
+                                                    <option>3993</option>
+                                                    <option>4002</option>
+                                                    <option>4003</option>
+                                                    <option>4004</option>
+                                                    <option>4005</option>
+                                                    <option>4006</option>
+                                                    <option>4007</option>
+                                                    <option>4009</option>
+                                                    <option>4010</option>
+                                                    <option>4011</option>
+                                                    <option>4013</option>
+                                                    <option>4015</option>
+                                                    <option>4016</option>
+                                                    <option>4018</option>
+                                                    <option>4021</option>
+                                                    <option>4022</option>
+                                                    <option>4023</option>
+                                                    <option>4026</option>
+                                                    <option>4027</option>
+                                                    <option>4028</option>
+                                                    <option>4029</option>
+                                                    <option>4030</option>
+                                                    <option>4031</option>
+                                                    <option>4032</option>
+                                                    <option>4033</option>
+                                                    <option>4035</option>
+                                                    <option>4036</option>
+                                                    <option>4038</option>
+                                                    <option>4039</option>
+                                                    <option>4040</option>
+                                                    <option>4041</option>
+                                                    <option>4042</option>
+                                                    <option>4043</option>
+                                                    <option>4044</option>
+                                                    <option>4046</option>
+                                                    <option>4048</option>
+                                                    <option>4049</option>
+                                                    <option>4051</option>
+                                                    <option>4054</option>
+                                                    <option>4055</option>
+                                                    <option>3226A</option>
+
+                                                </select>
+
+                                            </div>
+
+
+                                            <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                                 Modelo Maquina   <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <select id="cmdModeloMaquina" class="form-control">
+                                                    <option></option>
+                                                    <option>EURO</option>
+                                                    <option>AMS</option>
+                                                    <option>BEVMAX</option>
+                                                    <option>BEVMAX 6 T</option>
+                                                    <option>COFFEMAR BLUETEC</option>
+                                                    <option>COFFEMAR S500 2</option>
+                                                    <option>COFFEMAR S5003</option>
+                                                    <option>IRIS</option>
+                                                    <option>LCM2</option>
+                                                    <option>LCM4</option>
+                                                    <option>LIONESS</option>
+                                                    <option>MERCANT MEDIA MIXTA</option>
+                                                    <option>MERCHANT MEDIA SNACK</option>
+                                                    <option>MULTIPLUS</option>
+                                                    <option>SVE-609</option>
+                                                    <option>VT-3000</option>
+                                                    <option>VT-5000</option>
+
+                                                </select>
+
+                                            </div>
+
+
+                                            <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                                                    Tipo Maquina   <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                                <select id="cmbTipoMaquina" class="form-control">
+                                                    <option></option>
+                                                    <option>BEBIDAS MIXTAS</option>
+                                                    <option>MIXTO</option>
+                                                    <option>PET 1000</option>
+                                                    <option>SNACK</option>
+                                                    <option>SOLUBLE</option>
+
+                                                </select>
+
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Diagnostico  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <select id="cmbDiagnostico" class="form-control">
+                                                <option></option>
+                                                <option>agua no sale caliente</option>
+                                                <option>air-break averiado</option>
+                                                <option>area comercial solicita revision</option>
+                                                <option>balde de residuos se encuentra lleno de agua</option>
+                                                <option>botonera no funciona bien</option>
+                                                <option>brazo movil averiado</option>
+                                                <option>cables cortados</option>
+                                                <option>canister se caen hacia adelante</option>
+                                                <option>cliente solicita revision</option>
+                                                <option>conector hundido dex</option>
+                                                <option>filtracion de agua</option>
+                                                <option>maquina con bebidas atoradas</option>
+                                                <option>maquina con problemas de iluminacion</option>
+                                                <option>maquina desconfigurada</option>
+                                                <option>maquina entrega mal los contadores</option>
+                                                <option>maquina funciona lenta</option>
+                                                <option>maquina hace corte ckto</option>
+                                                <option>maquina no carga agua o dice calentando agua</option>
+                                                <option>maquina no enciende</option>
+                                                <option>maquina no entrega azucar</option>
+                                                <option>maquina no entrega bebidas</option>
+                                                <option>maquina no entrega paletillas</option>
+                                                <option>maquina no entrega vasos</option>
+                                                <option>maquina no se puede abrir</option>
+                                                <option>maquina se encuentra en 0</option>
+                                                <option>maquina tiene ruido molesto</option>
+                                                <option>maquina vandalizada</option>
+                                                <option>maquina vandalizada</option>
+                                                <option>motor almacen averiado</option>
+                                                <option>no salen bebidas</option>
+                                                <option>problema con ascensor</option>
+                                                <option>problema con botonera</option>
+                                                <option>problema con cambio de precios</option>
+                                                <option>problema con cierre de puerta</option>
+                                                <option>problema con la copa</option>
+                                                <option>problema con motores de producto</option>
+                                                <option>problema con puerta de bebidas</option>
+                                                <option>problema con push</option>
+                                                <option>problema con rieles de bandeja</option>
+                                                <option>problema con rieles de monedero</option>
+                                                <option>problema con salida de producto</option>
+                                                <option>problema con sensores de venta</option>
+                                                <option>problemas con batidor</option>
+                                                <option>problemas con billetero</option>
+                                                <option>problemas con caja de recaudacion</option>
+                                                <option>problemas con la entrega de producto</option>
+                                                <option>problemas con tarjetas</option>
+                                                <option>problemas con unidad de frio</option>
+                                                <option>problemas con visor de maquina</option>
+                                                <option>problemas en billetero</option>
+                                                <option>problemas en monedero</option>
+                                                <option>producto sale rebalsado</option>
+                                                <option>productos con mal sabor</option>
+                                                <option>productos salen bajos en niveles de agua</option>
+                                                <option>programada revision preventiva</option>
+                                                <option>residuos llenos</option>
+                                                <option>sale agua negra</option>
+                                                <option>solicitan configurar venta forzada</option>
+                                                <option>solicitan revision de maquina</option>
+                                                <option>solicitud de revision de maquina</option>
+                                                <option>tobogan trabado</option>
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Solución <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <select id="cmbSolucion" class="form-control">
+                                                <option></option>
+                                                <option> *maquina informada para cambio</option>
+                                                <option>*maquina se realiza mantencion completa</option>
+                                                <option>*maquina se revisa completa y no se encontro ningun problema</option>
+                                                <option>*repuesto pendiente</option>
+                                                <option>automatico estaba abajo</option>
+                                                <option>bandeja se repara pero esta se cayo debido a que mueven la maquina</option>
+                                                <option>cambian pulsadores de botonera</option>
+                                                <option>diferencial estaba abajo</option>
+                                                <option>instalcion de patas de goma</option>
+                                                <option>maquina mal manipulada</option>
+                                                <option>maquina se monta directa desde su porta enchufe</option>
+                                                <option>maquina se resetea</option>
+                                                <option>maquina tenia agua cortada</option>
+                                                <option>me asegura monedero en soporte</option>
+                                                <option>monedero se encontro con falta de monedas</option>
+                                                <option>monedero se encontro sin problemas</option>
+                                                <option>no hay agua en la locacion</option>
+                                                <option>problemas con tarjeta I/O</option>
+                                                <option>reparacion pendiente</option>
+                                                <option>se actualiza billetero</option>
+                                                <option>se actualiza firmware</option>
+                                                <option>se alinean sensores de venta</option>
+                                                <option>se asegura cableado unidad de frio</option>
+                                                <option>se asegura motor con tornillos</option>
+                                                <option>se asegura posicion de billetero</option>
+                                                <option>se asegura posicion tobogan</option>
+                                                <option>se borra autolavado</option>
+                                                <option>se cambia ascensor </option>
+                                                <option>se cambia bandeja completa</option>
+                                                <option>se cambia barredor</option>
+                                                <option>se cambia base de tubos</option>
+                                                <option>se cambia batidor</option>
+                                                <option>se cambia bezel de maquina</option>
+                                                <option>se cambia billetero</option>
+                                                <option>se cambia bomba ulka</option>
+                                                <option>se cambia botonera</option>
+                                                <option>se cambia brazo de chapa</option>
+                                                <option>se cambia cabezal</option>
+                                                <option>se cambia cable flat visor</option>
+                                                <option>se cambia cadena de switch de balde</option>
+                                                <option>se cambia caja chucky</option>
+                                                <option>se cambia caldera</option>
+                                                <option>se cambia cassete</option>
+                                                <option>se cambia chapa</option>
+                                                <option>se cambia cilindro de maquina</option>
+                                                <option>se cambia codo de batidor</option>
+                                                <option>se cambia conector dex</option>
+                                                <option>se cambia copa completa</option>
+                                                <option>se cambia cordon de maquina</option>
+                                                <option>se cambia correa de arrastre ascensor</option>
+                                                <option>se cambia de posicion tope de chapa</option>
+                                                <option>se cambia dispensador de paletillas</option>
+                                                <option>se cambia eje motor salida de producto</option>
+                                                <option>se cambia electrovalvula entrada de agua</option>
+                                                <option>se cambia enchufe</option>
+                                                <option>se cambia enchufe magic</option>
+                                                <option>se cambia extractor de vapor</option>
+                                                <option>se cambia filtro de agua</option>
+                                                <option>se cambia flotador completo</option>
+                                                <option>se cambia fuente de poder</option>
+                                                <option>se cambia fusibles</option>
+                                                <option>se cambia iluminacion led</option>
+                                                <option>se cambia ingreso de monedas</option>
+                                                <option>se cambia manguera silicona</option>
+                                                <option>se cambia media luna de copa</option>
+                                                <option>se cambia microswitch</option>
+                                                <option>se cambia modulo</option>
+                                                <option>se cambia monedero</option>
+                                                <option>se cambia motor batidor</option>
+                                                <option>se cambia motor coffemar</option>
+                                                <option>se cambia motor de arrastre ascensor</option>
+                                                <option>se cambia motor de condensador</option>
+                                                <option>se cambia motor de evaporador</option>
+                                                <option>se cambia motor de subida y bajada ascensor</option>
+                                                <option>se cambia o´ring base batidor</option>
+                                                <option>se cambia paleta validador</option>
+                                                <option>se cambia partidor</option>
+                                                <option>se cambia pata de maquina </option>
+                                                <option>se cambia pesas de ascensor</option>
+                                                <option>se cambia piñon</option>
+                                                <option>se cambia protector termico bomba ulka</option>
+                                                <option>se cambia push de maquina</option>
+                                                <option>se cambia rele de unidad de frio</option>
+                                                <option>se cambia resistencia</option>
+                                                <option>se cambia reten base batidor</option>
+                                                <option>se cambia riel de bandeja</option>
+                                                <option>se cambia seguro de chapa</option>
+                                                <option>se cambia sensor inferior de ascensor</option>
+                                                <option>se cambia sonda de caldera</option>
+                                                <option>se cambia sonda de temperatura </option>
+                                                <option>se cambia soporte de espiral</option>
+                                                <option>se cambia soporte de monedero</option>
+                                                <option>se cambia soporte de puerta</option>
+                                                <option>se cambia switch</option>
+                                                <option>se cambia switch de gatillo copa</option>
+                                                <option>se cambia switch de producto agotado</option>
+                                                <option>se cambia switch de puerta</option>
+                                                <option>se cambia tarjeta air-break</option>
+                                                <option>se cambia tarjeta de control</option>
+                                                <option>se cambia tarjeta de sensores de recorrido ascensor</option>
+                                                <option>Se cambia tarjeta logica</option>
+                                                <option>se cambia tarjetero</option>
+                                                <option>se cambia tobogan de maquina</option>
+                                                <option>se cambia tornillo de chapa</option>
+                                                <option>se cambia torreta</option>
+                                                <option>se cambia transformador</option>
+                                                <option>se cambia tubo de 18w</option>
+                                                <option>se cambia tubo de 30w</option>
+                                                <option>se cambia tubo de 58w</option>
+                                                <option>se cambia tubo de 6w</option>
+                                                <option>se cambia tubo de 9w</option>
+                                                <option>se cambia tubo fluorecente a led</option>
+                                                <option>se cambia tuerca de chapa</option>
+                                                <option>se cambia unidad de frio</option>
+                                                <option>se cambia validador</option>
+                                                <option>se cambia valvulas de caldera</option>
+                                                <option>se cambia varilla de push</option>
+                                                <option>se cambia version de programa</option>
+                                                <option>se cambia vidrio de maquina </option>
+                                                <option>se cambia visor de maquina</option>
+                                                <option>se cambian fusibles</option>
+                                                <option>se cambian leds</option>
+                                                <option>se cambian precios de maquina</option>
+                                                <option>se cambian sensores de ascensor</option>
+                                                <option>se cambian sensores de venta</option>
+                                                <option>se cambio switch de home</option>
+                                                <option>se codifica cilindro</option>
+                                                <option>se conecta cableado de botonera</option>
+                                                <option>se conecta electrovalvula</option>
+                                                <option>se conecta motor desconetado</option>
+                                                <option>se configura aceptacion de billetes</option>
+                                                <option>se configura venta forzada</option>
+                                                <option>se configuran billetes en maquina</option>
+                                                <option>se corigue posicion de bandeja</option>
+                                                <option>se deja cilindro en punto</option>
+                                                <option>se deriba revision a soporte</option>
+                                                <option>se despeja evaporador</option>
+                                                <option>se despeja maquina en su parte posterior</option>
+                                                <option>se desplaza switch de puerta</option>
+                                                <option>se desplazan bandejas de productos</option>
+                                                <option>se destapa despiche de evaporador</option>
+                                                <option>se destraba caida de paletilla estaba atorada</option>
+                                                <option>se destraba monedero</option>
+                                                <option>se destraba tobogan</option>
+                                                <option>se destraban bebidas </option>
+                                                <option>se destraban paletillas mal cargadas</option>
+                                                <option>se enchufa unidad de frio</option>
+                                                <option>se encontro maquina con falta de higiene</option>
+                                                <option>se encontro maquina mal cargada</option>
+                                                <option>se encontro validador desconectado</option>
+                                                <option>se encuentra baja capacidad de automatico</option>
+                                                <option>se encuentra balde roto</option>
+                                                <option>se encuentra batidores tapador debido a maquina vandalizada</option>
+                                                <option>se encuentra bidon roto</option>
+                                                <option>se encuentra desconectado lector</option>
+                                                <option>se encuentra flotador fuera de posicion</option>
+                                                <option>se encuentra maquina vandalizada pero se deja reparada</option>
+                                                <option>se encuentra monedero manipulado</option>
+                                                <option>se habilita llene dispense en maquna</option>
+                                                <option>se informa solicitud de anclaje de maquina</option>
+                                                <option>se instala camara a maquina</option>
+                                                <option>se instala pestillo y se asegura tapa</option>
+                                                <option>se instala termostato mecanico</option>
+                                                <option>se invierte copa de salida de bebidas</option>
+                                                <option>se limpia compuerta salida de azucar</option>
+                                                <option>se limpia condensador y regilla</option>
+                                                <option>se limpia distribuidor de mangueras</option>
+                                                <option>se limpia solenoide caida azucar</option>
+                                                <option>se lubrica gatillo de copa</option>
+                                                <option>se lubrica sistema de engranajes de push</option>
+                                                <option>se lubrican rieles</option>
+                                                <option>se modifica configuracion de validador</option>
+                                                <option>se modifica maquina de letras a numeros</option>
+                                                <option>se modifican precios</option>
+                                                <option>se monta anillo separador</option>
+                                                <option>se monta ascensor a su posicion de trabajo</option>
+                                                <option>se monta bandeja de motores</option>
+                                                <option>se monta boquilla de validador</option>
+                                                <option>se monta deflector</option>
+                                                <option>se monta nuevo push</option>
+                                                <option>se monta resorte de boton de devolucion</option>
+                                                <option>se monta resorte de chapa de maquina</option>
+                                                <option>se monta tapa interior de billetero</option>
+                                                <option>se monta tuerca a conector dex</option>
+                                                <option>se monta y se asegura soporte de caja de recaudacion</option>
+                                                <option>se montan pernos a soporte de puerta</option>
+                                                <option>se nivela patas de maquina </option>
+                                                <option>se nivelan monedas en tubos</option>
+                                                <option>se realiza limpieza a billetero</option>
+                                                <option>se realiza limpieza a sensor de salida de producto</option>
+                                                <option>se realiza mantencion a copa</option>
+                                                <option>se realiza mantencion a sensores de ascensor</option>
+                                                <option>se realiza mantencion a sensores de venta</option>
+                                                <option>se realiza mantencion a torreta por azucar en su interior</option>
+                                                <option>se realizo mantencion a tineta</option>
+                                                <option>se reconfigura monedero</option>
+                                                <option>se reconfigura y se calibra</option>
+                                                <option>se refuerza eje de ventilador condensador</option>
+                                                <option>se regula cierre de puerta</option>
+                                                <option>se regula switch de producto agotado</option>
+                                                <option>se regula temperatura</option>
+                                                <option>se regula temperatura de caldera</option>
+                                                <option>se regula tobogan ingreso de monedas</option>
+                                                <option>se regula unidad de frio</option>
+                                                <option>se regulan niveles de agua</option>
+                                                <option>se regulan pernos de pata</option>
+                                                <option>se regulan seguros de puerta</option>
+                                                <option>se reorganisan bebidas en columnas</option>
+                                                <option>se repara boton de devolucion</option>
+                                                <option>se repara cabezal</option>
+                                                <option>se repara cabezal tarjetero</option>
+                                                <option>se repara cable de alimentacion de motor</option>
+                                                <option>se repara cableado de alimentacion ascensor flat</option>
+                                                <option>se repara cableado de bandeja</option>
+                                                <option>se repara cableado de base de fusibles</option>
+                                                <option>se repara cableado de fuente de poder</option>
+                                                <option>se repara cableado unidad de frio</option>
+                                                <option>se repara cableado x-y</option>
+                                                <option>se repara cle de alimentacion de motor</option>
+                                                <option>se repara conexión de agua</option>
+                                                <option>se repara conexión de botonera</option>
+                                                <option>se repara conexión fusible suelto</option>
+                                                <option>se repara extendiendo cordon de maquina</option>
+                                                <option>se repara face de maquina</option>
+                                                <option>se repara lector desconectado</option>
+                                                <option>se repara monedero manipulado</option>
+                                                <option>se repara paleta de bebidas</option>
+                                                <option>se repara paleta de switch</option>
+                                                <option>se repara punto de chapa</option>
+                                                <option>se repara push</option>
+                                                <option>se repara push de maquina</option>
+                                                <option>se repara ramal iluminacion</option>
+                                                <option>se repara riel de bandeja</option>
+                                                <option>se repara soporte de monedero</option>
+                                                <option>se repara switch de puerta</option>
+                                                <option>se repara switch de ventilador evaporador</option>
+                                                <option>se repara switch flotador</option>
+                                                <option>se repara tarjeta air-break</option>
+                                                <option>se repara tubbing</option>
+                                                <option>se repara validador desconectado</option>
+                                                <option>se reparan bezel de maquina</option>
+                                                <option>se reparan cableados</option>
+                                                <option>se reparan niveles de monedas</option>
+                                                <option>se reparan sensores de venta</option>
+                                                <option>se reposiciona correa de desplazamiento motor x</option>
+                                                <option>se reposiciona correa de desplazamiento motor y</option>
+                                                <option>se reprograman dosis de productos</option>
+                                                <option>se resetea transformador</option>
+                                                <option>se resetean contadores de maquina </option>
+                                                <option>se retira billete atorado en cassete</option>
+                                                <option>se retira moneda de lector</option>
+                                                <option>se retira moneda deformada se tubos</option>
+                                                <option>se retiran excesos de monedas en tubos</option>
+                                                <option>se retiran vasos atorados</option>
+                                                <option>tarjetero se encontro sin problemas</option>
+                                                <option>vasos en mal estado se retiran de torreta</option>
+                                                <option>zona esta con corte electrico</option>
+
+                                            </select>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-group">
+
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Seleccione Responsable  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-2 col-sm-2 col-xs-12">
+                                            <select id="cmdResponsable" class="form-control">
+                                                <option></option>
+                                                <option>Francisco Martinez</option>
+                                                <option>Sebastian Gil</option>
+                                                <option>Jose Alcedo</option>
+                                                <option>Rubén araya</option>
+                                                <option>Magdalena Guajardo</option>
+                                                <option>Ana Salazar</option>
+                                                <option>Miguel Gutiérrez</option>
+                                                <option>David Retamal</option>
+                                                <option>Nelson Moreno</option>
+                                                <option>Jorge Jorquera</option>
+                                                <option>Danesa Moreira</option>
+                                                <option>Miguel Castillo</option>
+                                                <option>Freddy Peña</option>
+                                            </select>
+                                        </div>
+
+
+                                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                                            Supervisor a Cargo <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-2 col-sm-2 col-xs-12">
+                                            <select id="CmbSupervisor" class="form-control">
+                                                <option></option> 
+                                                <option>ALICIA ACEVEDO</option>
+                                                <option>JENNYFER ULLOA</option>
+                                                <option>JUAN SANCHEZ</option>
+                                                <option>MARCELO JARA</option>
+                                                <option>MARIA JOSE ALVARADO</option>
+                                                <option>NICOLAS HERRERA</option>
+                                                <option>SILVANA NUÑEZ</option>
+                                                <option>VICENTE LLANCA</option>
+                                            </select>
+                                        </div>
+
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                            <div id="step-4">
+                                <form class="form-horizontal form-label-left">
+
+                                    <br>
+                                    <br>
+
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Descripción del la solucución  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <textarea class="form-control" rows="3" id="DescriSolucion"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">
+                                            Cerrar el Proceso  <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar Proceso</button>
+                                        </div>
+                                    </div>
+
+
+                                </form>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- End SmartWizard Content -->
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+

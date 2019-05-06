@@ -1,0 +1,82 @@
+2019-01-07 15:48:01,711 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-07 15:48:01,716 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.DespachoConductor() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 513
+2019-01-07 15:48:01,716 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.DespachoConductor() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 513
+2019-01-07 16:04:32,259 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-07 16:04:32,261 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.ConsultarConductorDespacho(String _IdConductor) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 219
+2019-01-07 16:04:32,262 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.ConsultarConductorDespacho(String _IdConductor) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 219
+2019-01-07 16:04:47,616 FATAL Disofi.Utils.CapturaExcepciones - La cadena de entrada no tiene el formato correcto.
+2019-01-07 16:04:47,616 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.FormatException: La cadena de entrada no tiene el formato correcto.
+   en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.ConsultarConductorDespacho(String _IdConductor) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 219
+2019-01-07 16:04:47,617 ERROR Disofi.Utils.CapturaExcepciones -    en System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   en System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Int32.Parse(String s)
+   en Disofi.Controllers.TamarugalGEController.ConsultarConductorDespacho(String _IdConductor) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 219
+2019-01-07 22:33:50,523 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-07 22:33:50,567 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-07 22:33:50,567 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.CreacionContrato() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 24
+2019-01-07 23:53:28,179 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-07 23:53:28,181 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-07 23:53:28,181 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-07 23:53:30,055 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-07 23:53:30,055 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-07 23:53:30,055 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-07 23:53:31,573 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-07 23:53:31,573 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 622
+2019-01-07 23:53:31,573 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 622
+2019-01-07 23:53:33,131 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-07 23:53:33,131 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.DespachoConductor() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 513
+2019-01-07 23:53:33,132 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.DespachoConductor() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 513
+2019-01-07 23:53:34,152 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-07 23:53:34,153 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 622
+2019-01-07 23:53:34,153 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.Recepcion() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 622
+2019-01-07 23:53:34,954 FATAL Disofi.Utils.CapturaExcepciones - Referencia a objeto no establecida como instancia de un objeto.
+2019-01-07 23:53:34,955 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-07 23:53:34,955 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.Controllers.TamarugalGEController.RecepcionPeaje() en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 589
+2019-01-07 23:56:40,962 FATAL Disofi.Utils.CapturaExcepciones - No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-07 23:56:40,968 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.IO.FileLoadException: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+Nombre de archivo: 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821'
+   en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetActualizaGuia(String idguia, String numeroPedido, String toneladas, String FechaGuia, String FechaRetiro, String Comentario, String PatenteRecepcion, String PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1502
+   en Disofi.BLL.ControlDisofi.SetActualizaGuia(String idguia, String numeroPedido, String toneladas, String FechaGuia, String FechaRetiro, String Comentario, String PatenteRecepcion, String PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 253
+   en Disofi.Controllers.TamarugalGEController.GrabarRecepcionGuia(String _IdGuiaExpedicion, String _NroPedido, String _FechaGuia, String _FechaRetiro, String _Toneladas, String _Comentario, String _PatenteRecepcion, String _PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 912
+
+=== Información de estado anterior al enlace ===
+LOG: DisplayName = log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+ (Fully-specified)
+LOG: Appbase = file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/
+LOG: PrivatePath inicial = D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\bin
+Ensamblado de llamada : Disofi.DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+===
+LOG: Este enlace empieza en el contexto de carga default.
+LOG: Utilización del archivo de configuración de la aplicación: D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\web.config
+LOG: Utilizando el archivo de configuración de host: C:\Users\Luisi\Documents\IISExpress\config\aspnet.config
+LOG: Utilizando el archivo de configuración del equipo en C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Referencia posterior a la directiva: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///C:/Users/Luisi/AppData/Local/Temp/Temporary ASP.NET Files/vs/59b33b85/8520a762/log4net/log4net.DLL.
+LOG: Intento de descarga de la nueva dirección URL file:///D:/Desarrollo/Consisa/Disofi/Dosofi/DosofiTamarugal/bin/log4net.DLL.
+AVS: Al comparar el nombre de ensamblado se generó la incompatibilidad: Versión principal
+ERR: Error al completar la instalación del ensamblado (hr = 0x80131040). Finalizó la búsqueda.
+
+2019-01-07 23:56:40,969 ERROR Disofi.Utils.CapturaExcepciones -    en Disofi.DAL.CapturaExcepciones..ctor(Exception e)
+   en Disofi.BLL.FactoryAccesos.SetActualizaGuia(String idguia, String numeroPedido, String toneladas, String FechaGuia, String FechaRetiro, String Comentario, String PatenteRecepcion, String PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1502
+   en Disofi.BLL.ControlDisofi.SetActualizaGuia(String idguia, String numeroPedido, String toneladas, String FechaGuia, String FechaRetiro, String Comentario, String PatenteRecepcion, String PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.BLL\ControlDisofi.cs:línea 253
+   en Disofi.Controllers.TamarugalGEController.GrabarRecepcionGuia(String _IdGuiaExpedicion, String _NroPedido, String _FechaGuia, String _FechaRetiro, String _Toneladas, String _Comentario, String _PatenteRecepcion, String _PlacaRemolqueRecepcion) en D:\Desarrollo\Consisa\Disofi\Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 912

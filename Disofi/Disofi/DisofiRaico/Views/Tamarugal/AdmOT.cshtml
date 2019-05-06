@@ -1,0 +1,623 @@
+﻿@{
+    ViewBag.Title = "Usuarios";
+}
+
+
+
+<script src="~/WebJs/HomeJs/Usuario.js"></script>
+
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Adm. Orden Trabajo <small>Datos Orden Trabajo</small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Seleccion Tipo Servicio <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-9 col-xs-12">
+                            <select class="form-control">
+                                <option></option>
+                                <option>Mecanica</option>
+                                <option>Desabolladura y Pintura</option>
+                            </select>
+                        </div>
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Seleccione Tipo O.T. <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-9 col-xs-12">
+                            <select class="form-control">
+                                <option></option>
+                                <option>FATS SERVICE</option>
+                                <option>GARANTIA</option>
+                                <option>NORMAL</option>
+                                <option>PRE ENTREGA</option>
+                            </select>
+                        </div>
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Seleccione  <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-9 col-xs-12">
+                            <select class="form-control">
+                                <option></option>
+                                <option>Recepcionista 1</option>
+                                <option>Recepcionista 2</option>
+                                <option>Recepcionista 3</option>
+                                <option>Recepcionista 4</option>
+                                <option>Recepcionista 5</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Color Cono <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-9 col-xs-12">
+                            <select class="form-control">
+                                <option></option>
+                                <option>Rojo</option>
+                                <option>Blanco</option>
+                                <option>Azul</option>
+                            </select>
+                        </div>
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Número Cono <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Fecha Adm. <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-9 col-xs-12">
+                            <div class="controls">
+                                <div class="col-md-11 xdisplay_inputx form-group has-feedback">
+                                    <input type="text" class="form-control has-feedback-left" id="single_cal2" placeholder="First Name" aria-describedby="inputSuccess2Status2">
+                                    <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                    <span id="inputSuccess2Status2" class="sr-only">(success)</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Fecha y Hora Entrega <span class="required">*</span>
+                        </label>
+                        <div class="col-md-3">
+                            <form class="form-horizontal">
+                                <fieldset>
+                                    <div class="control-group">
+                                        <div class="controls">
+                                            <div class="input-prepend input-group">
+                                                <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
+                                                <input type="text" name="reservation-time" id="reservation-time" class="form-control" value="10/23/2018 - 10/31/2018" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Adm. Orden Trabajo <small>Datos del Vehículo</small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            Patente <span class="required">*</span>
+                        </label>
+                        <div class="col-md-1 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            Marca <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            Modelo <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2  col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            Color
+                            <span class="required">*</span>
+                        </label>
+                        <div class="col-md-1 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            Vin <span class="required">*</span>
+                        </label>
+                        <div class="col-md-1 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            Año <span class="required">*</span>
+                        </label>
+                        <div class="col-md-1 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            Poliza <span class="required">*</span>
+                        </label>
+                        <div class="col-md-1 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            Ultimo KLMS <span class="required">*</span>
+                        </label>
+                        <div class="col-md-1 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+
+                        <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                            KLMS Actual
+                            <span class="required">*</span>
+                        </label>
+                        <div class="col-md-1 col-sm-2 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+
+
+
+                        <div class="col-md-4 col-sm-2 col-xs-12">
+                            <form>
+                                Estanque
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio" checked>Vacio
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">1/4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">1/2
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">3/4
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio">Lleno
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="comment">Comentarios:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Adm. Orden Trabajo <small>Datos del Cliente Trabajo</small></h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Cliente <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                        </div>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Agregar Nuevo Cliente</button>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-md-2 col-sm-3 col-xs-12" for="first-name">
+                            Seleccione Servicio <span class="required">*</span>
+                        </label>
+                        <div class="col-md-2 col-sm-9 col-xs-12">
+                            <select class="form-control">
+                                <option></option>
+                                <option>Revisión Normal</option>
+                                <option>Revision 5000</option>
+                                <option>Revision 10000</option>
+                                <option>Revision 15000</option>
+                                <option>Revision 20000</option>
+                                <option>Revision 25000</option>
+                                <option>Revision 30000</option>
+                                <option>Revision 35000</option>
+                                <option>Revision 40000</option>
+                                <option>Revision 45000</option>
+                                <option>Revision 50000</option>
+                                <option>Revision 60800</option>
+                                <option>Revision 70800</option>
+                                <option>Revision 80000</option>
+                                <option>Revision 90000</option>
+                                <option>Revision 100000</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+
+
+        <div class="x_content">
+            <div class="row">
+                <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
+                    <div class="form-group">
+
+                        <div class="form-group">
+                            <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                                Codigo <span class="required">*</span>
+                            </label>
+                            <div class="col-md-1 col-sm-2 col-xs-12">
+                                <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                            <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                                Detalle <span class="required">*</span>
+                            </label>
+                            <div class="col-md-2 col-sm-2 col-xs-12">
+                                <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+
+                            <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                                Unidades / HH <span class="required">*</span>
+                            </label>
+                            <div class="col-md-2  col-sm-2 col-xs-12">
+                                <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+
+                            <label class="control-label col-md-1 col-sm-3 col-xs-12" for="first-name">
+                                Precio
+                                <span class="required">*</span>
+                            </label>
+                            <div class="col-md-1 col-sm-2 col-xs-12">
+                                <input id="txtNumeroCono" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
+                            </div>
+
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Agregar Detalle</button>
+                        </div>
+
+                        <p>Registro Mano Obra / Repuestos/ Insumos</p>
+                        <div class="table-responsive">
+                            <table class="table table-striped jambo_table bulk_action">
+                                <thead>
+                                    <tr class="headings">
+                                        <th>
+                                            <input type="checkbox" id="check-all" class="flat">
+                                        </th>
+                                        <th class="column-title">Id </th>
+                                        <th class="column-title">Código </th>
+                                        <th class="column-title">Mano Obra / Insumos </th>
+                                        <th class="column-title">Unidades / HH </th>
+                                        <th class="column-title">Precio </th>
+                                        <th class="column-title no-link last">
+                                            <span class="nobr">Action</span>
+                                        </th>
+                                        <th class="bulk-actions" colspan="7">
+                                            <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="even pointer">
+                                        <td class="a-center ">
+                                            <input type="checkbox" class="flat" name="table_records">
+                                        </td>
+                                        <td class=" ">1</td>
+                                        <td class=" ">2254324</td>
+                                        <td class=" ">Cambio de Aceite<i class="success fa fa-long-arrow-up"></i></td>
+                                        <td class=" ">4</td>
+                                        <td class=" ">$43.444</td>
+                                        <td class=" last">
+                                            <a href="#">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="even pointer">
+                                        <td class="a-center ">
+                                            <input type="checkbox" class="flat" name="table_records">
+                                        </td>
+                                        <td class=" ">2</td>
+                                        <td class=" ">2254324 </td>
+                                        <td class=" ">Revisión Filtros<i class="success fa fa-long-arrow-up"></i></td>
+                                        <td class=" ">1</td>
+                                        <td class=" ">$43.444</td>
+                                        <td class=" last">
+                                            <a href="#">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="even pointer">
+                                        <td class="a-center ">
+                                            <input type="checkbox" class="flat" name="table_records">
+                                        </td>
+                                        <td class=" ">3</td>
+                                        <td class=" ">342444 </td>
+                                        <td class=" ">Revisión Mangueras<i class="success fa fa-long-arrow-up"></i></td>
+                                        <td class=" ">2</td>
+                                        <td class=" ">$43.444</td>
+                                        <td class=" last">
+                                            <a href="#">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="even pointer">
+                                        <td class="a-center ">
+                                            <input type="checkbox" class="flat" name="table_records">
+                                        </td>
+                                        <td class=" ">4</td>
+                                        <td class=" ">243244</td>
+                                        <td class=" ">Revisión Correas<<i class="success fa fa-long-arrow-up"></i></td>
+                                        <td class=" ">1</td>
+                                        <td class=" ">$43.444</td>
+                                        <td class=" last">
+                                            <a href="#">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="even pointer">
+                                        <td class="a-center ">
+                                            <input type="checkbox" class="flat" name="table_records">
+                                        </td>
+                                        <td class=" ">5</td>
+                                        <td class=" ">42342</td>
+                                        <td class=" ">Spray<i class="success fa fa-long-arrow-up"></i></td>
+                                        <td class=" ">2</td>
+                                        <td class=" ">$43.444</td>
+                                        <td class=" last">
+                                            <a href="#">View</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="even pointer">
+                                        <td class="a-center ">
+                                            <input type="checkbox" class="flat" name="table_records">
+                                        </td>
+                                        <td class=" ">6</td>
+                                        <td class=" ">6456546 </td>
+                                        <td class=" ">Revisón Vidro Derecho<i class="success fa fa-long-arrow-up"></i></td>
+                                        <td class=" ">3</td>
+                                        <td class=" ">$43.444</td>
+                                        <td class=" last">
+                                            <a href="#">View</a>
+                                        </td>
+                                    </tr>
+
+
+                            </table>
+
+
+                        </div>
+
+
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="modalPopUpIngresoUsuario" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Agregar nuevo Cliente</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="x_content">
+
+                        <div style="display: none;">
+                            @*<div class="form-group">*@
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">
+                                Id Cliente  <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="txtCliente" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+
+                        <br />
+                        <form class="form-horizontal form-label-left input_mask">
+
+                            <div class="form-group">
+                                <div class="col-md-4 col-sm-4 col-xs-12 form-group has-feedback">
+                                    <strong>Rut</strong>
+                                    <input type="text" required="required" class="form-control" id="txtRut">
+                                </div>
+                                <div class="col-md-8 col-sm-8 col-xs-12 form-group">
+                                    <strong>Nombre</strong>
+                                    <input type="text" required="required" class="form-control" id="txtNombre">
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group has-feedback">
+                                <strong>Apellido Paterno</strong>
+                                <input type="text" required="required" class="form-control" id="txtApellidoPaterno">
+                            </div>
+
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Apellido Materno</strong>
+                                <input type="text" required="required" class="form-control" id="txtApellidoMaterno">
+                            </div>
+                            <div class="col-md-3 col-sm-3 col-xs-12 form-group">
+                                <strong>Nacionalidad</strong>
+                                <select class="form-control">
+                                    <option></option>
+                                    <option>Chile</option>
+                                    <option>Argentina</option>
+                                    <option>Brasil</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Fecha Naciemiento</strong>
+                                <input type="text" class="form-control has-feedback-right" data-date-format="dd-MM-yyyy" id="single_cal1" aria-describedby="inputSuccess2Status">
+                                <span class="fa fa-calendar-o form-control-feedback right" aria-hidden="true"></span>
+                                <span id="inputSuccess2Status" class="sr-only">(success)</span>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Fono Particular</strong>
+                                <input type="text" required="required" class="form-control" id="txtFonoParticular">
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Celular</strong>
+                                <input type="text" required="required" class="form-control" id="txtNumeroCeluar">
+                            </div>
+
+                            <div class="col-md-8 col-sm-8 col-xs-12 form-group">
+                                <strong>Dirección Particular</strong>
+                                <input type="text" required="required" class="form-control" id="txtDirccionPatarticular">
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Comuna</strong>
+                                <select class="form-control">
+                                    <option></option>
+                                    <option>La Florida</option>
+                                    <option>Puente Alto</option>
+                                    <option>Santiago</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Ciudad</strong>
+                                <input type="text" required="required" class="form-control" id="txtCiudad" disabled="disabled">
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Región</strong>
+                                <input type="text" required="required" class="form-control" id="txtRegion" disabled="disabled">
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Otro Fono</strong>
+                                <input type="text" required="required" class="form-control" id="txtOtroTelefono">
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Nivel Educacional</strong>
+                                <select class="form-control">
+                                    <option></option>
+                                    <option>La Florida</option>
+                                    <option>Puente Alto</option>
+                                    <option>Santiago</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Profesión</strong>
+                                <select class="form-control">
+                                    <option></option>
+                                    <option>La Florida</option>
+                                    <option>Puente Alto</option>
+                                    <option>Santiago</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 form-group">
+                                <strong>Estado Civil</strong>
+                                <select class="form-control">
+                                    <option></option>
+                                    <option>La Florida</option>
+                                    <option>Puente Alto</option>
+                                    <option>Santiago</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                                <strong>Email</strong>
+                                <input type="text" required="required" class="form-control" id="txtEmail">
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-8 col-sm-8 col-xs-12 col-md-offset-3">
+                                    <button class="btn btn-primary" type="reset">Resetear</button>
+                                    <button type="submit" class="btn btn-success" id="btnGrabarDatosCliente">Grabar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

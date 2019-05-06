@@ -1,0 +1,64 @@
+2019-01-22 00:27:22,172 FATAL Disofi.Utils.CapturaExcepciones - La columna 'Conductor' no pertenece a la tabla .
+2019-01-22 00:27:22,176 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'Conductor' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1010
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:27:22,177 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1010
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:27:28,105 FATAL Disofi.Utils.CapturaExcepciones - La columna 'Conductor' no pertenece a la tabla .
+2019-01-22 00:27:28,105 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.ArgumentException: La columna 'Conductor' no pertenece a la tabla .
+   en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1010
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:27:28,106 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRow.GetDataColumn(String columnName)
+   en System.Data.DataRow.get_Item(String columnName)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1010
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:30:40,550 FATAL Disofi.Utils.CapturaExcepciones - La conversión especificada no es válida.
+2019-01-22 00:30:40,554 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.InvalidCastException: La conversión especificada no es válida.
+   en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1029
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:30:40,555 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1029
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:31:04,916 FATAL Disofi.Utils.CapturaExcepciones - La conversión especificada no es válida.
+2019-01-22 00:31:04,916 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.InvalidCastException: La conversión especificada no es válida.
+   en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1029
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:31:04,917 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1029
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:31:48,556 FATAL Disofi.Utils.CapturaExcepciones - La conversión especificada no es válida.
+2019-01-22 00:31:48,556 ERROR Disofi.Utils.CapturaExcepciones - Error no controlado: System.InvalidCastException: La conversión especificada no es válida.
+   en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1029
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631
+2019-01-22 00:31:48,556 ERROR Disofi.Utils.CapturaExcepciones -    en System.Data.DataRowExtensions.UnboxT`1.ValueField(Object value)
+   en System.Data.DataRowExtensions.Field[T](DataRow row, String columnName)
+   en Disofi.BLL.FactoryAccesos.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\FactoryAccesos.cs:línea 1029
+   en Disofi.BLL.ControlDisofi.ListadoProgramacionGE(String id) en D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.BLL\ControlDisofi.cs:línea 182
+   en Disofi.Controllers.TamarugalGEController.Despacho(String _IdConductor, String _Conductor) en D:\Desarrollo\Consisa\Disofi\  Dosofi\DosofiTamarugal\Controllers\TamarugalGE.cs:línea 631

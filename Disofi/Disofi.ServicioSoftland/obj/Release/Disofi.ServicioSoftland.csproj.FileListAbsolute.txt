@@ -1,0 +1,21 @@
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.dll.config
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.dll.config
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.dll.config
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.ServicioSoftland\bin\Disofi.ServicioSoftland.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.ServicioSoftland\obj\Release\Disofi.ServicioSoftland.pdb

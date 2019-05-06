@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ListadoBodega">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListadoBodegaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoBodegaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoProductos">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListadoProductosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoProductosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoUsuarios">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListadoUsuariosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoUsuariosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoUsuariosNombre">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nombre" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoUsuariosNombreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoUsuariosNombreResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoLocalesProductos">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListadoLocalesProductosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoLocalesProductosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoProductoPorLocales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Locales" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoProductoPorLocalesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoProductoPorLocalesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoClientes">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListadoClientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoClientesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoPorProducto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="productos" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoPorProductoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoPorProductoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoPorProductoAgrupado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="codigoBodega" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListadoPorProductoAgrupadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListadoPorProductoAgrupadoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ListadoBodegaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoBodega" />
+  </wsdl:message>
+  <wsdl:message name="ListadoBodegaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoBodegaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListadoProductosSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoProductos" />
+  </wsdl:message>
+  <wsdl:message name="ListadoProductosSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoProductosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListadoUsuariosSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoUsuarios" />
+  </wsdl:message>
+  <wsdl:message name="ListadoUsuariosSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoUsuariosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListadoUsuariosNombreSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoUsuariosNombre" />
+  </wsdl:message>
+  <wsdl:message name="ListadoUsuariosNombreSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoUsuariosNombreResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListadoLocalesProductosSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoLocalesProductos" />
+  </wsdl:message>
+  <wsdl:message name="ListadoLocalesProductosSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoLocalesProductosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListadoProductoPorLocalesSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoProductoPorLocales" />
+  </wsdl:message>
+  <wsdl:message name="ListadoProductoPorLocalesSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoProductoPorLocalesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListadoClientesSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoClientes" />
+  </wsdl:message>
+  <wsdl:message name="ListadoClientesSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListadoPorProductoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoPorProducto" />
+  </wsdl:message>
+  <wsdl:message name="ListadoPorProductoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoPorProductoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListadoPorProductoAgrupadoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListadoPorProductoAgrupado" />
+  </wsdl:message>
+  <wsdl:message name="ListadoPorProductoAgrupadoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListadoPorProductoAgrupadoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MaestrosSoap">
+    <wsdl:operation name="ListadoBodega">
+      <wsdl:input message="tns:ListadoBodegaSoapIn" />
+      <wsdl:output message="tns:ListadoBodegaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoProductos">
+      <wsdl:input message="tns:ListadoProductosSoapIn" />
+      <wsdl:output message="tns:ListadoProductosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoUsuarios">
+      <wsdl:input message="tns:ListadoUsuariosSoapIn" />
+      <wsdl:output message="tns:ListadoUsuariosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoUsuariosNombre">
+      <wsdl:input message="tns:ListadoUsuariosNombreSoapIn" />
+      <wsdl:output message="tns:ListadoUsuariosNombreSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoLocalesProductos">
+      <wsdl:input message="tns:ListadoLocalesProductosSoapIn" />
+      <wsdl:output message="tns:ListadoLocalesProductosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoProductoPorLocales">
+      <wsdl:input message="tns:ListadoProductoPorLocalesSoapIn" />
+      <wsdl:output message="tns:ListadoProductoPorLocalesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoClientes">
+      <wsdl:input message="tns:ListadoClientesSoapIn" />
+      <wsdl:output message="tns:ListadoClientesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoPorProducto">
+      <wsdl:input message="tns:ListadoPorProductoSoapIn" />
+      <wsdl:output message="tns:ListadoPorProductoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListadoPorProductoAgrupado">
+      <wsdl:input message="tns:ListadoPorProductoAgrupadoSoapIn" />
+      <wsdl:output message="tns:ListadoPorProductoAgrupadoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MaestrosSoap" type="tns:MaestrosSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListadoBodega">
+      <soap:operation soapAction="http://tempuri.org/ListadoBodega" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoProductos">
+      <soap:operation soapAction="http://tempuri.org/ListadoProductos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoUsuarios">
+      <soap:operation soapAction="http://tempuri.org/ListadoUsuarios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoUsuariosNombre">
+      <soap:operation soapAction="http://tempuri.org/ListadoUsuariosNombre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoLocalesProductos">
+      <soap:operation soapAction="http://tempuri.org/ListadoLocalesProductos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoProductoPorLocales">
+      <soap:operation soapAction="http://tempuri.org/ListadoProductoPorLocales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoClientes">
+      <soap:operation soapAction="http://tempuri.org/ListadoClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoPorProducto">
+      <soap:operation soapAction="http://tempuri.org/ListadoPorProducto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoPorProductoAgrupado">
+      <soap:operation soapAction="http://tempuri.org/ListadoPorProductoAgrupado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MaestrosSoap12" type="tns:MaestrosSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ListadoBodega">
+      <soap12:operation soapAction="http://tempuri.org/ListadoBodega" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoProductos">
+      <soap12:operation soapAction="http://tempuri.org/ListadoProductos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoUsuarios">
+      <soap12:operation soapAction="http://tempuri.org/ListadoUsuarios" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoUsuariosNombre">
+      <soap12:operation soapAction="http://tempuri.org/ListadoUsuariosNombre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoLocalesProductos">
+      <soap12:operation soapAction="http://tempuri.org/ListadoLocalesProductos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoProductoPorLocales">
+      <soap12:operation soapAction="http://tempuri.org/ListadoProductoPorLocales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoClientes">
+      <soap12:operation soapAction="http://tempuri.org/ListadoClientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoPorProducto">
+      <soap12:operation soapAction="http://tempuri.org/ListadoPorProducto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListadoPorProductoAgrupado">
+      <soap12:operation soapAction="http://tempuri.org/ListadoPorProductoAgrupado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Maestros">
+    <wsdl:port name="MaestrosSoap" binding="tns:MaestrosSoap">
+      <soap:address location="http://localhost/WSDL/Maestros.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MaestrosSoap12" binding="tns:MaestrosSoap12">
+      <soap12:address location="http://localhost/WSDL/Maestros.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

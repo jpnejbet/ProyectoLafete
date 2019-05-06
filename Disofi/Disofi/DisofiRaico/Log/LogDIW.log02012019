@@ -1,0 +1,174 @@
+2019-01-02 07:50:12,441 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 07:51:14,354 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 07:51:27,775 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 07:54:45,298 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 07:54:49,695 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 08:01:24,870 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 08:02:03,011 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 08:02:18,463 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 08:02:35,953 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 08:02:53,739 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 08:04:03,119 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 08:04:05,800 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 08:05:34,812 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 08:05:37,618 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 08:09:45,511 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 08:09:48,982 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 08:14:09,541 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 08:14:09,983 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 08:14:23,631 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 08:14:25,826 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 08:17:52,346 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 08:17:54,647 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 09:04:46,873 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 09:04:52,660 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 09:08:08,708 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 09:08:12,100 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 09:21:02,994 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 09:21:03,330 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 09:21:24,916 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 09:21:28,434 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 09:21:35,717 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 09:23:17,226 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 09:24:07,647 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 09:49:40,393 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 09:49:44,074 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 09:51:35,859 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 09:51:38,690 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 09:59:09,186 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 09:59:12,824 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 10:06:14,711 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 10:06:20,139 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 10:07:27,956 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 10:07:33,539 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 10:11:34,395 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 10:11:37,055 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 10:11:50,958 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 10:13:45,423 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 10:13:48,054 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 10:15:37,897 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 10:15:40,924 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 12:26:38,011 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 12:26:42,284 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 13:12:39,332 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 13:13:50,242 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 8888889-8 desde la IP: ::1
+2019-01-02 13:15:38,465 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 13:27:53,286 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 13:27:53,455 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Shared/Error' o no implementa IController.
+2019-01-02 13:27:53,653 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-02 13:27:59,042 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-02 13:28:19,871 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 13:28:19,972 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Shared/Error' o no implementa IController.
+2019-01-02 13:28:20,114 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-02 13:28:22,151 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-02 13:28:23,519 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-02 13:29:33,553 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 13:29:33,731 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/Shared/Error' o no implementa IController.
+2019-01-02 13:29:33,936 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-02 14:13:34,432 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 14:14:58,468 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 14:16:02,250 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 14:22:11,359 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 14:22:12,021 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 14:22:12,072 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 14:23:07,856 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 14:23:19,126 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 14:23:19,237 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-02 14:23:28,074 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 14:23:28,104 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-02 14:23:33,943 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 14:23:33,976 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-01-02 14:24:05,040 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 14:34:44,793 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 14:34:47,664 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 14:37:33,597 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 14:38:41,572 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 14:38:44,663 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 14:39:57,678 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 14:39:57,724 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 14:40:09,351 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 14:43:53,828 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 14:43:56,291 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 15:32:13,093 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 15:32:19,954 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 15:32:23,344 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 15:36:44,531 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 15:36:48,156 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 15:56:37,413 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 15:59:05,536 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 15:59:05,669 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 16:03:14,499 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 16:03:31,795 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 16:03:34,567 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 16:59:46,443 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 16:59:50,733 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:04:08,157 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:04:23,455 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:04:27,351 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:04:32,142 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:05:40,944 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:05:43,977 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:10:02,594 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:10:06,060 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:15:31,650 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:15:43,559 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:18:25,319 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:18:27,316 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:27:56,553 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:28:10,740 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:28:12,862 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:28:25,523 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/TamarugalMaestro/Rutas' o no implementa IController.
+2019-01-02 17:28:25,561 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-02 17:28:50,771 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra el controlador de la ruta de acceso '/TamarugalMaestro/Rutas' o no implementa IController.
+2019-01-02 17:28:50,787 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-01-02 17:32:29,333 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:32:38,327 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:38:36,785 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:38:37,096 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 17:38:51,191 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:38:54,913 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:39:43,127 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:39:46,523 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:55:02,131 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 17:56:04,289 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 17:56:33,628 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 17:56:33,676 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 17:57:14,237 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-02 17:57:14,253 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 17:57:19,587 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 17:57:19,610 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 18:01:01,356 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 18:01:01,375 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 18:01:11,665 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 18:01:11,685 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 18:01:59,806 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:01:59,821 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 18:07:03,885 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 18:07:07,307 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 18:07:39,301 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-02 18:07:39,347 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 18:10:55,421 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 18:11:00,657 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 18:11:13,684 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 18:11:28,491 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 18:11:31,294 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 18:19:26,107 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 18:20:18,314 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 18:20:36,647 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 18:31:04,962 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 18:37:49,509 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-02 18:37:49,552 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-02 18:45:28,945 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 18:45:33,932 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 18:47:16,709 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 18:47:19,383 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 18:59:51,450 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 19:00:03,995 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 19:28:06,555 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 19:28:07,002 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-02 19:28:25,856 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 19:28:29,130 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 19:38:37,809 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 19:38:54,519 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-02 19:41:44,745 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-02 19:41:50,555 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

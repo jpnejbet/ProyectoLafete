@@ -1,0 +1,35 @@
+C:\Users\Luisi\source\repos\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csprojAssemblyReference.cache
+C:\Users\Luisi\source\repos\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Luisi\source\repos\Dosofi\Disofi.Dal\bin\Debug\Disofi.DAL.dll
+C:\Users\Luisi\source\repos\Dosofi\Disofi.Dal\bin\Debug\Disofi.DAL.pdb
+C:\Users\Luisi\source\repos\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CopyComplete
+C:\Users\Luisi\source\repos\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.dll
+C:\Users\Luisi\source\repos\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\bin\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\bin\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\bin\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\bin\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\  Dosofi\Disofi.Dal\obj\Debug\Disofi.DAL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\bin\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\bin\Debug\Disofi.DAL.pdb
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.csprojAssemblyReference.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CopyComplete
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.dll
+D:\Desarrollo\Consisa\Disofi\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.pdb
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi.Dal\bin\Debug\Disofi.DAL.dll
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi.Dal\bin\Debug\Disofi.DAL.pdb
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.csprojAssemblyReference.cache
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.csproj.CopyComplete
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.dll
+C:\Users\Alfredo\Desktop\Disofi\Proyecto\Disofi\Disofi.Dal\obj\Debug\Disofi.DAL.pdb

@@ -1,0 +1,88 @@
+2019-01-21 00:20:11,738 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 00:20:15,445 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 00:20:36,979 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'RedicionConductor' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/TamarugalGE/RedicionConductor.aspx
+~/Views/TamarugalGE/RedicionConductor.ascx
+~/Views/Shared/RedicionConductor.aspx
+~/Views/Shared/RedicionConductor.ascx
+~/Views/TamarugalGE/RedicionConductor.cshtml
+~/Views/TamarugalGE/RedicionConductor.vbhtml
+~/Views/Shared/RedicionConductor.cshtml
+~/Views/Shared/RedicionConductor.vbhtml
+2019-01-21 00:20:37,056 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 00:21:43,295 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'RedicionConductor' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/TamarugalGE/RedicionConductor.aspx
+~/Views/TamarugalGE/RedicionConductor.ascx
+~/Views/Shared/RedicionConductor.aspx
+~/Views/Shared/RedicionConductor.ascx
+~/Views/TamarugalGE/RedicionConductor.cshtml
+~/Views/TamarugalGE/RedicionConductor.vbhtml
+~/Views/Shared/RedicionConductor.cshtml
+~/Views/Shared/RedicionConductor.vbhtml
+2019-01-21 00:21:43,314 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 00:23:21,510 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 00:23:26,457 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 00:24:54,087 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-01-21 00:24:54,135 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 00:42:25,018 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 00:42:27,733 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 00:42:38,782 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-21 00:53:56,734 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 00:54:00,137 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 00:54:15,162 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-21 00:54:20,400 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-21 00:54:47,682 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-21 00:58:15,519 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 00:58:25,161 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 00:58:42,094 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-21 01:00:03,918 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 01:00:06,529 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 01:01:26,567 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-21 01:06:23,067 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: El valor no puede ser nulo.
+Nombre del parámetro: String
+2019-01-21 01:06:23,102 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 01:17:14,552 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 01:17:18,072 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 11:00:42,273 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 11:02:46,939 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 11:11:07,862 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-21 11:11:07,930 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 11:11:19,123 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-21 11:11:19,139 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 11:12:01,212 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: La cadena de entrada no tiene el formato correcto.
+2019-01-21 11:12:01,237 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 11:35:01,791 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Referencia a cadena no establecida como una instancia de cadena.
+Nombre del parámetro: s
+2019-01-21 11:35:01,804 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 11:37:01,284 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 11:37:04,778 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 11:38:15,914 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 11:38:19,179 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 11:39:11,599 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Referencia a cadena no establecida como una instancia de cadena.
+Nombre del parámetro: s
+2019-01-21 11:39:11,649 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 11:39:50,772 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 11:39:53,499 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 12:06:52,337 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 12:06:55,491 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 12:07:40,526 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se puede cargar el archivo o ensamblado 'log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040)
+2019-01-21 12:07:40,573 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 12:29:47,324 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-21 18:35:49,385 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 18:35:59,762 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 18:36:03,359 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 23:30:24,850 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 23:30:25,235 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-01-21 23:30:48,892 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 23:30:52,719 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 23:31:16,800 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Referencia a objeto no establecida como instancia de un objeto.
+2019-01-21 23:31:16,857 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 23:31:31,207 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Referencia a objeto no establecida como instancia de un objeto.
+2019-01-21 23:31:31,226 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-01-21 23:32:53,891 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 23:33:31,862 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 23:36:54,873 INFO Disofi.MvcApplication - Log4Net Activado
+2019-01-21 23:37:00,177 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-01-21 23:41:45,377 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Referencia a objeto no establecida como instancia de un objeto.
+2019-01-21 23:41:46,604 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Referencia a objeto no establecida como instancia de un objeto.
+2019-01-21 23:41:46,642 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1

@@ -1,0 +1,325 @@
+﻿@{
+
+    ViewBag.Title = "Usuarios";
+}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.dataTables.min.css">
+
+<script src="~/WebJs/HomeJs/Tamarugal.js"></script>
+<div class="right_col" role="main">
+    <h3>@ViewBag.Message</h3>
+
+    <a class="btn btn-app" href="@Url.Action("DespachoConductor", "TamarugalGE")">  <i class="fa fa-mail-reply"></i> Volver </a>
+
+    <br />
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>DESPACHO</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <div class="form-group">
+                    <br />
+                    <label class="control-label col-md-1 col-sm-1 col-xs-12" for="first-name">
+                        Conductor :
+                    </label>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <input type="text" id="txtConductor" value="@ViewBag.Conductor" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                    </div>
+                </div>
+                <br />
+                <br />
+
+            </div>
+            <div class="row">
+
+
+
+
+                <div class="table-table-striped jambo_table bulk_action">
+                    <div class="table-responsive">
+                        @{
+                            var grid = new WebGrid(Model, canPage: false);
+                        }
+                        @grid.GetHtml(
+     htmlAttributes: new { id = "tblContrato" },
+ tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+ columns:
+grid.Columns(
+    grid.Column(columnName: "NroContrato", header: "NroContrato", format: @<text>@item.NroContrato</text>),
+grid.Column(columnName: "IdGuia", header: "N° Guia Exp.", format: @<text>@item.IdGuia</text>),
+grid.Column(columnName: "Cliente", header: "Cliente", format: @<text>@item.Cliente</text>),
+grid.Column(columnName: "Servicio", header: "Servicio", format: @<text>@item.Servicio</text>),
+grid.Column(columnName: "NroPedido", header: "NroPedido", format: @<text>@item.NroPedido</text>),
+grid.Column(columnName: "FechaCreacionPedido", header: "Fecha Creación Pedido", format: @<text>@item.FechaCreacionPedido.ToString("MM/dd/yyyy")</text>),
+grid.Column(columnName: "Despacho", header: "Despacho", format: @<button class="btn btn-success" type="button" data-toggle="modal" tooltip="Editar Parametro" data-target="#ModalRuta"
+                                                                         onclick="BuscarDatosProyeccion(@item.IdGuia,@item.NroPedido)">
+    Despachar
+</button>)
+))
+
+
+
+
+                    </div>
+
+
+                    <div id="divAlert"></div>
+                    <br />
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>DETALLE DESPACHOS</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li>
+                    <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                </li>
+                <li>
+                    <a class="close-link"><i class="fa fa-close"></i></a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+           
+            <div class="row">
+
+
+
+
+                <div class="table-table-striped jambo_table bulk_action">
+                    <div class="table-responsive">
+                        @{
+                            var grid2 = new WebGrid(ViewBag.ListadoDespachos, canPage: false);
+                        }
+                        @grid2.GetHtml(
+     htmlAttributes: new { id = "tblDetalleContrato" },
+ tableStyle: "table table-striped table-bordered table-hover dataTables-example dataTable",
+ columns:
+grid2.Columns(
+    grid2.Column(columnName: "Id", header: "N° Despacho", format: @<text>@item.Id</text>),
+grid2.Column(columnName: "IdGuia", header: "N° Guia Exp.", format: @<text>@item.IdGuia</text>),
+grid2.Column(columnName: "NroPedido", header: "Pedido", format: @<text>@item.NroPedido</text>),
+grid2.Column(columnName: "Vueltas", header: "Vueltas", format: @<text>@item.Vueltas</text>),
+grid2.Column(columnName: "Cantidad", header: "Cantidad", format: @<text>@item.Cantidad</text>),
+grid2.Column(columnName: "Patente", header: "PPU Tracto", format: @<text>@item.Patente</text>),
+grid2.Column(columnName: "Ruta", header: "Ruta", format: @<text>@item.Ruta</text>),
+grid2.Column(columnName: "FechaInicio", header: "Fecha", format: @<text>@item.FechaInicio.ToString("MM/dd/yyyy")</text>),
+grid2.Column(columnName: "Imprimir", header: "Imprimir", format: @<a class="btn btn-success btn-xs" href="@Url.Action("pdf", "TamarugalGE", new { idguia= @item.IdGuia , _numeroPedido= @item.NroPedido  })">Imprimir</a>)
+))
+
+
+
+
+                    </div>
+
+
+                    <div id="divAlert"></div>
+                    <br />
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="ModalRuta" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">DESPACHO</h4>
+            </div>
+            <div class="modal-body">
+                <div class="x_content">
+                    <br />
+                    <form class="form-horizontal form-label-left input_mask">
+
+
+
+                        <div style="display: none;">
+                            @*<div class="form-group">*@
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" id="txtIdConductor" class="form-control col-md-7 col-xs-12">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2 col-sm2 col-xs-12" for="last-name">
+                                    Número Contrato <span class="required">*</span>
+                                </label>
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    <input type="text" id="txtContrato" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                                </div>
+
+
+                                <label class="control-label col-md-2 col-sm2 col-xs-12" for="last-name">
+                                    Número Pedido <span class="required">*</span>
+                                </label>
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    <input type="text" id="txtNroPedido" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                                </div>
+
+                                <label class="control-label col-md-2 col-sm2 col-xs-12" for="last-name">
+                                    Nro Guía Exp.<span class="required">*</span>
+                                </label>
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    <input type="text" id="txtidguia" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2 col-sm2 col-xs-12" for="last-name">
+                                    Cliente <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" id="txtClienteDespacho" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2 col-sm2 col-xs-12" for="last-name">
+                                    Servicio <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" id="txtServicio" disabled="disabled" class="form-control col-md-7 col-xs-12">
+                                </div>
+                            </div>
+                             
+                            <div class="form-group">
+                                <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                    Seleccione Ruta <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+                                    @*@Html.DropDownList("CmbRuta", (IEnumerable<SelectListItem>)ViewBag.CmbRuta, "", new { @class = "form-control", @ID = "CmbRuta" })*@
+
+                                    <select id="CmbRuta" class="form-control"></select>
+                                </div>
+                            </div> 
+                            <div class="form-group">
+
+                                <label class="control-label col-md-2 col-sm-2 col-xs-12" for="last-name">
+                                    Vueltas <span class="required">*</span>
+                                </label>
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    <input type="text" id="txtVuelta" class="form-control col-md-7 col-xs-12">
+                                </div>
+
+                                <label class="control-label col-md-2 col-sm2 col-xs-12" for="last-name">
+                                    Cantidad/Tonelaje <span class="required">*</span>
+                                </label>
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    <input type="text" id="txtCantidad" class="form-control col-md-7 col-xs-12">
+                                </div>
+
+
+                                <label class="control-label col-md-2 col-sm-2 col-xs-12" for="first-name">
+                                    Unidad Medida<span class="required">*</span>
+                                </label>
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    <select id="UnidadMedida" class="form-control">
+                                        <option></option>
+                                        <option>C/U</option>
+                                        <option>VIA</option>
+                                        <option>TON</option>
+                                        <option>DIA</option>
+                                        <option>MES</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-md-2 col-sm2 col-xs-12" for="last-name">
+                                    PPU Tracto <span class="required">*</span>
+                                </label>
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    <input type="text" id="txtPatente" class="form-control col-md-2 col-xs-12">
+                                </div>
+
+                                <label class="control-label col-md-2 col-sm-2 col-xs-12" for="last-name">
+                                    PPU Semiremolque <span class="required">*</span>
+                                </label>
+                                <div class="col-md-2 col-sm-2 col-xs-12">
+                                    <input type="text" id="txtPlacaNroRemolque" class="form-control col-md-7 col-xs-12">
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+
+                        <div class="ln_solid"></div>
+                        <div class="form-group">
+                            <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+
+
+
+                                <br />
+                                <button type="button" class="btn btn-danger" id="btnGrabarDatosDespacho">Grabar</button>
+                                
+                                <br />
+
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnCerrarModal" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

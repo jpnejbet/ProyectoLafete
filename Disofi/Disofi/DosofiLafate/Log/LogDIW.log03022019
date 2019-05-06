@@ -1,0 +1,102 @@
+2019-02-03 15:16:28,186 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 15:16:44,955 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 15:20:41,149 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 15:21:09,866 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 15:42:58,863 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 15:43:06,562 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 15:51:30,840 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 15:51:38,686 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 16:25:49,806 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 16:25:58,357 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 16:26:06,386 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-02-03 16:27:26,913 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 16:27:40,976 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 16:27:41,092 INFO Disofi.Controllers.ErrorController - Codigo Error: 901 desde la IP: ::1
+2019-02-03 16:27:53,676 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 16:28:56,835 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-02-03 16:28:56,882 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-02-03 16:31:13,273 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 16:31:20,995 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 16:35:34,937 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 16:35:42,579 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 16:49:56,860 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 16:49:57,362 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2019-02-03 16:50:23,908 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 18:17:06,983 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 18:50:46,020 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 18:50:55,251 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 19:02:57,664 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:10:02,991 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 19:10:11,603 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'ConsultaMovil' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/Informes/ConsultaMovil.aspx
+~/Views/Informes/ConsultaMovil.ascx
+~/Views/Shared/ConsultaMovil.aspx
+~/Views/Shared/ConsultaMovil.ascx
+~/Views/Informes/ConsultaMovil.cshtml
+~/Views/Informes/ConsultaMovil.vbhtml
+~/Views/Shared/ConsultaMovil.cshtml
+~/Views/Shared/ConsultaMovil.vbhtml
+2019-02-03 19:10:11,650 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-02-03 19:10:21,179 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'ConsultaMovil' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/Informes/ConsultaMovil.aspx
+~/Views/Informes/ConsultaMovil.ascx
+~/Views/Shared/ConsultaMovil.aspx
+~/Views/Shared/ConsultaMovil.ascx
+~/Views/Informes/ConsultaMovil.cshtml
+~/Views/Informes/ConsultaMovil.vbhtml
+~/Views/Shared/ConsultaMovil.cshtml
+~/Views/Shared/ConsultaMovil.vbhtml
+2019-02-03 19:10:21,194 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-02-03 19:11:57,120 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'ConsultaMovil' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/Informes/ConsultaMovil.aspx
+~/Views/Informes/ConsultaMovil.ascx
+~/Views/Shared/ConsultaMovil.aspx
+~/Views/Shared/ConsultaMovil.ascx
+~/Views/Informes/ConsultaMovil.cshtml
+~/Views/Informes/ConsultaMovil.vbhtml
+~/Views/Shared/ConsultaMovil.cshtml
+~/Views/Shared/ConsultaMovil.vbhtml
+2019-02-03 19:11:57,137 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-02-03 19:12:09,463 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: No se encuentra la vista 'ConsultaMovil' ni su vista maestra o no hay un motor de búsqueda que admita las ubicaciones de búsqueda. Se buscó en las siguientes ubicaciones: 
+~/Views/Informes/ConsultaMovil.aspx
+~/Views/Informes/ConsultaMovil.ascx
+~/Views/Shared/ConsultaMovil.aspx
+~/Views/Shared/ConsultaMovil.ascx
+~/Views/Informes/ConsultaMovil.cshtml
+~/Views/Informes/ConsultaMovil.vbhtml
+~/Views/Shared/ConsultaMovil.cshtml
+~/Views/Shared/ConsultaMovil.vbhtml
+2019-02-03 19:12:09,481 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-02-03 19:13:21,258 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:13:27,362 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 19:21:47,915 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:21:54,541 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 19:22:46,874 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-03 19:22:46,934 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-03 19:22:50,377 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-03 19:22:50,396 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-03 19:23:24,224 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-03 19:23:24,239 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-03 19:23:37,376 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-03 19:23:37,395 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-03 19:23:58,924 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-03 19:23:58,942 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-03 19:24:03,485 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'Informes' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-03 19:24:03,500 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-03 19:24:07,238 INFO Disofi.MvcApplication - Codigo de Error: 404 | Mensaje de Error: No se encuentra un método de acción público 'SanckCenter' en el controlador 'Disofi.Controllers.SanckCenterController'.
+2019-02-03 19:24:07,253 INFO Disofi.Controllers.ErrorController - Codigo Error: 404 desde la IP: ::1
+2019-02-03 19:27:52,072 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:27:58,423 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 19:39:34,347 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:39:41,265 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2019-02-03 19:41:02,928 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: El diccionario de parámetros contiene una entrada NULL para el parámetro 'id' del tipo que no acepta valores NULL 'System.Int32' del método 'System.Web.Mvc.ActionResult AdmOrdenAtencionMovil(Int32)' en 'Disofi.Controllers.SanckCenterController'. Un parámetro opcional debe ser un tipo de referencia, un tipo que acepte valores NULL o debe declararse como parámetro opcional.
+Nombre del parámetro: parameters
+2019-02-03 19:45:22,325 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:47:14,453 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:47:27,342 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:47:40,549 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:47:46,910 INFO Disofi.MvcApplication - Codigo de Error: 0 | Mensaje de Error: Se produjo una excepción de tipo 'Disofi.Utils.CapturaExcepciones'.
+2019-02-03 19:47:47,002 INFO Disofi.Controllers.ErrorController - Codigo Error: 0 desde la IP: ::1
+2019-02-03 19:48:11,491 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:54:31,611 INFO Disofi.MvcApplication - Log4Net Activado
+2019-02-03 19:54:37,920 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1

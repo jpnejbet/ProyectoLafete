@@ -1,0 +1,14 @@
+2018-12-30 13:57:48,978 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-30 18:03:00,122 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-30 18:03:57,629 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-30 22:47:57,380 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-30 22:47:59,648 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-30 22:52:02,971 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-30 22:52:05,638 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-30 23:15:44,596 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-30 23:15:49,440 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-30 23:15:53,723 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
+2018-12-30 23:20:41,692 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-30 23:20:42,069 INFO Disofi.Controllers.ErrorController - Codigo Error: 1001 desde la IP: ::1
+2018-12-30 23:21:13,184 INFO Disofi.MvcApplication - Log4Net Activado
+2018-12-30 23:21:19,003 INFO Disofi.Controllers.LoginController - Ingreso al sistema con los datos del usuario: 2-7 desde la IP: ::1
